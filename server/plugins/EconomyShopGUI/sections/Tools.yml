@@ -1,0 +1,16 @@
+item:
+  displayname: '&aTools'
+  material: DIAMOND_SWORD
+  lore:
+  - '&8&l§bGet Yourself A Handy Tool,'
+  - '&8&l§bto help with your job.'
+  enchantment-glint: false
+hidden: false
+enable: true
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+slot: 1
+title: '&c&lTools'
+display-item: false

@@ -1,0 +1,119 @@
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:23:49] - yay bought 64 x Skull Item(Mobs.page1.items.15) for $192,000.00 with the buy screen.
+[2025-03-13 22:24:01] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:24:04] - yay sold 64 x Skull Item(Mobs.page1.items.15) for $115,200.00 with the sell all command.
+[2025-03-13 22:26:03] - yay sold 64x Redstone(Ores.page1.items.15), 1x Lava Bucket(Miscellaneous.page1.items.9), 64x Leather(Farming.page1.items.9), 64x Arrow(Mobs.page1.items.1), 1x Water Bucket(Miscellaneous.page1.items.23) for $693.37 with the sell gui.
+[2025-03-13 22:42:28] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:43:22] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:44:16] - yay bought 2 x The Stick Of Might(Tools.page1.items.example-item) for $1,234.00 with the buy screen.
+[2025-03-13 22:46:05] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $10,069.00 with the buy screen.
+[2025-03-13 22:51:49] - yay bought 1 x The Stick Of Might(Tools.page1.items.example-item) for $18,069.00 with the buy screen.

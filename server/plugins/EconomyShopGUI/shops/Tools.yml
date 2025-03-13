@@ -1,0 +1,30 @@
+pages:
+  page1:
+    items:
+      example-item:
+        material: STICK
+        lore:
+        - '&4ONCE BELONGED TO A MIGHTY WORRIOR'
+        - '&4BUT IT CAN BELONG TO U!'
+        - '&4for a price ;)'
+        displayname: '&c&lThe Stick Of Might'
+        buy: 18069
+        sell: 10069
+        stack-size: 1
+        name: '&c&lAzaan'
+        slot: 5
+        enchantments:
+        - KNOCKBACK:3
+        - SHARPNESS:69
+        - FIRE_ASPECT:5
+        - BANE_OF_ARTHROPODS:6
+        - SMITE:5
+        - UNBREAKING:255
+        - LOOTING:6
+        - MENDING
+        - SWEEPING_EDGE:5
+        hidePricingLore: true
+      '2':
+        material: DIAMOND_SWORD:0
+        buy: 500.0
+        sell: 200.0

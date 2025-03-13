@@ -1,0 +1,230 @@
+[23:03:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[23:03:20] [Server thread/INFO]: Loading properties
+[23:03:20] [Server thread/INFO]: Default game type: SURVIVAL
+[23:03:20] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[23:03:20] [Server thread/INFO]: Debug logging is disabled
+[23:03:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[23:03:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:03:20] [Server thread/INFO]: Generating keypair
+[23:03:21] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[23:03:21] [Server thread/INFO]: Using default channel type
+[23:03:21] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[23:03:21] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[23:03:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[23:03:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[23:03:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:03:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:03:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:03:23] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[23:03:23] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
+[23:03:23] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[23:03:23] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[23:03:23] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[23:03:23] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
+[23:03:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
+[23:03:23] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
+[23:03:23] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
+[23:03:23] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
+[23:03:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[23:03:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:03:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:03:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[23:03:23] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[23:03:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:03:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:03:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:03:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:03:23] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[23:03:23] [Server thread/INFO]: Preparing level "world"
+[23:03:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:03:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Mob Spawn Range: 4
+[23:03:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:03:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:03:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:03:23] [Server thread/INFO]: Random Lighting Updates: false
+[23:03:23] [Server thread/INFO]: Structure Info Saving: true
+[23:03:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[23:03:23] [Server thread/INFO]: Max TNT Explosions: 100
+[23:03:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:03:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:03:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:03:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:03:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:03:23] [Server thread/INFO]: View Distance: 4
+[23:03:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:03:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:03:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:03:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:03:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Mob Spawn Range: 4
+[23:03:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:03:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:03:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:03:23] [Server thread/INFO]: Random Lighting Updates: false
+[23:03:23] [Server thread/INFO]: Structure Info Saving: true
+[23:03:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[23:03:23] [Server thread/INFO]: Max TNT Explosions: 100
+[23:03:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:03:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:03:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:03:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:03:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:03:23] [Server thread/INFO]: View Distance: 4
+[23:03:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:03:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:03:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:03:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:03:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:03:23] [Server thread/INFO]: Mob Spawn Range: 4
+[23:03:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:03:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:03:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:03:23] [Server thread/INFO]: Random Lighting Updates: false
+[23:03:23] [Server thread/INFO]: Structure Info Saving: true
+[23:03:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[23:03:23] [Server thread/INFO]: Max TNT Explosions: 100
+[23:03:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:03:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:03:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:03:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:03:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:03:23] [Server thread/INFO]: View Distance: 4
+[23:03:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:03:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:03:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:03:23] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
+[23:03:24] [Server thread/INFO]: Preparing spawn area: 28%
+[23:03:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
+[23:03:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
+[23:03:26] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[23:03:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[23:03:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
+
+[23:03:26] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[23:03:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[23:03:26] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
+[23:03:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[23:03:26] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
+[23:03:26] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
+[23:03:26] [Server thread/INFO]: [SetHomes] Hooked into Vault!
+[23:03:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[23:03:26] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[23:03:26] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[23:03:26] [Server thread/INFO]: No kits found to migrate.
+[23:03:26] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[23:03:26] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[23:03:26] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[23:03:26] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[23:03:26] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[23:03:26] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[23:03:26] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[23:03:26] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[23:03:27] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[23:03:27] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[23:03:27] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[23:03:27] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[23:03:27] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[23:03:27] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
+[23:03:27] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[23:03:27] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[23:03:27] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[23:03:27] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[23:03:27] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[23:03:27] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
+[23:03:27] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[23:03:27] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[23:03:27] [Server thread/INFO]: Loaded 853 items from items.csv.
+[23:03:27] [Server thread/INFO]: Using locale en
+[23:03:27] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[23:03:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[23:03:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[23:03:27] [Server thread/INFO]: Using superperms-based permissions.
+[23:03:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[23:03:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[23:03:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
+[23:03:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[23:03:27] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 17 section configs from /sections/[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 17 shop configs from /shops/[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 15 shop sections.[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+
+[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+
+[23:03:28] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 799ms to complete[m
+
+[23:03:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:03:28] [Server thread/INFO]: Done (4.947s)! For help, type "help" or "?"
+[23:03:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[23:03:28] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[23:03:28] [Server thread/INFO]: [CS-CoreLib2 - Protection] Loading Protection Modules...
+[23:03:28] [Server thread/INFO]: [CS-CoreLib2 - Protection] This may happen more than once.
+[23:03:28] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[23:03:28] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
+[23:03:28] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[23:03:28] [Craft Scheduler Thread - 4/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:03:28] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[23:03:28] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
+[23:03:29] [Thread-7/INFO]: [CS-CoreLib - Updater] CS-CoreLib is up to date!
+
+[23:03:37] [User Authenticator #1/INFO]: UUID of player yay is e67ee45d-284a-3c98-b166-c7bad8f5fb03
+[23:03:38] [Server thread/INFO]: yay[/127.0.0.1:52650] logged in with entity id 98 at ([world]-10.334319326571073, 64.0, 246.73527849713298)
+[23:03:41] [Server thread/INFO]: yay issued server command: /home
+[23:03:48] [Server thread/INFO]: yay issued server command: /help sethomes
+[23:04:10] [Server thread/INFO]: yay issued server command: /uhome
+[23:04:14] [Server thread/INFO]: yay issued server command: /home
+[23:04:16] [Server thread/INFO]: yay issued server command: /sethome
+[23:04:21] [Server thread/INFO]: yay issued server command: /uhome
+[23:04:30] [Server thread/INFO]: yay lost connection: Disconnected
+[23:04:30] [Server thread/INFO]: yay left the game
