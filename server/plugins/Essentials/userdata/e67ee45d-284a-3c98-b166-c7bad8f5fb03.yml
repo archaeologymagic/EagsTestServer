@@ -11,29 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1741958845212
+  lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741959428693
-  login: 1741959318712
-money: '999421234.37'
+  logout: 1741969178224
+  login: 1741969127333
+money: '500.0'
 last-account-name: yay
-logoutlocation:
-  world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
-  world-name: world
-  x: 697063.5942487692
-  y: 64.0
-  z: -696852.3480901684
-  yaw: 59.0987548828125
-  pitch: 27.550003051757812
 lastlocation:
   world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
   world-name: world
-  x: 697174.2521809466
-  y: 83.10065845386299
-  z: -696835.873214835
-  yaw: 321.5521240234375
-  pitch: 35.69979476928711
-nickname: Azaan
+  x: -0.5
+  y: 35.0
+  z: 243.5
+  yaw: 4.956888198852539
+  pitch: 0.0
+logoutlocation:
+  world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
+  world-name: world
+  x: 697006.0239347899
+  y: 49.13678489005043
+  z: -696948.0144213116
+  yaw: -223.0500030517578
+  pitch: 27.899988174438477

@@ -2,18 +2,26 @@ pages:
   page1:
     items:
       example-item:
-        material: DIAMOND_CHESTPLATE
+        material: STICK
         lore:
-        - '&4ONCE BELONGED TO A SLAVE'
-        - '&4BUT IT CAN BELONG TO U!'
-        - '&4for a price ;)'
-        displayname: '&c&lThe Chest Of Might'
-        buy: 150000
-        sell: 35000
-        stack-size: 1
-        name: '&c&lThe Chest Of Jaiden'
+        - '&4This example item'
+        - '&4was added to shop'
+        - '&4because the shops.yml config'
+        - '&4did not contain section &cArmor'
+        displayname: '&c&lExample power stick'
+        buy: 1234
+        sell: 123
+        stack-size: 2
+        name: '&c&lPower stick v2'
         slot: 5
         enchantments:
-        - THORNS:255
-        - UNBREAKING:255
+        - KNOCKBACK:2
+        - SHARPNESS:5
+        - FIRE_ASPECT:5
+        - BANE_OF_ARTHROPODS:5
+        - SMITE:5
+        - UNBREAKING:3
+        - LOOTING:5
+        - MENDING
+        - SWEEPING_EDGE:3
         hidePricingLore: true

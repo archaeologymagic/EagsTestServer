@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:stone",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": {
+      "text": "The Hunt Begins"
+    },
+    "description": {
+      "text": "Make your first hunt. There are more achievements to get for killing mobs in interesting and unique ways."
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false
+  }
+}

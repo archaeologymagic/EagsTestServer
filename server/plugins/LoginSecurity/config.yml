@@ -6,7 +6,7 @@ register:
   # When enabled, users need to enter a captcha upon registration.
   captcha: false
   # When enabled, requires users to enter their password twice upon registration.
-  confirm-password: true
+  confirm-password: false
 login:
   max-tries: 5
   # Only allow registered players to join using exactly the same name as registered.
@@ -19,10 +19,10 @@ join:
   blindness: true
   # Temporarily login location until player has logged in.
   # Available options: DEFAULT, SPAWN
-  location: SPAWN
+  location: DEFAULT
   # Safely hides the player's inventory until the player is logged in
   # This required ProtocolLib to be installed
-  hide-inventory-safe: true
+  hide-inventory-safe: false
 username:
   # Remove special characters like @ and # from the username.
   # Disabling this can be a security risk!

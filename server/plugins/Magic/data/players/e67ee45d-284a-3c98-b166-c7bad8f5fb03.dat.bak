@@ -1,0 +1,120 @@
+id: e67ee45d-284a-3c98-b166-c7bad8f5fb03
+name: yay
+created: 1741965681387
+updated: 1741969000179
+last_cast: 1741966036408
+cooldown_expiration: 0
+last_death_location: 697075.1874378982,64.0,-696894.0444903881,world,145.19934,-5.24995
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 1
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  eacf2bf4-c6d6-42f1-b7cf-47628f1758f1: []
+spells:
+  pull:
+    cast_count: 7
+    last_cast: 1741966027399
+    last_earn: 1741965947144
+    cooldown_expiration: 1741966029399
+    charges: 0.0
+  spellshop:
+    cast_count: 0
+    last_cast: 1741965892050
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile:
+    cast_count: 10
+    last_cast: 1741966036409
+    last_earn: 1741966036408
+    cooldown_expiration: 1741966037409
+    charges: 0.0
+  progressmenu:
+    cast_count: 3
+    last_cast: 1741966004196
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  controlsmenu:
+    cast_count: 1
+    last_cast: 1741966005562
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_HOE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §3Wand
+        lore:
+        - §7Beginner §rMagic Wand
+        - §3§oBound to  [Admin] ~Azaan
+        - §bFire a bolt of pure magic
+        - '§eCooldown: §6One second'
+        - '§7§9Range: §624 §9meters'
+        - §7Lasts for 10 seconds
+        - §eConsumes 15 §3MP
+        - §2Earns up to §620 §bSP
+        - Knows 2 Spells
+        - '§eMana: 50'
+        - '§eMana Regeneration: 5/s'
+        - §8------------------------
+        - §b• §f§fSwing §7(§a§r §7Left-Click§r §7) §7to cast §6Magic Missile
+        - §b• §f§fInteract §7(§a§r §7Right-Click§r §7) §7to open the spell
+        - §7 inventory
+        - §b• §f§eChange controls using an §benchant table
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0WRPU/cQBCG52Rz+I5ERERClFeQjkPA2cak4lASKUr4kBBVFFnj3TG3wt5d7PGdSJGaP0GXn5UO6vyCFFmbj5Qzmnnf550ZAgzBX6CWASyZhaYKVkffprJU+vvo5/QHog4gYCptgUzPk69QsJpTWlsqClguVV2rglyf8pwEp8IUpoJ3MpdxkoiJwINoK8vjWMgdmgiKt8IkTkIZhphFTr7zTZWETYr3icJIjveSEMcTcZCMs904Hov9DGWSR3m2MwnAV8JoGC6MkenM0PtdD/ozwxlWAG2e1Y4rVXpOmk1144FvGwcK0PNeaNtRcOWcqlo5OYC+B+uPMv9XXZRGc7s5gOW6MMzk8rvyyaQ0klJxI5xeD/wrItvrwUqjZWWsxawgt7c2Za5U1jAdG6ly5QyHrYQPwcXF5w/HpuajP/d3n36fPPgwaFtfCWv+9fds48vtm6gP/WnZUhxudszgDnDuSCAoUelZ95DXLxYnWBK8vSR3USW2kRnF1bklkh4MTi1VyI9hW5Vudu3jdaNs6eKOnvEA/gE19opqFwIAAA==
+    wand:
+      owner: ' [Admin] ~Azaan'
+      template: wand
+      active_spell: missile
+      effect_color: dfd688c3ca95,bf66cd0e3ce6,48684d44ab5
+      owner_id: e67ee45d-284a-3c98-b166-c7bad8f5fb03
+      icon: wood_hoe:1
+      hotbar: 0
+      spell_inventory:
+        pull: 1
+        missile: 0
+      version: 6
+      hotbar_inventory_count: 1
+      slotted:
+      - spellmode_cycle
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 48.0
+properties:
+  version: 6
+shown_help: true
+classes:
+  caster:
+    spells:
+    - pull
+    - missile
+  mage:
+    effect_color: a50cbfda41c5,ddf4408528a7,41409868afaa
+    mana_timestamp: 1741969000151
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 9.166666984558105

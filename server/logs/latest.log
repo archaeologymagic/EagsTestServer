@@ -1,313 +1,642 @@
-[13:37:32] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[13:37:32] [Server thread/INFO]: Loading properties
-[13:37:32] [Server thread/INFO]: Default game type: SURVIVAL
-[13:37:32] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[13:37:32] [Server thread/INFO]: Debug logging is disabled
-[13:37:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:20:48] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:20:48] [Server thread/INFO]: Loading properties
+[16:20:48] [Server thread/WARN]: Invalid sha1 for ressource-pack-sha1
+[16:20:48] [Server thread/INFO]: Default game type: SURVIVAL
+[16:20:48] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:20:48] [Server thread/INFO]: Debug logging is disabled
+[16:20:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[13:37:32] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:37:32] [Server thread/INFO]: Generating keypair
-[13:37:33] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[13:37:33] [Server thread/INFO]: Using default channel type
-[13:37:33] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[13:37:34] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
-[13:37:34] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
-[13:37:34] [Server thread/INFO]: [PCGF_PluginLib] Loading PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
-[13:37:34] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v7.7
-[13:37:34] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.6-T20250103114036
-[13:37:34] [Server thread/INFO]: [Minepacks] PCGF-PluginLib installed. Switching to normal mode!
-[13:37:34] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.15
-[13:37:34] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
-[13:37:34] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[13:37:34] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
-[13:37:34] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[13:37:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:37:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[13:37:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[13:37:35] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[13:37:35] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib vv1.6
-[13:37:35] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
-[13:37:35] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[13:37:35] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
-[13:37:35] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
-[13:37:36] [Server thread/INFO]: [Slimefun] Loading Slimefun vv4.1.15
-[13:37:36] [Server thread/INFO]: [CristichiTreeCapitator] Loading CristichiTreeCapitator v3.0.1
-[13:37:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[13:37:36] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
-[13:37:36] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
-[13:37:36] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
-[13:37:36] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
-[13:37:36] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
-[13:37:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[13:37:36] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[16:20:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:20:48] [Server thread/INFO]: Generating keypair
+[16:20:48] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:20:48] [Server thread/INFO]: Using default channel type
+[16:20:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:20:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[16:20:49] [Server thread/INFO]: [PCGF_PluginLib] Loading PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
+[16:20:49] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.15
+[16:20:49] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
+[16:20:49] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.11.3
+[16:20:49] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[16:20:49] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:20:49] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[16:20:49] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[16:20:49] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[16:20:49] [Server thread/INFO]: [StoneDrop] Loading StoneDrop v2.2.1
+[16:20:49] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v7.7
+[16:20:49] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.6-T20250103114036
+[16:20:49] [Server thread/INFO]: [Minepacks] PCGF-PluginLib installed. Switching to normal mode!
+[16:20:49] [Server thread/INFO]: [CristichiTreeCapitator] Loading CristichiTreeCapitator v3.0.1
+[16:20:49] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[16:20:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[16:20:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:20:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:20:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:20:51] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:20:51] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib vv1.6
+[16:20:51] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[16:20:51] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[16:20:51] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[16:20:51] [Server thread/INFO]: [Slimefun] Loading Slimefun vv4.1.15
+[16:20:51] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:20:51] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
+[16:20:51] [Server thread/INFO]: [MobHunting] Loading MobHunting v6.0.0
+[16:20:51] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.7.8-Release
+[16:20:51] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib installed. Switching to normal mode!
+[16:20:51] [Server thread/INFO]: [Magic] Loading Magic v10.9.6-1e5f908
+[16:20:51] [Server thread/INFO]: [Magic] Loading legacy compatibility layer for server version 1.12
+[16:20:51] [Server thread/WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m No phantoms on this version[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
+[16:20:51] [Server thread/WARN]: [Magic] [33m Could not bind to auto block state methods[0m
+[16:20:51] [Server thread/INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
+[16:20:51] [Server thread/INFO]: [Magic] Found WorldGuard <7
+[16:20:51] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
+[16:20:51] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
+[16:20:51] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
+[16:20:51] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
+[16:20:51] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
+[16:20:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[16:20:51] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[16:20:52] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
 
-[13:37:36] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
+[16:20:52] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
 
-[13:37:36] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[16:20:52] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
 
-[13:37:36] [Server thread/INFO]: [m
+[16:20:52] [Server thread/INFO]: [m
 
-[13:37:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:37:36] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:37:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:37:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:37:38] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1718ms)
-[13:37:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:37:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:37:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:37:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:37:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:37:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:37:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:37:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:37:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:37:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:37:38] [Server thread/INFO]: Preparing level "world"
-[13:37:38] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:37:38] [Server thread/INFO]: Mob Spawn Range: 4
-[13:37:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:37:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:37:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:37:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:37:38] [Server thread/INFO]: Random Lighting Updates: false
-[13:37:38] [Server thread/INFO]: Structure Info Saving: true
-[13:37:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:37:38] [Server thread/INFO]: Max TNT Explosions: 100
-[13:37:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:37:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:37:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:37:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:37:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:37:38] [Server thread/INFO]: View Distance: 4
-[13:37:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:37:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:37:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:37:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:37:39] [Server thread/INFO]: Mob Spawn Range: 4
-[13:37:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:37:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:37:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:37:39] [Server thread/INFO]: Random Lighting Updates: false
-[13:37:39] [Server thread/INFO]: Structure Info Saving: true
-[13:37:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:37:39] [Server thread/INFO]: Max TNT Explosions: 100
-[13:37:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:37:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:37:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:37:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:37:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:37:39] [Server thread/INFO]: View Distance: 4
-[13:37:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:37:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:37:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:37:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:37:39] [Server thread/INFO]: Mob Spawn Range: 4
-[13:37:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:37:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[13:37:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:37:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[13:37:39] [Server thread/INFO]: Random Lighting Updates: false
-[13:37:39] [Server thread/INFO]: Structure Info Saving: true
-[13:37:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[13:37:39] [Server thread/INFO]: Max TNT Explosions: 100
-[13:37:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:37:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:37:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:37:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:37:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:37:39] [Server thread/INFO]: View Distance: 4
-[13:37:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:37:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:37:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:37:39] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
-[13:37:40] [Server thread/INFO]: Preparing spawn area: 7%
-[13:37:41] [Server thread/INFO]: Preparing spawn area: 78%
-[13:37:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
-[13:37:42] [Server thread/INFO]: Preparing spawn area: 87%
-[13:37:42] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
-[13:37:42] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[13:37:42] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[16:20:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:20:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:20:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:20:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:20:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1529ms)
+[16:20:53] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:20:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:20:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:20:53] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:20:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:20:53] [Server thread/INFO]: [Magic] Enabling Magic v10.9.6-1e5f908
+[16:20:53] [Server thread/INFO]: [Magic] EffectLib initialized
+[16:20:53] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
+[16:20:53] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
+[16:20:54] [Server thread/INFO]: [Magic]  Using inherited compatibility configs for: examples/versions/1.12/messages.yml
+[16:20:54] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/materials.yml
+[16:20:54] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/spells.yml
+[16:20:55] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/wands.yml
+[16:20:55] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:153) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at com.elmakers.mine.bukkit.utility.platform.base.CompatibilityUtilsBase.loadConfiguration(CompatibilityUtilsBase.java:275) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:165) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:115) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadConfigFile(ConfigurationLoadTask.java:526) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.run(ConfigurationLoadTask.java:967) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.runNow(ConfigurationLoadTask.java:1013) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2614) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2591) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2587) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2579) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.load(MagicController.java:2653) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.initialize(MagicController.java:1575) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.initialize(MagicPlugin.java:190) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.onEnable(MagicPlugin.java:184) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:20:55] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:153) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at com.elmakers.mine.bukkit.utility.platform.base.CompatibilityUtilsBase.loadConfiguration(CompatibilityUtilsBase.java:275) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:165) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:115) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadConfigFile(ConfigurationLoadTask.java:526) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.run(ConfigurationLoadTask.java:967) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.runNow(ConfigurationLoadTask.java:1013) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2614) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2591) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2587) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2579) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.load(MagicController.java:2653) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.initialize(MagicController.java:1575) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.initialize(MagicPlugin.java:190) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.onEnable(MagicPlugin.java:184) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:20:55] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
+	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:153) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:79) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:119) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:197) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:35) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:462) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:183) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:443) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:519) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:207) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:196) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:161) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:147) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at com.elmakers.mine.bukkit.utility.platform.base.CompatibilityUtilsBase.loadConfiguration(CompatibilityUtilsBase.java:275) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:165) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadExampleConfiguration(ConfigurationLoadTask.java:115) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.loadConfigFile(ConfigurationLoadTask.java:526) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.run(ConfigurationLoadTask.java:967) ~[?:?]
+	at com.elmakers.mine.bukkit.tasks.ConfigurationLoadTask.runNow(ConfigurationLoadTask.java:1013) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2614) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2591) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2587) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.loadConfiguration(MagicController.java:2579) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.load(MagicController.java:2653) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicController.initialize(MagicController.java:1575) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.initialize(MagicPlugin.java:190) ~[?:?]
+	at com.elmakers.mine.bukkit.magic.MagicPlugin.onEnable(MagicPlugin.java:184) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:20:55] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/items.yml
+[16:20:56] [Server thread/INFO]: [Magic]  Using inherited compatibility configs for: examples/versions/1.12/crafting.yml
+[16:20:56] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/mobs.yml
+[16:20:56] [Server thread/INFO]: [Magic] Loaded 0 attributes
+[16:20:56] [Server thread/WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
+[16:20:56] [Server thread/WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
+[16:20:56] [Server thread/WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
+[16:20:56] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
+[16:20:56] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
+[16:20:56] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
+[16:20:56] [Server thread/INFO]: [Magic] Wand crafting is enabled
+[16:20:56] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
+[16:20:56] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, arrow_knockback, regeneration, arrow_infinite, bowpower, degrees, seconds, target_pitch, dig_speed, humidity, pitch, jump, health_max, protection_fall, target_luck, target_light, blindness, absorption, target_armor, damage_undead, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, light, mana_max, water_worker, bowpull, damage, weeks, mending, epoch, protection_explosions, air, fast_digging, arrow_fire, lure, temperature, frost_walker, movement_speed_bps, protection_environmental, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, protection_projectile, mana, glowing, target_health, target_humidity, damage_arthropods, days, luck, thorns, target_hunger, location_x, location_y, target_mana, attack_damage, knockback, fire_aspect, knockback_resistance, saturation, location_z, target_air, oxygen, night_vision, level, minutes, durability, water_breathing, fall_distance, hunger, difficulty, armor, arrow_damage, fulltime, confusion, damage_dealt, harm, target_yaw, speed, damage_resistance, weakness, heal, loot_bonus_mobs, target_mana_max, protection_fire, hours, damage_all, velocity, sweeping_edge, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, wither, loot_bonus_blocks]
+[16:20:56] [Server thread/INFO]: [Magic] Loaded 182 icons
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 12 effect lists
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 1403 items
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 198 wands
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 2 kits
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 10 classes
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 5 classes
+[16:20:57] [Server thread/WARN]: [Magic] [33m Invalid villager_profession: FLETCHER[0m
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 49 mob templates
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 8 automata templates
+[16:20:57] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
+[16:20:57] [Server thread/INFO]: [Magic] Activated BStats
+[16:20:57] [Server thread/INFO]: [Magic] MobArena not found
+[16:20:57] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[16:20:57] [Server thread/INFO]: [Magic] ModelEngine integration disabled
+[16:20:57] [Server thread/INFO]: Magic checking resource pack for updates: [0;37;22mhttp://rp.elmakers.com/Magic-RP-7.zip[m
 
-[13:37:42] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
+[16:20:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:20:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:20:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:20:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:20:57] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:20:57] [Server thread/INFO]: Preparing level "world"
+[16:20:57] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:20:57] [Server thread/INFO]: Mob Spawn Range: 4
+[16:20:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:20:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:20:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:20:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:20:57] [Server thread/INFO]: Random Lighting Updates: false
+[16:20:57] [Server thread/INFO]: Structure Info Saving: true
+[16:20:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:20:57] [Server thread/INFO]: Max TNT Explosions: 100
+[16:20:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:20:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:20:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:20:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:20:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:20:57] [Server thread/INFO]: View Distance: 4
+[16:20:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:20:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:20:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:20:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:20:58] [Server thread/INFO]: Mob Spawn Range: 4
+[16:20:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:20:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:20:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:20:58] [Server thread/INFO]: Random Lighting Updates: false
+[16:20:58] [Server thread/INFO]: Structure Info Saving: true
+[16:20:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:20:58] [Server thread/INFO]: Max TNT Explosions: 100
+[16:20:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:20:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:20:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:20:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:20:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:20:58] [Server thread/INFO]: View Distance: 4
+[16:20:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:20:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:20:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:20:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:20:58] [Server thread/INFO]: Mob Spawn Range: 4
+[16:20:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:20:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[16:20:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:20:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:20:58] [Server thread/INFO]: Random Lighting Updates: false
+[16:20:58] [Server thread/INFO]: Structure Info Saving: true
+[16:20:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[16:20:58] [Server thread/INFO]: Max TNT Explosions: 100
+[16:20:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:20:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:20:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:20:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:20:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:20:58] [Server thread/INFO]: View Distance: 4
+[16:20:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:20:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:20:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:20:58] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
+[16:20:59] [Server thread/INFO]: Preparing spawn area: 35%
+[16:20:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
+[16:21:00] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
+[16:21:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[16:21:00] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:21:00] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[16:21:00] [Server thread/INFO]: [PCGF_PluginLib] Enabling PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
+[16:21:00] [Server thread/INFO]: [PCGF_PluginLib] [32mConfig file successfully loaded.[0m
+[16:21:01] [Server thread/INFO]: [PCGF_PluginLib] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:21:01] [Server thread/INFO]: [PCGF_PluginLib] Loading item translations ...
+[16:21:01] [Server thread/INFO]: [PCGF_PluginLib] Finished loading item translations for 692 items.
+[16:21:01] [Server thread/INFO]: [PCGF_PluginLib] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:21:01] [Server thread/INFO]: [PCGF_PluginLib] [32m PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110 has been enabled! [33m :) [0m
+[16:21:01] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[16:21:01] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
+[16:21:01] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[16:21:01] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[16:21:01] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[16:21:01] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:21:01] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:21:01] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:21:01] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:21:01] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.11.3
+[16:21:01] [Server thread/INFO]: [VeinMiner] Registering events
+[16:21:01] [Server thread/INFO]: [VeinMiner] Registering commands
+[16:21:01] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[16:21:01] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[16:21:01] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[16:21:01] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[16:21:01] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[16:21:01] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:21:01] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[16:21:01] [Server thread/INFO]: 
+    __                      ____                                         _    _____
+   / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+  / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+ / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+/_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+            /____//____/
 
-[13:37:42] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[13:37:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
-[13:37:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:37:43] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] Enabling PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] [32mConfig file successfully loaded.[0m
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] Loading item translations ...
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] Finished loading item translations for 692 items.
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[13:37:43] [Server thread/INFO]: [PCGF_PluginLib] [32m PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110 has been enabled! [33m :) [0m
-[13:37:43] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v7.7
-[13:37:43] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
-[13:37:43] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
-[13:37:43] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[13:37:43] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
 
-[13:37:43] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[16:21:01] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[16:21:01] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[16:21:01] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[16:21:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[16:21:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:21:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:21:01] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:21:01] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[16:21:01] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[13:37:43] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+[16:21:01] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
 
-[13:37:43] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
-[13:37:43] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
-[13:37:43] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
-[13:37:43] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
-[13:37:43] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[13:37:43] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[13:37:43] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[13:37:43] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[13:37:43] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[13:37:43] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[13:37:43] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[13:37:43] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[13:37:43] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib vv1.6
-[13:37:44] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[13:37:44] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[13:37:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[13:37:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[13:37:44] [Server thread/INFO]: [WorldGuard] Loading region data...
-[13:37:44] [Server thread/INFO]: [Slimefun] Enabling Slimefun vv4.1.15
-[13:37:44] [Server thread/INFO]: [Slimefun] Loading Files...
+[16:21:01] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:21:01] [Server thread/INFO]: [StoneDrop] Enabling StoneDrop v2.2.1
+[16:21:01] [Server thread/INFO]: Loading config...
+[16:21:01] [Server thread/INFO]: Loading chances...
+[16:21:01] [Server thread/INFO]: [StoneDrop] Starting internal scheduler...[m
 
-[13:37:44] [Server thread/INFO]: [Slimefun] Loading Config...
+[16:21:01] [Server thread/INFO]: [StoneDrop] Starting internal scheduler...[m
 
-[13:37:44] [Server thread/INFO]: [Slimefun] Loading Items...
+[16:21:01] [Server thread/INFO]: [StoneDrop] [0;32;1mConfiguration Loaded, Plugin enabled![m
 
-[13:37:44] [Server thread/INFO]: [Slimefun] Loading Researches...
+[16:21:01] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v7.7
+[16:21:01] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
+[16:21:01] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[16:21:01] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:21:01] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
 
-[13:37:44] [Server thread/INFO]: [Slimefun] Loading World Generators...
+[16:21:01] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
 
-[13:37:44] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Oil
+[16:21:01] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
 
-[13:37:44] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Nether Ice
+[16:21:02] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[16:21:02] [Server thread/INFO]: [CristichiTreeCapitator] Enabling CristichiTreeCapitator v3.0.1
+[16:21:02] [Server thread/INFO]: [CristichiTreeCapitator] Checking updates
+[16:21:02] [Server thread/INFO]: [0;32;22m[CristichiTreeCapitator] [0;32;1mUpdate available (from v3.0.1 to v6.4.4), use /treecapitator update[m
 
-[13:37:45] [Server thread/INFO]: [Slimefun] Successfully hooked into WorldEdit!
+[16:21:02] [Server thread/INFO]: [CristichiTreeCapitator] WorldGuard detected. Your most important trees are protected!
+[16:21:02] [Server thread/INFO]: [CristichiTreeCapitator] Enabled
+[16:21:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[16:21:02] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib vv1.6
+[16:21:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[16:21:02] [Server thread/INFO]: [Slimefun] Enabling Slimefun vv4.1.15
+[16:21:02] [Server thread/INFO]: [Slimefun] Loading Files...
 
-[13:37:45] [Server thread/INFO]: [Slimefun] Finished!
+[16:21:02] [Server thread/INFO]: [Slimefun] Loading Config...
 
-[13:37:45] [Server thread/INFO]: [CristichiTreeCapitator] Enabling CristichiTreeCapitator v3.0.1
-[13:37:45] [Server thread/INFO]: [CristichiTreeCapitator] Checking updates
-[13:37:45] [Server thread/INFO]: [0;32;22m[CristichiTreeCapitator] [0;32;1mUpdate available (from v3.0.1 to v6.4.4), use /treecapitator update[m
+[16:21:02] [Server thread/INFO]: [Slimefun] Loading Items...
 
-[13:37:45] [Server thread/INFO]: [CristichiTreeCapitator] WorldGuard detected. Your most important trees are protected!
-[13:37:45] [Server thread/INFO]: [CristichiTreeCapitator] Enabled
-[13:37:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[13:37:45] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[13:37:45] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[13:37:45] [Server thread/INFO]: No kits found to migrate.
-[13:37:45] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
-[13:37:45] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
-[13:37:45] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[13:37:45] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[13:37:45] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
-[13:37:45] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[13:37:45] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[13:37:45] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
-[13:37:45] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[13:37:45] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
-[13:37:45] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[13:37:45] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[13:37:45] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[13:37:45] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[13:37:45] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[13:37:45] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[13:37:45] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[13:37:45] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
-[13:37:45] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[13:37:45] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[13:37:45] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
-[13:37:45] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[13:37:45] [Server thread/INFO]: Loaded 853 items from items.csv.
-[13:37:45] [Server thread/INFO]: Using locale en
-[13:37:45] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[13:37:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:37:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:37:46] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[13:37:46] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
-[13:37:46] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:37:46] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+[16:21:02] [Thread-10/INFO]: [StoneDrop] About to download a new update: StoneDrop v.2.2.1
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 10% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 20% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 30% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 40% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 50% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 60% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 70% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 80% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 90% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Downloading update: 100% of 100525 bytes.
+[16:21:02] [Thread-10/INFO]: [StoneDrop] Finished updating.
+[16:21:02] [Server thread/INFO]: [Slimefun] Loading Researches...
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 section configs from /sections/[m
+[16:21:02] [Server thread/INFO]: [Slimefun] Loading World Generators...
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 shop configs from /shops/[m
+[16:21:02] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Oil
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+[16:21:02] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Nether Ice
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
+[16:21:02] [Server thread/INFO]: [Slimefun] Successfully hooked into WorldEdit!
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 16 shop sections.[m
+[16:21:02] [Server thread/INFO]: [Slimefun] Finished!
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
+[16:21:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[16:21:03] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[16:21:03] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:21:03] [Server thread/INFO]: No kits found to migrate.
+[16:21:03] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[16:21:03] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[16:21:03] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:21:03] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:21:03] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[16:21:03] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:21:03] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:21:03] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:21:03] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[16:21:03] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:21:03] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[16:21:03] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[16:21:03] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:21:03] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[16:21:03] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[16:21:03] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[16:21:03] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[16:21:03] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[16:21:03] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
+[16:21:03] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
+[16:21:03] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[16:21:03] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[16:21:03] [Server thread/INFO]: Loaded 853 items from items.csv.
+[16:21:03] [Server thread/INFO]: Using locale en
+[16:21:03] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[16:21:03] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:21:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:21:03] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[16:21:03] [Server thread/INFO]: [MobHunting] Enabling MobHunting v6.0.0
+[16:21:03] [Server thread/INFO]: [0;33;22m[MobHunting] [mYour config version is 1[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+[16:21:03] [Server thread/INFO]: [0;33;22m[MobHunting][m Config.yml was backed up to plugins/MobHunting/backup/config.yml.bak6[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+[16:21:03] [Server thread/INFO]: [0;33;22m[MobHunting] [mDatabase version 7 detected.[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+[16:21:04] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with Essentials (2.21.0-dev+189-eab2201)[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
+[16:21:04] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with WorldEdit (6.1.9;caf0ad9)[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
+[16:21:04] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with WorldGuard (6.2.2-SNAPSHOT;8eeab68)[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+[16:21:04] [Server thread/ERROR]: Error occurred while enabling MobHunting v6.0.0 (Is it up to date?)
+java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field 'org.bukkit.Material WOODEN_AXE'
+	at one.lindegaard.MobHunting.achievements.AxeMurderer.getSymbol(AxeMurderer.java:61) ~[?:?]
+	at io.chazza.advancementapi.AdvancementManager.getAdvancementsFromAchivements(AdvancementManager.java:47) ~[?:?]
+	at one.lindegaard.MobHunting.MobHunting.onEnable(MobHunting.java:342) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:21:04] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.7.8-Release
+[16:21:04] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[16:21:04] [Server thread/INFO]: [MarriageMaster] [32mSuccessful linked with [33mMinepacks v2.4.31.6-T20250103114036[32m![0m
+[16:21:04] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Loading marriages ...
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Marriages loaded
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Loading priests ...
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Priests loaded
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Loading players ...
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Players loaded
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Loading marriages into cache ...
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Marriages loaded into cache
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Loading homes ...
+[16:21:04] [Thread-14/INFO]: [MarriageMaster] Homes loaded
+[16:21:04] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[16:21:04] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
+[16:21:04] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:21:04] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 section configs from /sections/[m
 
-[13:37:46] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 747ms to complete[m
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 shop configs from /shops/[m
 
-[13:37:47] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
-[13:37:47] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[13:37:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:37:47] [Server thread/INFO]: Done (9.142s)! For help, type "help" or "?"
-[13:37:47] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
-[13:37:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[13:37:47] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[13:37:47] [Server thread/WARN]: [CS-CoreLib] Task #21 for CS-CoreLib vv1.6 generated an exception
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 16 shop sections.[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+
+[16:21:04] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 473ms to complete[m
+
+[16:21:05] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[16:21:05] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:21:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:21:05] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
+[16:21:05] [Server thread/INFO]: Done (7.642s)! For help, type "help" or "?"
+[16:21:05] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[16:21:05] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[16:21:05] [Server thread/WARN]: [CS-CoreLib] Task #3788 for CS-CoreLib vv1.6 generated an exception
 java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
 	at me.mrCookieSlime.CSCoreLibPlugin.protection.modules.WorldGuardProtectionModule.<clinit>(WorldGuardProtectionModule.java:18) ~[?:?]
 	at me.mrCookieSlime.CSCoreLibPlugin.protection.ProtectionManager.<init>(ProtectionManager.java:37) ~[?:?]
@@ -326,42 +655,146 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 10 more
-[13:37:47] [Server thread/INFO]: [0;34;22m###################### - Slimefun - ######################[m
+[16:21:05] [Thread-16/INFO]: [CS-CoreLib - Updater] Slimefun is up to date!
 
-[13:37:47] [Server thread/INFO]: [0;34;22mSuccessfully loaded 467 Items (225 Researches)[m
+[16:21:05] [Server thread/INFO]: [0;33;1m###################### - Slimefun - ######################[m
 
-[13:37:47] [Server thread/INFO]: [0;34;22m( 467 Items from Slimefun, 0 Items from Addons )[m
+[16:21:05] [Server thread/INFO]: [0;33;1mSuccessfully loaded 467 Items (225 Researches)[m
 
-[13:37:47] [Server thread/INFO]: [0;34;22m##########################################################[m
+[16:21:05] [Server thread/INFO]: [0;33;1m( 467 Items from Slimefun, 0 Items from Addons )[m
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[16:21:05] [Server thread/INFO]: [0;33;1m##########################################################[m
 
-[13:37:47] [Server thread/INFO]: [Slimefun] This may take a long time...
+[16:21:05] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 1ms)
+[16:21:05] [Server thread/INFO]: [Slimefun] This may take a long time...
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
+[16:21:05] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[16:21:05] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
 
-[13:37:47] [Server thread/INFO]: [Slimefun] This may take a long time...
+[16:21:05] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[16:21:05] [Server thread/INFO]: [Slimefun] This may take a long time...
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
+[16:21:05] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[16:21:05] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
 
-[13:37:47] [Server thread/INFO]: [Slimefun] This may take a long time...
+[16:21:05] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[16:21:05] [Server thread/INFO]: [Slimefun] This may take a long time...
 
-[13:37:47] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
+[16:21:05] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
 
-[13:37:47] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:37:47] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[13:37:47] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[13:37:47] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[13:37:47] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[13:37:47] [Thread-12/INFO]: [CS-CoreLib - Updater] Slimefun is up to date!
+[16:21:05] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
 
+[16:21:05] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:21:05] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[16:21:05] [Server thread/INFO]: [0;33;22m[MobHunting] [mChecking for new updates...[m
+
+[16:21:05] [Server thread/INFO]: [Magic] Vault found, 'currency' cost types available
+[16:21:05] [Server thread/INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
+[16:21:05] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
+[16:21:05] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
+[16:21:05] [Server thread/INFO]: [Magic] Couldn't load spell icon 'warped_sign{CustomModelData:18001}' for spell: gps
+[16:21:06] [Server thread/INFO]: [Magic] Loaded 554 spells
+[16:21:06] [Server thread/INFO]: [Magic] Loaded 12 progression paths
+[16:21:06] [Server thread/WARN]: [Magic] [33m Ingredient is not used in recipe wand, this may be normal if overriding an existing recipe or on an older server version, but if it is a custom recipe this may be a mistake d: diamond[0m
+[16:21:06] [Server thread/WARN]: [Magic] [33m Ingredient is not used in recipe wand, this may be normal if overriding an existing recipe or on an older server version, but if it is a custom recipe this may be a mistake e: emerald[0m
+[16:21:06] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
+[16:21:06] [Server thread/INFO]: [Magic] [skull{display:{Name:"{\"text\":\"Copper Chunk\"}"},SkullOwner:{Id:[I;-1036162939,-1851833705,-1803264362,-2044992477],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc2NDA2MGI4MThlNGE2NzA2NzEzYzg1MWRmNTJhZmZiNzAwODM3MDE5Y2JkNzcxMjZlYTE1NGU3MGNkNjcxYyJ9fX0="}]}}}] Custom NBT tags on items are no longer supported. Please change to the {1234} syntax for custom model data.
+[16:21:06] [Server thread/INFO]: [Magic] LogBlock not found
+[16:21:06] [Server thread/INFO]: [Magic] Integrating with Essentials for vanish detection
+[16:21:06] [Server thread/INFO]: [Magic] Integrating with Essentials for Recall warps
+[16:21:06] [Server thread/INFO]: [Magic] Essentials found, hooked up custom item handler
+[16:21:06] [Server thread/INFO]: [Magic] Factions not found
+[16:21:06] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
+[16:21:06] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[16:21:06] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[16:21:06] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[16:21:06] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[16:21:06] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
+[16:21:06] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[16:21:06] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
+[16:21:06] [Server thread/INFO]: [Magic] Loaded 0 arenas
+[16:21:06] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: fireproof_drowned[0m
+[16:21:06] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: trident_drowned[0m
+[16:21:06] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: spinny_fox[0m
+[16:21:06] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: scaredy[0m
+[16:21:06] [Server thread/INFO]: [Magic] Finished loading configuration
+[16:21:06] [Server thread/INFO]: [Magic] Finished loading data.
+[16:21:06] [Craft Scheduler Thread - 5/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:21:06] [Server thread/INFO]: [0;32;1mResource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)[m
+
+[16:21:06] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[16:21:06] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[16:21:06] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
+[16:21:06] [Server thread/INFO]: Stopping the server
+[16:21:06] [Server thread/INFO]: Stopping server
+[16:21:06] [Server thread/INFO]: Disabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[16:21:06] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.11.1
+[16:21:06] [Server thread/INFO]: Disabling EssentialsChat v2.21.0-dev+189-eab2201
+[16:21:06] [Server thread/INFO]: [Magic] Disabling Magic v10.9.6-1e5f908
+[16:21:06] [Server thread/INFO]: [MarriageMaster] Disabling MarriageMaster v2.7.8-Release
+[16:21:06] [Server thread/INFO]: [MarriageMaster] Cleaning database cache.
+[16:21:06] [Server thread/INFO]: [MarriageMaster] Database cache cleaned.
+[16:21:06] [Server thread/INFO]: [MarriageMaster] [31m Marriage Master has been disabled. [33m :( [0m
+[16:21:06] [Server thread/INFO]: [MobHunting] Disabling MobHunting v6.0.0
+[16:21:06] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+189-eab2201
+[16:21:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:21:06] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:21:06] [Server thread/INFO]: [Slimefun] Disabling Slimefun vv4.1.15
+[16:21:06] [Server thread/INFO]: [Slimefun] Backed up Blocks to 2025-03-14-16-21.zip
+
+[16:21:06] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[16:21:06] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:21:06] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:21:06] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:21:06] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
+[16:21:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[16:21:06] [Server thread/INFO]: [CS-CoreLib] Disabling CS-CoreLib vv1.6
+[16:21:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[16:21:06] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[16:21:06] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:21:06] [Server thread/INFO]: [CristichiTreeCapitator] Disabling CristichiTreeCapitator v3.0.1
+[16:21:06] [Server thread/INFO]: [CristichiTreeCapitator] Disabled
+[16:21:06] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.6-T20250103114036
+[16:21:07] [Craft Scheduler Thread - 3/INFO]: [0;33;22m[MobHunting] [0;32;1mnew version available: 8.5.4[m
+
+[16:21:07] [Craft Scheduler Thread - 3/INFO]: [0;33;22m[MobHunting] [0;32;1mPlease type '/mh update' to update.[m
+
+[16:21:07] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[16:21:07] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v7.7
+[16:21:07] [Server thread/INFO]: [StoneDrop] Disabling StoneDrop v2.2.1
+[16:21:07] [Server thread/INFO]: [StoneDrop] [0;37;22mSaving config data...[m
+
+[16:21:07] [Server thread/INFO]: [0;37;22m[StoneDrop] Config file saved![m
+
+[16:21:07] [Server thread/INFO]: [StoneDrop] [0;31;22mPlugin disabled![m
+
+[16:21:07] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
+[16:21:07] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[16:21:07] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 7.6[m
+
+[16:21:07] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[16:21:07] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[16:21:07] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
+[16:21:07] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[16:21:07] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[16:21:07] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.7
+[16:21:07] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v1.11.3
+[16:21:07] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[16:21:07] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[16:21:07] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[16:21:07] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[16:21:07] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[16:21:07] [Server thread/INFO]: [PCGF_PluginLib] Disabling PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
+[16:21:07] [Server thread/INFO]: [PCGF_PluginLib] [31m PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110 has been disabled. [33m :( [0m
+[16:21:07] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[16:21:07] [Server thread/INFO]: Saving players
+[16:21:07] [Server thread/INFO]: Saving worlds
+[16:21:07] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[16:21:07] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[16:21:08] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
