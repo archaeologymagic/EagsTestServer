@@ -14,8 +14,6 @@ sudo java -jar bungee.jar
 #
 open 3 ports:
 #
-8080
-#
 8081
 #
 25565
