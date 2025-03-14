@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741913481321
-  login: 1741913648565
-money: '1000007372.37'
-last-account-name: yay
-logoutlocation:
+  logout: 0
+  login: 1741913674970
+money: '0'
+last-account-name: communiusm
+lastlocation:
   world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
   world-name: world
-  x: -16.35357809356961
-  y: 64.0
-  z: 238.27386402834998
-  yaw: -263.0997314453125
-  pitch: 29.649986267089844
+  x: -1.5
+  y: 46.0
+  z: 254.5
+  yaw: 4.4578328132629395
+  pitch: 0.0
