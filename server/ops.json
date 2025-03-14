@@ -4,5 +4,17 @@
     "name": "yay",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "05a27757-cd8a-3896-b547-5c6b855b3554",
+    "name": "Communisum",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bb851d08-a6f3-3172-8f48-efdd92c3d541",
+    "name": "JaydenLikesMen",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

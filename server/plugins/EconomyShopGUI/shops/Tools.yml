@@ -7,14 +7,14 @@ pages:
         - '&4ONCE BELONGED TO A MIGHTY WORRIOR'
         - '&4BUT IT CAN BELONG TO U!'
         - '&4for a price ;)'
-        displayname: '&c&lThe Stick Of Might'
-        buy: 18069
-        sell: 10069
+        displayname: '&c&lThe Stick Of Might, Level 1'
+        buy: 150000
+        sell: 35000
         stack-size: 1
-        name: '&c&lAzaan'
+        name: '&c&lAzaan Level 1'
         slot: 5
         enchantments:
-        - KNOCKBACK:3
+        - KNOCKBACK:69
         - SHARPNESS:69
         - FIRE_ASPECT:5
         - BANE_OF_ARTHROPODS:6
@@ -28,3 +28,49 @@ pages:
         material: DIAMOND_SWORD:0
         buy: 500.0
         sell: 200.0
+      '3':
+        material: GOLDEN_SWORD
+        lore:
+        - '§fTHE SWORD OF THE MIGHTY BINGUS'
+        - '§2ITS SAID THAT....'
+        - "§4ONLY A TRUE BULGARIAN CAN HARNESS IT'S POWERS"
+        displayname: '§fTHE §2BULGARIAN §4BINGUS'
+        buy: 250000
+        sell: 100000
+        stack-size: 1
+        name: '§fTHE §2BULGARIAN §4BINGUS'
+        slot: 2
+        enchantments:
+        - KNOCKBACK:3
+        - SHARPNESS:69
+        - FIRE_ASPECT:5
+        - BANE_OF_ARTHROPODS:6
+        - SMITE:5
+        - UNBREAKING:696969
+        - LOOTING:6
+        - MENDING
+        - SWEEPING_EDGE:5
+        hidePricingLore: true
+      '4':
+        material: STICK
+        lore:
+        - '&4ONCE BELONGED TO A MIGHTY WORRIOR'
+        - '&4BUT IT CAN BELONG TO U!'
+        - '&4for a price ;)'
+        displayname: '&c&lThe Stick Of Might, FULL RELEASE'
+        buy: 1500000
+        sell: 35000
+        stack-size: 1
+        name: '&c&lAzaan FULL POWER'
+        slot: 5
+        enchantments:
+        - KNOCKBACK:255
+        - SHARPNESS:255
+        - FIRE_ASPECT:5
+        - BANE_OF_ARTHROPODS:6
+        - SMITE:5
+        - UNBREAKING:255
+        - LOOTING:100000
+        - MENDING
+        - SWEEPING_EDGE:255
+        hidePricingLore: true

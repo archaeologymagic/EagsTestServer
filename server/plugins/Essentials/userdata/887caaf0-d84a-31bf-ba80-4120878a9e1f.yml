@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1741959008402
+  login: 1741958809843
+money: '0'
+last-account-name: Abdullah
+lastlocation:
+  world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
+  world-name: world
+  x: 697034.5505146695
+  y: 60.21667713183853
+  z: -696938.3096236996
+  yaw: -53.64885711669922
+  pitch: 15.599881172180176
+logoutlocation:
+  world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
+  world-name: world
+  x: 697032.7827077212
+  y: 63.0
+  z: -696855.3277343153
+  yaw: 68.4520263671875
+  pitch: 23.250001907348633

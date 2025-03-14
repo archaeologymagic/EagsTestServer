@@ -52,13 +52,13 @@ Cooldown:
 FullInventory:
   # If items should be collected to the backpack if the players inventory is full.
   # This is also the default if 'IsToggleAllowed' is enabled.
-  CollectItems: false
+  CollectItems: true
   # Interval in seconds how often items around the player should be collected, increase it if it lags the server
   CheckInterval: 1
   # Radius in which items get collected, in meter/blocks, allow decimals
   CollectRadius: 1.5
   # If this feature may be toggled.
-  IsToggleAllowed: false
+  IsToggleAllowed: true
 
 
 # Database settings

@@ -1,0 +1,18 @@
+enable: true
+slot: 2
+title: ''
+hidden: false
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: DIAMOND_CHESTPLATE
+  lore:
+  - '&8&l§bAlways use Protection,'
+  - "&8&l§bcause your parent's didn't..."
+  - "&8&land payed the price"
+  displayname: '&7&lArmor'
+  name: '&7&lArmor'

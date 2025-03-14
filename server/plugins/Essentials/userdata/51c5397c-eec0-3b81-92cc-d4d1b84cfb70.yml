@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1741914266375
   login: 1741913674970
 money: '0'
 last-account-name: communiusm
@@ -28,3 +28,11 @@ lastlocation:
   z: 254.5
   yaw: 4.4578328132629395
   pitch: 0.0
+logoutlocation:
+  world: eacf2bf4-c6d6-42f1-b7cf-47628f1758f1
+  world-name: world
+  x: 0.5462967723306219
+  y: 62.739035959957725
+  z: 235.08149432971328
+  yaw: 82.20004272460938
+  pitch: 17.2499942779541
