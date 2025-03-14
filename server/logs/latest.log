@@ -1,230 +1,1682 @@
-[23:03:20] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[23:03:20] [Server thread/INFO]: Loading properties
-[23:03:20] [Server thread/INFO]: Default game type: SURVIVAL
-[23:03:20] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[23:03:20] [Server thread/INFO]: Debug logging is disabled
-[23:03:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:45:32] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[00:45:32] [Server thread/INFO]: Loading properties
+[00:45:32] [Server thread/INFO]: Default game type: SURVIVAL
+[00:45:32] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[00:45:32] [Server thread/INFO]: Debug logging is disabled
+[00:45:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[23:03:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:03:20] [Server thread/INFO]: Generating keypair
-[23:03:21] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[23:03:21] [Server thread/INFO]: Using default channel type
-[23:03:21] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[23:03:21] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
-[23:03:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
-[23:03:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[23:03:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[23:03:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[23:03:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[23:03:23] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[23:03:23] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
-[23:03:23] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[23:03:23] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
-[23:03:23] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
-[23:03:23] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
-[23:03:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
-[23:03:23] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
-[23:03:23] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
-[23:03:23] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
-[23:03:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[23:03:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[23:03:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[23:03:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[23:03:23] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
-[23:03:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:03:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:03:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:03:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:03:23] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[23:03:23] [Server thread/INFO]: Preparing level "world"
-[23:03:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:03:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Mob Spawn Range: 4
-[23:03:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[23:03:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:03:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:03:23] [Server thread/INFO]: Random Lighting Updates: false
-[23:03:23] [Server thread/INFO]: Structure Info Saving: true
-[23:03:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:03:23] [Server thread/INFO]: Max TNT Explosions: 100
-[23:03:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:03:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:03:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:03:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:03:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:03:23] [Server thread/INFO]: View Distance: 4
-[23:03:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:03:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:03:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:03:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:03:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Mob Spawn Range: 4
-[23:03:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[23:03:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:03:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:03:23] [Server thread/INFO]: Random Lighting Updates: false
-[23:03:23] [Server thread/INFO]: Structure Info Saving: true
-[23:03:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:03:23] [Server thread/INFO]: Max TNT Explosions: 100
-[23:03:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:03:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:03:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:03:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:03:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:03:23] [Server thread/INFO]: View Distance: 4
-[23:03:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:03:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:03:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:03:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:03:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:03:23] [Server thread/INFO]: Mob Spawn Range: 4
-[23:03:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[23:03:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:03:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:03:23] [Server thread/INFO]: Random Lighting Updates: false
-[23:03:23] [Server thread/INFO]: Structure Info Saving: true
-[23:03:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[23:03:23] [Server thread/INFO]: Max TNT Explosions: 100
-[23:03:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:03:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:03:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:03:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[23:03:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:03:23] [Server thread/INFO]: View Distance: 4
-[23:03:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:03:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:03:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:03:23] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
-[23:03:24] [Server thread/INFO]: Preparing spawn area: 28%
-[23:03:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
-[23:03:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
-[23:03:26] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[23:03:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[00:45:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:45:33] [Server thread/INFO]: Generating keypair
+[00:45:33] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[00:45:33] [Server thread/INFO]: Using default channel type
+[00:45:33] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[00:45:33] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[00:45:33] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[00:45:33] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.6-T20250103114036
+[00:45:33] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[00:45:33] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.15
+[00:45:33] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
+[00:45:33] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[00:45:33] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[00:45:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:45:34] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:45:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:45:35] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[00:45:35] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
+[00:45:35] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[00:45:35] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[00:45:35] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[00:45:35] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[00:45:35] [Server thread/INFO]: [SetHomes] Loading SetHomes v1.3.0
+[00:45:35] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
+[00:45:35] [Server thread/INFO]: [CristichiTreeCapitator] Loading CristichiTreeCapitator v3.0.1
+[00:45:35] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
+[00:45:35] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
+[00:45:35] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
+[00:45:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:45:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:45:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:45:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:45:35] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[00:45:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:45:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:45:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:45:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:45:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:45:35] [Server thread/INFO]: Preparing level "world"
+[00:45:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:45:35] [Server thread/INFO]: Mob Spawn Range: 4
+[00:45:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:45:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:45:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:45:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:45:35] [Server thread/INFO]: Random Lighting Updates: false
+[00:45:35] [Server thread/INFO]: Structure Info Saving: true
+[00:45:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:45:35] [Server thread/INFO]: Max TNT Explosions: 100
+[00:45:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:45:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:45:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:45:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:45:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:45:35] [Server thread/INFO]: View Distance: 4
+[00:45:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:45:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:45:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:45:36] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:45:36] [Server thread/INFO]: Mob Spawn Range: 4
+[00:45:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:45:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:45:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:45:36] [Server thread/INFO]: Random Lighting Updates: false
+[00:45:36] [Server thread/INFO]: Structure Info Saving: true
+[00:45:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:45:36] [Server thread/INFO]: Max TNT Explosions: 100
+[00:45:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:45:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:45:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:45:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:45:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:45:36] [Server thread/INFO]: View Distance: 4
+[00:45:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:45:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:45:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:45:36] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:45:36] [Server thread/INFO]: Mob Spawn Range: 4
+[00:45:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:45:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:45:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:45:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:45:36] [Server thread/INFO]: Random Lighting Updates: false
+[00:45:36] [Server thread/INFO]: Structure Info Saving: true
+[00:45:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:45:36] [Server thread/INFO]: Max TNT Explosions: 100
+[00:45:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:45:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:45:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:45:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:45:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:45:36] [Server thread/INFO]: View Distance: 4
+[00:45:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:45:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:45:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:45:36] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
+[00:45:37] [Server thread/INFO]: Preparing spawn area: 29%
+[00:45:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
+[00:45:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
+[00:45:38] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[00:45:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[23:03:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
+[00:45:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
 
-[23:03:26] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[23:03:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[23:03:26] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
-[23:03:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[23:03:26] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
-[23:03:26] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
-[23:03:26] [Server thread/INFO]: [SetHomes] Hooked into Vault!
-[23:03:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[23:03:26] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[23:03:26] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[23:03:26] [Server thread/INFO]: No kits found to migrate.
-[23:03:26] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
-[23:03:26] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[23:03:26] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[23:03:26] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[23:03:26] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[23:03:26] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[23:03:26] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[23:03:26] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[23:03:27] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
-[23:03:27] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[23:03:27] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[23:03:27] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[23:03:27] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[23:03:27] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
-[23:03:27] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
-[23:03:27] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[23:03:27] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[23:03:27] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
-[23:03:27] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[23:03:27] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
-[23:03:27] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[23:03:27] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
-[23:03:27] [Server thread/INFO]: Loaded 853 items from items.csv.
-[23:03:27] [Server thread/INFO]: Using locale en
-[23:03:27] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[23:03:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[23:03:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[23:03:27] [Server thread/INFO]: Using superperms-based permissions.
-[23:03:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
-[23:03:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[23:03:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
-[23:03:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[23:03:27] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+[00:45:38] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[00:45:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[00:45:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:45:38] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[00:45:38] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
+[00:45:38] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[00:45:38] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[00:45:39] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:45:39] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 17 section configs from /sections/[m
+[00:45:39] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 17 shop configs from /shops/[m
+[00:45:39] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+[00:45:39] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:45:39] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[00:45:39] [Server thread/INFO]: [Minepacks] Finished loading item translations for 692 items.
+[00:45:39] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[00:45:39] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[00:45:39] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
+[00:45:39] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[00:45:39] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[00:45:39] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[00:45:39] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[00:45:39] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[00:45:39] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[00:45:39] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[00:45:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[00:45:39] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
+[00:45:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[00:45:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[00:45:39] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:45:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:45:39] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:45:40] [Server thread/INFO]: [SetHomes] Enabling SetHomes v1.3.0
+[00:45:40] [Server thread/INFO]: [SetHomes] Luck perms was not found! Reverting to vault...
+[00:45:40] [Server thread/INFO]: [SetHomes] Hooked into Vault!
+[00:45:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[00:45:40] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[00:45:40] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[00:45:40] [Server thread/INFO]: No kits found to migrate.
+[00:45:40] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[00:45:40] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[00:45:40] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:45:40] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[00:45:40] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
+[00:45:40] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
+[00:45:40] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[00:45:40] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[00:45:40] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:45:40] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[00:45:40] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[00:45:40] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:45:40] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:45:40] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[00:45:40] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[00:45:40] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[00:45:40] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[00:45:40] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:45:40] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:45:40] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[00:45:40] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[00:45:40] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:45:40] [Server thread/INFO]: Loaded 853 items from items.csv.
+[00:45:40] [Server thread/INFO]: Using locale en
+[00:45:40] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[00:45:41] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[00:45:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[00:45:41] [Server thread/INFO]: Using superperms-based permissions.
+[00:45:41] [Server thread/INFO]: [CristichiTreeCapitator] Enabling CristichiTreeCapitator v3.0.1
+[00:45:41] [Server thread/INFO]: [CristichiTreeCapitator] Checking updates
+[00:45:41] [Server thread/INFO]: [0;32;22m[CristichiTreeCapitator] [0;32;1mUpdate available (from v3.0.1 to v6.4.4), use /treecapitator update[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
+[00:45:41] [Server thread/INFO]: [CristichiTreeCapitator] WorldGuard detected. Your most important trees are protected!
+[00:45:41] [Server thread/INFO]: [CristichiTreeCapitator] Enabled
+[00:45:41] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
+[00:45:41] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[00:45:41] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 15 shop sections.[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 17 section configs from /sections/[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 17 shop configs from /shops/[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 15 shop sections.[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
 
-[23:03:27] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
 
-[23:03:28] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 799ms to complete[m
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
 
-[23:03:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:03:28] [Server thread/INFO]: Done (4.947s)! For help, type "help" or "?"
-[23:03:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[23:03:28] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[23:03:28] [Server thread/INFO]: [CS-CoreLib2 - Protection] Loading Protection Modules...
-[23:03:28] [Server thread/INFO]: [CS-CoreLib2 - Protection] This may happen more than once.
-[23:03:28] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[23:03:28] [Craft Scheduler Thread - 1/INFO]: §6Fetching version information...
-[23:03:28] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
-[23:03:28] [Craft Scheduler Thread - 4/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[23:03:28] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
-[23:03:28] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
-[23:03:29] [Thread-7/INFO]: [CS-CoreLib - Updater] CS-CoreLib is up to date!
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
 
-[23:03:37] [User Authenticator #1/INFO]: UUID of player yay is e67ee45d-284a-3c98-b166-c7bad8f5fb03
-[23:03:38] [Server thread/INFO]: yay[/127.0.0.1:52650] logged in with entity id 98 at ([world]-10.334319326571073, 64.0, 246.73527849713298)
-[23:03:41] [Server thread/INFO]: yay issued server command: /home
-[23:03:48] [Server thread/INFO]: yay issued server command: /help sethomes
-[23:04:10] [Server thread/INFO]: yay issued server command: /uhome
-[23:04:14] [Server thread/INFO]: yay issued server command: /home
-[23:04:16] [Server thread/INFO]: yay issued server command: /sethome
-[23:04:21] [Server thread/INFO]: yay issued server command: /uhome
-[23:04:30] [Server thread/INFO]: yay lost connection: Disconnected
-[23:04:30] [Server thread/INFO]: yay left the game
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+
+[00:45:41] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+
+[00:45:42] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 811ms to complete[m
+
+[00:45:42] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[00:45:42] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[00:45:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:45:42] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
+[00:45:42] [Server thread/INFO]: Done (6.769s)! For help, type "help" or "?"
+[00:45:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[00:45:42] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[00:45:42] [Server thread/INFO]: [CS-CoreLib2 - Protection] Loading Protection Modules...
+[00:45:42] [Server thread/INFO]: [CS-CoreLib2 - Protection] This may happen more than once.
+[00:45:42] [Server thread/WARN]: [CS-CoreLib] Task #15 for CS-CoreLib v1.6.2 generated an exception
+java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.modules.WorldGuardProtectionModule.load(WorldGuardProtectionModule.java:31) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.ProtectionManager.registerModule(ProtectionManager.java:162) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.ProtectionManager.<init>(ProtectionManager.java:57) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.protection.ProtectionManager.<init>(ProtectionManager.java:19) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.CSCoreLib.lambda$0(CSCoreLib.java:114) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:739) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 12 more
+[00:45:42] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[00:45:42] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[00:45:42] [Craft Scheduler Thread - 4/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:45:42] [Craft Scheduler Thread - 3/INFO]: §6Fetching version information...
+[00:45:42] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[00:45:43] [Thread-11/INFO]: [CS-CoreLib - Updater] CS-CoreLib is up to date!
+
+[00:46:26] [User Authenticator #1/INFO]: UUID of player yay is e67ee45d-284a-3c98-b166-c7bad8f5fb03
+[00:46:26] [Server thread/INFO]: yay[/127.0.0.1:58842] logged in with entity id 89 at ([world]8.0, 64.0, 244.0)
+[00:46:29] [Server thread/INFO]: yay issued server command: /
+[00:47:13] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:993) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:26) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockPlace.a(PacketPlayInBlockPlace.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:17] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:18] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:18] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:19] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:20] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:26] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:26] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:27] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:36] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:37] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:37] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:38] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:38] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:39] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:39] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:40] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:40] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:40] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:40] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:41] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:41] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:41] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:41] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:42] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:42] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:42] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:43] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:43] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:44] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:44] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:44] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:44] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:45] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:45] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:49] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:50] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:50] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:50] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:51] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:52] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerInteractManager.a(PlayerInteractManager.java:109) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:879) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:40) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInBlockDig.a(SourceFile:10) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:57] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:58] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:58] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:58] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:58] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:47:58] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SetHomes v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:235) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:202) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:198) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1439) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:1) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "org.bukkit.inventory.meta.ItemMeta.getLocalizedName()" is null
+	at com.samleighton.xquiset.sethomes.eventListeners.EventListener.onPlayerInteractBlock(EventListener.java:28) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[server.jar:git-Spigot-79a30d7-acbc348]
+	... 18 more
+[00:49:19] [Server thread/INFO]: yay lost connection: Disconnected
+[00:49:19] [Server thread/INFO]: yay left the game
+[00:49:47] [User Authenticator #2/INFO]: UUID of player yay is e67ee45d-284a-3c98-b166-c7bad8f5fb03
+[00:49:47] [Server thread/INFO]: yay[/127.0.0.1:45246] logged in with entity id 188 at ([world]8.0, 64.0, 244.0)
+[00:49:47] [Server thread/WARN]: [LoginSecurity] Player was logged in prematurely while still saving location

@@ -494,3 +494,372 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
 23:03:37 [INFO] [yay] <-> ServerConnector [lobby] has connected
 23:04:30 [INFO] [yay] -> UpstreamBridge has disconnected
 23:04:30 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+23:06:45 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:35732]: Connected via websocket
+23:06:45 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:35732]: Origin header is null
+23:06:45 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:35732]: Logged in as 'yay'
+23:06:45 [INFO] [yay] -> UpstreamBridge has connected
+23:06:45 [INFO] [yay] <-> ServerConnector [lobby] has connected
+23:07:18 [INFO] [yay] -> UpstreamBridge has disconnected
+23:07:18 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+00:13:49 [INFO] Using mbed TLS based native cipher.
+00:13:49 [INFO] Using zlib based native compressor.
+00:13:49 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:13:49 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:13:50 [INFO] Epoll is working, utilising it!
+00:13:50 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:13:50 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:13:50 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:13:50 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:13:50 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:13:50 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:13:50 [WARNING] Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:13:50 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [WARNING] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:13:50 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [WARNING] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:13:50 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:13:50 [WARNING] :>  
+00:13:50 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:13:50 [WARNING] :>  
+00:13:50 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:13:50 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:13:50 [WARNING] :>  apart from the versions listed below:
+00:13:50 [WARNING] :>  
+00:13:50 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:20a71b0:1887
+00:13:50 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:bf1be7e:581
+00:13:50 [WARNING] :>  
+00:13:50 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:13:50 [WARNING] :>  
+00:13:50 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:13:50 [WARNING] :>  
+00:13:50 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:13:50 [INFO] Loaded plugin EaglercraftXBungee version 1.3.4 by lax1dude
+00:13:50 [WARNING] Forced host server pvp is not defined
+00:13:50 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:13:50 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:13:50 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:13:50 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:13:50 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:13:50 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:13:50 [INFO] Enabled plugin EaglercraftXBungee version 1.3.4 by lax1dude
+00:13:50 [INFO] Listening on /127.0.0.1:25577
+00:14:15 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/EagsTestServer/bungee/server-icon.png
+00:14:17 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:46606]: Connected via websocket
+00:14:17 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:46606]: Origin header is null
+00:14:17 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:46606]: Logged in as 'yay'
+00:14:17 [INFO] [yay] -> UpstreamBridge has connected
+00:14:17 [INFO] [yay] <-> ServerConnector [lobby] has connected
+00:15:58 [INFO] [yay] disconnected with: §fTimed out
+00:15:58 [INFO] [yay] -> UpstreamBridge has disconnected
+00:15:58 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+00:23:57 [INFO] Closing listener [id: 0x2ea1208e, L:/127.0.0.1:25577]
+00:23:57 [INFO] Closing pending connections
+00:23:57 [INFO] Disconnecting 0 connections
+00:23:58 [INFO] Disabling plugins
+00:23:58 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+00:23:58 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+00:23:58 [INFO] Closing IO threads
+00:24:00 [INFO] Thank you and goodbye
+00:45:19 [INFO] Using mbed TLS based native cipher.
+00:45:19 [INFO] Using zlib based native compressor.
+00:45:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:45:19 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:45:19 [INFO] Epoll is working, utilising it!
+00:45:19 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:45:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:45:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:45:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:45:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:45:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:45:19 [WARNING] Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:45:19 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [WARNING] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:45:19 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [WARNING] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:45:19 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:45:19 [WARNING] :>  
+00:45:19 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:45:19 [WARNING] :>  
+00:45:19 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:45:19 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:45:19 [WARNING] :>  apart from the versions listed below:
+00:45:19 [WARNING] :>  
+00:45:19 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:20a71b0:1887
+00:45:19 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:bf1be7e:581
+00:45:19 [WARNING] :>  
+00:45:19 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:45:19 [WARNING] :>  
+00:45:19 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:45:19 [WARNING] :>  
+00:45:19 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:45:19 [INFO] Loaded plugin EaglercraftXBungee version 1.3.4 by lax1dude
+00:45:19 [WARNING] Forced host server pvp is not defined
+00:45:19 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:45:19 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:45:19 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:45:19 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:45:19 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:45:20 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:45:20 [INFO] Enabled plugin EaglercraftXBungee version 1.3.4 by lax1dude
+00:45:20 [INFO] Listening on /127.0.0.1:25577
+00:45:32 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/EagsTestServer/bungee/server-icon.png
+00:45:53 [INFO] Closing listener [id: 0x6bd9cab4, L:/127.0.0.1:25577]
+00:45:53 [INFO] Closing pending connections
+00:45:53 [INFO] Disconnecting 0 connections
+00:45:53 [INFO] Disabling plugins
+00:45:53 [INFO] [EaglercraftXBungee] Eaglercraft listener closed: /0.0.0.0:8081
+00:45:53 [INFO] [EaglercraftXBungee] Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+00:45:53 [INFO] Closing IO threads
+00:46:07 [INFO] Using mbed TLS based native cipher.
+00:46:07 [INFO] Using zlib based native compressor.
+00:46:07 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.21-R0.1-SNAPSHOT:7340f1a:1889
+00:46:08 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+00:46:08 [INFO] Epoll is working, utilising it!
+00:46:08 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+00:46:08 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+00:46:08 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+00:46:08 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+00:46:08 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+00:46:08 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+00:46:08 [WARNING] Error loading plugin ViaRewind
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:46:08 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Loaded plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [WARNING] Error loading plugin ViaVersion
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:46:08 [INFO] Loaded plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Loaded plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [WARNING] Error loading plugin ViaBackwards
+java.lang.NoClassDefFoundError: org/bukkit/plugin/java/JavaPlugin
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.md_5.bungee.api.plugin.PluginClassloader.findClass(PluginClassloader.java:152)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:66)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugin(PluginManager.java:341)
+	at net.md_5.bungee.api.plugin.PluginManager.loadPlugins(PluginManager.java:251)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:284)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: org.bukkit.plugin.java.JavaPlugin
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 13 more
+00:46:08 [INFO] Loaded plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:46:08 [WARNING] :>  
+00:46:08 [WARNING] :>      EAGLERCRAFTXBUNGEE WARNING:
+00:46:08 [WARNING] :>  
+00:46:08 [WARNING] :>  This plugin wasn't tested to be 'working'
+00:46:08 [WARNING] :>  with ANY version of BungeeCord (and forks)
+00:46:08 [WARNING] :>  apart from the versions listed below:
+00:46:08 [WARNING] :>  
+00:46:08 [WARNING] :>  - BungeeCord: 1.21-R0.1-SNAPSHOT:20a71b0:1887
+00:46:08 [WARNING] :>  - Waterfall: 1.21-R0.1-SNAPSHOT:bf1be7e:581
+00:46:08 [WARNING] :>  
+00:46:08 [WARNING] :>  This is not a Bukkit/Spigot plugin!
+00:46:08 [WARNING] :>  
+00:46:08 [WARNING] :>  Use "-Deaglerxbungee.stfu=true" to hide
+00:46:08 [WARNING] :>  
+00:46:08 [WARNING] :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+00:46:08 [INFO] Loaded plugin EaglercraftXBungee version 1.3.4 by lax1dude
+00:46:08 [WARNING] Forced host server pvp is not defined
+00:46:08 [WARNING] MinecraftForge support is currently unmaintained and may have unresolved issues. Please use at your own risk.
+00:46:08 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Enabled plugin cmd_find version git:cmd_find:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Enabled plugin cmd_server version git:cmd_server:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Enabled plugin cmd_send version git:cmd_send:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [INFO] Enabled plugin cmd_list version git:cmd_list:1.21-R0.1-SNAPSHOT:7340f1a:1889 by SpigotMC
+00:46:08 [SEVERE] [EaglercraftXBungee] Online mode is set to false! Authentication system has been disabled
+00:46:08 [INFO] [EaglercraftXBungee] Eaglercraft is listening on: /0.0.0.0:8081
+00:46:08 [INFO] [EaglercraftXBungee] Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+00:46:08 [INFO] [EaglercraftXBungee] Voice chat disabled, add "allow_voice: true" to your listeners to enable
+00:46:08 [INFO] Enabled plugin EaglercraftXBungee version 1.3.4 by lax1dude
+00:46:08 [INFO] Listening on /127.0.0.1:25577
+00:46:24 [WARNING] [EaglercraftXBungee] Server icon is not a file: /workspaces/EagsTestServer/bungee/server-icon.png
+00:46:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:49000]: Connected via websocket
+00:46:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:49000]: Origin header is https://eaglercraft.com
+00:46:26 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:49000]: Logged in as 'yay'
+00:46:26 [INFO] [yay] -> UpstreamBridge has connected
+00:46:26 [INFO] [yay] <-> ServerConnector [lobby] has connected
+00:49:19 [INFO] [yay] -> UpstreamBridge has disconnected
+00:49:19 [INFO] [yay] <-> DownstreamBridge <-> [lobby] has disconnected
+00:49:47 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:57084]: Connected via websocket
+00:49:47 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:57084]: Origin header is null
+00:49:47 [INFO] [EaglercraftXBungee] [/[0:0:0:0:0:0:0:1]:57084]: Logged in as 'yay'
+00:49:47 [INFO] [yay] -> UpstreamBridge has connected
+00:49:47 [INFO] [yay] <-> ServerConnector [lobby] has connected
