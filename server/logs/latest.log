@@ -1,99 +1,103 @@
-[16:32:31] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[16:32:31] [Server thread/INFO]: Loading properties
-[16:32:31] [Server thread/WARN]: Invalid sha1 for ressource-pack-sha1
-[16:32:31] [Server thread/INFO]: Default game type: SURVIVAL
-[16:32:31] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[16:32:31] [Server thread/INFO]: Debug logging is disabled
-[16:32:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:40:17] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[02:40:17] [Server thread/INFO]: Loading properties
+[02:40:17] [Server thread/WARN]: Invalid sha1 for ressource-pack-sha1
+[02:40:17] [Server thread/INFO]: Default game type: SURVIVAL
+[02:40:17] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-79a30d7-acbc348 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[02:40:17] [Server thread/INFO]: Debug logging is disabled
+[02:40:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[16:32:31] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:32:31] [Server thread/INFO]: Generating keypair
-[16:32:31] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[16:32:31] [Server thread/INFO]: Using default channel type
-[16:32:35] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:32:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
-[16:32:36] [Server thread/INFO]: [PCGF_PluginLib] Loading PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
-[16:32:36] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.15
-[16:32:36] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
-[16:32:36] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.11.3
-[16:32:36] [Server thread/INFO]: [PlayerCarry] Loading PlayerCarry v1.1
-[16:32:36] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
-[16:32:36] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[16:32:36] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
-[16:32:36] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[16:32:36] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
-[16:32:36] [Server thread/INFO]: [StoneDrop] Loading StoneDrop v2.2.1
-[16:32:36] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v7.7
-[16:32:36] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.6-T20250103114036
-[16:32:36] [Server thread/INFO]: [Minepacks] PCGF-PluginLib installed. Switching to normal mode!
-[16:32:36] [Server thread/INFO]: [CristichiTreeCapitator] Loading CristichiTreeCapitator v3.0.1
-[16:32:36] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
-[16:32:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[16:32:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[16:32:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:32:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:32:37] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[16:32:37] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib vv1.6
-[16:32:37] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
-[16:32:37] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
-[16:32:37] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
-[16:32:37] [Server thread/INFO]: [Slimefun] Loading Slimefun vv4.1.15
-[16:32:37] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[16:32:37] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
-[16:32:37] [Server thread/INFO]: [MobHunting] Loading MobHunting v6.0.0
-[16:32:38] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.7.8-Release
-[16:32:38] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib installed. Switching to normal mode!
-[16:32:38] [Server thread/INFO]: [Magic] Loading Magic v10.9.6-1e5f908
-[16:32:38] [Server thread/INFO]: [Magic] Loading legacy compatibility layer for server version 1.12
-[16:32:38] [Server thread/WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m No phantoms on this version[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
-[16:32:38] [Server thread/WARN]: [Magic] [33m Could not bind to auto block state methods[0m
-[16:32:38] [Server thread/INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
-[16:32:38] [Server thread/INFO]: [Magic] Found WorldGuard <7
-[16:32:38] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
-[16:32:38] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
-[16:32:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
-[16:32:38] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
-[16:32:38] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
-[16:32:38] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
-[16:32:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
-[16:32:38] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[02:40:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:40:17] [Server thread/INFO]: Generating keypair
+[02:40:17] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[02:40:17] [Server thread/INFO]: Using default channel type
+[02:40:17] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:40:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[02:40:18] [Server thread/INFO]: [PCGF_PluginLib] Loading PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
+[02:40:18] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.15
+[02:40:18] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.11.3
+[02:40:18] [Server thread/INFO]: [PlayerCarry] Loading PlayerCarry v1.1
+[02:40:18] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[02:40:18] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[02:40:18] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[02:40:18] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[02:40:18] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[02:40:18] [Server thread/INFO]: [StoneDrop] Loading StoneDrop v2.2.1
+[02:40:18] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v7.7
+[02:40:18] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.31.6-T20250103114036
+[02:40:18] [Server thread/INFO]: [Minepacks] PCGF-PluginLib installed. Switching to normal mode!
+[02:40:18] [Server thread/INFO]: [CristichiTreeCapitator] Loading CristichiTreeCapitator v3.0.1
+[02:40:18] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.2.1
+[02:40:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[02:40:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:40:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:40:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:40:19] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[02:40:19] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib vv1.6
+[02:40:19] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.2.1
+[02:40:19] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.5
+[02:40:19] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.131
+[02:40:20] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[02:40:20] [Server thread/INFO]: [Slimefun] Loading Slimefun vv4.1.15
+[02:40:20] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[02:40:20] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+189-eab2201
+[02:40:20] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
+[02:40:20] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.7.8-Release
+[02:40:20] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib installed. Switching to normal mode!
+[02:40:20] [Server thread/INFO]: [Magic] Loading Magic v10.9.6-1e5f908
+[02:40:20] [Server thread/INFO]: [Magic] Loading legacy compatibility layer for server version 1.12
+[02:40:20] [Server thread/WARN]: [Magic] [33m Player.openBook method not found, BookAction can't show virtual books[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Skull profile method not available, this is normal if you're on a legacy Minecraft version[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m EntityTransformEvent not found, can't prevent mobs naturally transforming[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m TimeSkipEvent not found, can't synchronize time between worlds[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Entity.persistentInvisibility field not found, invisibility may not reliably restore[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Use an updated version of Spigot for better knowledge book recipes[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Could not bind to chunk ticket API, chunk locking will not work[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m No phantoms on this version[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Could not bind to persist entity tag, can't make mobs persistent[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Could not bind to selectEntities method, command target selectors may not work[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Couldn't find recipe removal method, this is odd since we did find NamespacedKey[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Couldn't find recipe discover method, this is odd since we did find NamespacedKey[0m
+[02:40:20] [Server thread/WARN]: [Magic] [33m Could not bind to auto block state methods[0m
+[02:40:20] [Server thread/INFO]: [Magic] Persistent metadata is not available, will rely on custom names to restore persistent magic mobs
+[02:40:20] [Server thread/INFO]: [Magic] Found WorldGuard <7
+[02:40:20] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
+[02:40:20] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
+[02:40:20] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+189-eab2201
+[02:40:20] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.11.1
+[02:40:20] [Server thread/INFO]: [CustomItemsLib] Loading CustomItemsLib v1.0.8
+[02:40:20] [Server thread/INFO]: [BagOfGold] Loading BagOfGold v4.5.5
+[02:40:20] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.21.0-dev+189-eab2201
+[02:40:20] [Server thread/INFO]: [MobHunting] Loading MobHunting v8.5.4
+[02:40:20] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.5
+[02:40:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[02:40:20] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
 
-[16:32:38] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
+[02:40:20] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.131[m
 
-[16:32:38] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[02:40:20] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
 
-[16:32:38] [Server thread/INFO]: [m
+[02:40:20] [Server thread/INFO]: [m
 
-[16:32:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:32:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:32:41] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:32:41] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:32:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3067ms)
-[16:32:41] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[16:32:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[16:32:41] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[16:32:41] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[16:32:41] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[16:32:41] [Server thread/INFO]: [Magic] Enabling Magic v10.9.6-1e5f908
-[16:32:41] [Server thread/INFO]: [Magic] EffectLib initialized
-[16:32:42] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
-[16:32:42] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
-[16:32:42] [Server thread/INFO]: [Magic]  Using inherited compatibility configs for: examples/versions/1.12/messages.yml
-[16:32:42] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/materials.yml
-[16:32:43] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/spells.yml
-[16:32:43] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/wands.yml
-[16:32:44] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+[02:40:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:40:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:40:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:40:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:40:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1836ms)
+[02:40:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[02:40:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:40:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:40:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:40:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:40:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:40:22] [Server thread/INFO]: [Magic] Enabling Magic v10.9.6-1e5f908
+[02:40:22] [Server thread/INFO]: [Magic] EffectLib initialized
+[02:40:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
+[02:40:22] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/config.yml
+[02:40:23] [Server thread/INFO]: [Magic]  Using inherited compatibility configs for: examples/versions/1.12/messages.yml
+[02:40:23] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/materials.yml
+[02:40:23] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/spells.yml
+[02:40:24] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/wands.yml
+[02:40:24] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
 java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
 	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:153) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
@@ -153,7 +157,7 @@ java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:32:44] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+[02:40:24] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
 java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
 	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:153) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
@@ -213,7 +217,7 @@ java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:32:44] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
+[02:40:24] [Server thread/ERROR]: Could not call method 'public static org.bukkit.inventory.meta.ItemMeta org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(java.util.Map) throws java.lang.Throwable' of class org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta for deserialization
 java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
 	at org.bukkit.craftbukkit.v1_12_R1.inventory.CraftMetaItem$SerializableMeta.deserialize(CraftMetaItem.java:153) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
@@ -273,161 +277,156 @@ java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:206) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:32:44] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/items.yml
-[16:32:44] [Server thread/INFO]: [Magic]  Using inherited compatibility configs for: examples/versions/1.12/crafting.yml
-[16:32:44] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/mobs.yml
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 0 attributes
-[16:32:44] [Server thread/WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
-[16:32:44] [Server thread/WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
-[16:32:44] [Server thread/WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
-[16:32:44] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
-[16:32:44] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
-[16:32:44] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
-[16:32:44] [Server thread/INFO]: [Magic] Wand crafting is enabled
-[16:32:44] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
-[16:32:44] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, arrow_knockback, regeneration, arrow_infinite, bowpower, degrees, seconds, target_pitch, dig_speed, humidity, pitch, jump, health_max, protection_fall, target_luck, target_light, blindness, absorption, target_armor, damage_undead, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, light, mana_max, water_worker, bowpull, damage, weeks, mending, epoch, protection_explosions, air, fast_digging, arrow_fire, lure, temperature, frost_walker, movement_speed_bps, protection_environmental, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, protection_projectile, mana, glowing, target_health, target_humidity, damage_arthropods, days, luck, thorns, target_hunger, location_x, location_y, target_mana, attack_damage, knockback, fire_aspect, knockback_resistance, saturation, location_z, target_air, oxygen, night_vision, level, minutes, durability, water_breathing, fall_distance, hunger, difficulty, armor, arrow_damage, fulltime, confusion, damage_dealt, harm, target_yaw, speed, damage_resistance, weakness, heal, loot_bonus_mobs, target_mana_max, protection_fire, hours, damage_all, velocity, sweeping_edge, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, wither, loot_bonus_blocks]
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 182 icons
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 12 effect lists
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 1403 items
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 198 wands
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 2 kits
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 10 classes
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 5 classes
-[16:32:44] [Server thread/WARN]: [Magic] [33m Invalid villager_profession: FLETCHER[0m
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 49 mob templates
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 8 automata templates
-[16:32:44] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
-[16:32:45] [Server thread/INFO]: [Magic] Activated BStats
-[16:32:45] [Server thread/INFO]: [Magic] MobArena not found
-[16:32:45] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
-[16:32:45] [Server thread/INFO]: [Magic] ModelEngine integration disabled
-[16:32:45] [Server thread/INFO]: Magic checking resource pack for updates: [0;37;22mhttp://rp.elmakers.com/Magic-RP-7.zip[m
+[02:40:24] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/items.yml
+[02:40:24] [Server thread/INFO]: [Magic]  Using inherited compatibility configs for: examples/versions/1.12/crafting.yml
+[02:40:24] [Server thread/INFO]: [Magic]  Using compatibility configs: examples/versions/1.12/mobs.yml
+[02:40:24] [Server thread/INFO]: [Magic] Loaded 0 attributes
+[02:40:24] [Server thread/WARN]: [Magic] [33m Unknown entity type: fox in friendly_entity_types[0m
+[02:40:24] [Server thread/WARN]: [Magic] [33m Unknown entity type: cat in friendly_entity_types[0m
+[02:40:24] [Server thread/WARN]: [Magic] [33m Unknown entity type: strider in friendly_entity_types[0m
+[02:40:24] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: barrel
+[02:40:24] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: smoker
+[02:40:24] [Server thread/INFO]: [Magic] Unknown container type in unstashable_containers list: blast_furnace
+[02:40:24] [Server thread/INFO]: [Magic] Wand crafting is enabled
+[02:40:24] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
+[02:40:24] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, arrow_knockback, regeneration, arrow_infinite, bowpower, degrees, seconds, target_pitch, dig_speed, humidity, pitch, jump, health_max, protection_fall, target_luck, target_light, blindness, absorption, target_armor, damage_undead, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, light, mana_max, water_worker, bowpull, damage, weeks, mending, epoch, protection_explosions, air, fast_digging, arrow_fire, lure, temperature, frost_walker, movement_speed_bps, protection_environmental, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, protection_projectile, mana, glowing, target_health, target_humidity, damage_arthropods, days, luck, thorns, target_hunger, location_x, location_y, target_mana, attack_damage, knockback, fire_aspect, knockback_resistance, saturation, location_z, target_air, oxygen, night_vision, level, minutes, durability, water_breathing, fall_distance, hunger, difficulty, armor, arrow_damage, fulltime, confusion, damage_dealt, harm, target_yaw, speed, damage_resistance, weakness, heal, loot_bonus_mobs, target_mana_max, protection_fire, hours, damage_all, velocity, sweeping_edge, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, wither, loot_bonus_blocks]
+[02:40:24] [Server thread/INFO]: [Magic] Loaded 182 icons
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 12 effect lists
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 1403 items
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 198 wands
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 2 kits
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 10 classes
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 5 classes
+[02:40:25] [Server thread/WARN]: [Magic] [33m Invalid villager_profession: FLETCHER[0m
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 49 mob templates
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 8 automata templates
+[02:40:25] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
+[02:40:25] [Server thread/INFO]: [Magic] Activated BStats
+[02:40:25] [Server thread/INFO]: [Magic] MobArena not found
+[02:40:25] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[02:40:25] [Server thread/INFO]: [Magic] ModelEngine integration disabled
+[02:40:25] [Server thread/INFO]: Magic checking resource pack for updates: [0;37;22mhttp://rp.elmakers.com/Magic-RP-7.zip[m
 
-[16:32:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:32:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:32:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:32:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:32:45] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:32:45] [Server thread/INFO]: Preparing level "world"
-[16:32:45] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:32:45] [Server thread/INFO]: Mob Spawn Range: 4
-[16:32:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:32:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:32:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:32:45] [Server thread/INFO]: Random Lighting Updates: false
-[16:32:45] [Server thread/INFO]: Structure Info Saving: true
-[16:32:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[16:32:45] [Server thread/INFO]: Max TNT Explosions: 100
-[16:32:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:32:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:32:45] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:32:45] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:32:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:32:45] [Server thread/INFO]: View Distance: 4
-[16:32:45] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:32:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:32:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:32:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:32:45] [Server thread/INFO]: Mob Spawn Range: 4
-[16:32:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:32:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:32:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:32:45] [Server thread/INFO]: Random Lighting Updates: false
-[16:32:45] [Server thread/INFO]: Structure Info Saving: true
-[16:32:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[16:32:45] [Server thread/INFO]: Max TNT Explosions: 100
-[16:32:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:32:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:32:45] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:32:45] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:32:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:32:45] [Server thread/INFO]: View Distance: 4
-[16:32:45] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:32:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:32:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:32:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:32:45] [Server thread/INFO]: Mob Spawn Range: 4
-[16:32:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Vine Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[16:32:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[16:32:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:32:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[16:32:45] [Server thread/INFO]: Random Lighting Updates: false
-[16:32:45] [Server thread/INFO]: Structure Info Saving: true
-[16:32:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[16:32:45] [Server thread/INFO]: Max TNT Explosions: 100
-[16:32:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:32:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:32:45] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:32:45] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:32:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:32:45] [Server thread/INFO]: View Distance: 4
-[16:32:45] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:32:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:32:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:32:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
-[16:32:46] [Server thread/INFO]: Preparing spawn area: 63%
-[16:32:46] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
-[16:32:47] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
-[16:32:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
-[16:32:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:32:47] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] Enabling PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] [32mConfig file successfully loaded.[0m
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] Loading item translations ...
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] Finished loading item translations for 692 items.
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[16:32:47] [Server thread/INFO]: [PCGF_PluginLib] [32m PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110 has been enabled! [33m :) [0m
-[16:32:47] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
-[16:32:47] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
-[16:32:47] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
-[16:32:47] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[16:32:47] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[16:32:47] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:32:47] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:32:47] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:32:47] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:32:47] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.11.3
-[16:32:47] [Server thread/INFO]: [VeinMiner] Registering events
-[16:32:47] [Server thread/INFO]: [VeinMiner] Registering commands
-[16:32:47] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[16:32:47] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
-[16:32:47] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[16:32:47] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
-[16:32:47] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
-[16:32:47] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
-[16:32:47] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[16:32:47] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[16:32:47] [Server thread/INFO]: 
+[02:40:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:40:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:40:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:40:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:40:25] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:40:25] [Server thread/INFO]: Preparing level "world"
+[02:40:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:40:25] [Server thread/INFO]: Mob Spawn Range: 4
+[02:40:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:40:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:40:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:40:25] [Server thread/INFO]: Random Lighting Updates: false
+[02:40:25] [Server thread/INFO]: Structure Info Saving: true
+[02:40:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:40:25] [Server thread/INFO]: Max TNT Explosions: 100
+[02:40:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:40:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:40:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:40:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:40:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:40:25] [Server thread/INFO]: View Distance: 4
+[02:40:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:40:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:40:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:40:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:40:25] [Server thread/INFO]: Mob Spawn Range: 4
+[02:40:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:40:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:40:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:40:25] [Server thread/INFO]: Random Lighting Updates: false
+[02:40:25] [Server thread/INFO]: Structure Info Saving: true
+[02:40:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:40:25] [Server thread/INFO]: Max TNT Explosions: 100
+[02:40:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:40:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:40:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:40:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:40:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:40:25] [Server thread/INFO]: View Distance: 4
+[02:40:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:40:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:40:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:40:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:40:25] [Server thread/INFO]: Mob Spawn Range: 4
+[02:40:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:40:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:40:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:40:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:40:25] [Server thread/INFO]: Random Lighting Updates: false
+[02:40:25] [Server thread/INFO]: Structure Info Saving: true
+[02:40:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:40:25] [Server thread/INFO]: Max TNT Explosions: 100
+[02:40:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:40:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:40:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:40:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:40:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:40:25] [Server thread/INFO]: View Distance: 4
+[02:40:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:40:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:40:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:40:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3363996879746144656)
+[02:40:26] [Server thread/INFO]: Preparing spawn area: 56%
+[02:40:27] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3363996879746144656)
+[02:40:27] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3363996879746144656)
+[02:40:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[02:40:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:40:28] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] Enabling PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] [32mConfig file successfully loaded.[0m
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] Loading item translations ...
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] Finished loading item translations for 692 items.
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[02:40:28] [Server thread/INFO]: [PCGF_PluginLib] [32m PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110 has been enabled! [33m :) [0m
+[02:40:28] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[02:40:28] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
+[02:40:28] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[02:40:28] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[02:40:28] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.11.3
+[02:40:28] [Server thread/INFO]: [VeinMiner] Registering events
+[02:40:28] [Server thread/INFO]: [VeinMiner] Registering commands
+[02:40:28] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[02:40:28] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[02:40:28] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[02:40:28] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[02:40:28] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
+[02:40:28] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[02:40:28] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[02:40:28] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[02:40:28] [Server thread/INFO]: 
     __                      ____                                         _    _____
    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
@@ -436,211 +435,347 @@ java.lang.IllegalArgumentException: COMPASS is not a valid meta-type
             /____//____/
 
 
-[16:32:47] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[16:32:47] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[16:32:47] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[16:32:47] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
-[16:32:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[16:32:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[16:32:48] [Server thread/INFO]: [WorldGuard] Loading region data...
-[16:32:48] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
-[16:32:48] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[02:40:28] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[02:40:28] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[02:40:28] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[02:40:28] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[02:40:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[02:40:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[02:40:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:40:29] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[02:40:29] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[16:32:48] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
+[02:40:29] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 7.6[m
 
-[16:32:48] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:32:48] [Server thread/INFO]: [StoneDrop] Enabling StoneDrop v2.2.1
-[16:32:48] [Server thread/INFO]: Loading config...
-[16:32:48] [Server thread/INFO]: Loading chances...
-[16:32:48] [Server thread/INFO]: [StoneDrop] Starting internal scheduler...[m
+[02:40:29] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[02:40:29] [Server thread/INFO]: [StoneDrop] Enabling StoneDrop v2.2.1
+[02:40:29] [Server thread/INFO]: Loading config...
+[02:40:29] [Server thread/INFO]: Loading chances...
+[02:40:29] [Server thread/INFO]: [StoneDrop] Starting internal scheduler...[m
 
-[16:32:48] [Server thread/INFO]: [StoneDrop] Starting internal scheduler...[m
+[02:40:29] [Server thread/INFO]: [StoneDrop] Starting internal scheduler...[m
 
-[16:32:48] [Server thread/INFO]: [StoneDrop] [0;32;1mConfiguration Loaded, Plugin enabled![m
+[02:40:29] [Server thread/INFO]: [StoneDrop] [0;32;1mConfiguration Loaded, Plugin enabled![m
 
-[16:32:48] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v7.7
-[16:32:48] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
-[16:32:48] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
-[16:32:48] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[16:32:48] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
+[02:40:29] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v7.7
+[02:40:29] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.31.6-T20250103114036
+[02:40:29] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[02:40:29] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[02:40:29] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
 
-[16:32:48] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[02:40:29] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
 
-[16:32:48] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+[02:40:29] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
 
-[16:32:48] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
-[16:32:48] [Server thread/INFO]: [CristichiTreeCapitator] Enabling CristichiTreeCapitator v3.0.1
-[16:32:48] [Server thread/INFO]: [CristichiTreeCapitator] Checking updates
-[16:32:48] [Server thread/INFO]: [0;32;22m[CristichiTreeCapitator] [0;32;1mUpdate available (from v3.0.1 to v6.4.4), use /treecapitator update[m
+[02:40:29] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[02:40:29] [Server thread/INFO]: [CristichiTreeCapitator] Enabling CristichiTreeCapitator v3.0.1
+[02:40:29] [Server thread/INFO]: [CristichiTreeCapitator] Checking updates
+[02:40:29] [Server thread/INFO]: [0;32;22m[CristichiTreeCapitator] [0;32;1mUpdate available (from v3.0.1 to v6.4.4), use /treecapitator update[m
 
-[16:32:48] [Server thread/INFO]: [CristichiTreeCapitator] WorldGuard detected. Your most important trees are protected!
-[16:32:48] [Server thread/INFO]: [CristichiTreeCapitator] Enabled
-[16:32:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[16:32:48] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib vv1.6
-[16:32:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[16:32:48] [Server thread/INFO]: [Slimefun] Enabling Slimefun vv4.1.15
-[16:32:48] [Server thread/INFO]: [Slimefun] Loading Files...
+[02:40:29] [Server thread/INFO]: [CristichiTreeCapitator] WorldGuard detected. Your most important trees are protected!
+[02:40:29] [Server thread/INFO]: [CristichiTreeCapitator] Enabled
+[02:40:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[02:40:29] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib vv1.6
+[02:40:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[02:40:29] [Server thread/INFO]: [Slimefun] Enabling Slimefun vv4.1.15
+[02:40:29] [Server thread/INFO]: [Slimefun] Loading Files...
 
-[16:32:48] [Server thread/INFO]: [Slimefun] Loading Config...
+[02:40:29] [Server thread/INFO]: [Slimefun] Loading Config...
 
-[16:32:48] [Thread-10/INFO]: [StoneDrop] About to download a new update: StoneDrop v.2.2.1
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 10% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 20% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 30% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 40% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 50% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 60% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 70% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 80% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 90% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Downloading update: 100% of 100525 bytes.
-[16:32:48] [Thread-10/INFO]: [StoneDrop] Finished updating.
-[16:32:48] [Server thread/INFO]: [Slimefun] Loading Items...
+[02:40:29] [Server thread/INFO]: [Slimefun] Loading Items...
 
-[16:32:49] [Server thread/INFO]: [Slimefun] Loading Researches...
+[02:40:29] [Thread-11/INFO]: [StoneDrop] About to download a new update: StoneDrop v.2.2.1
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 10% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 20% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 30% of 100525 bytes.
+[02:40:29] [Server thread/INFO]: [Slimefun] Loading Researches...
 
-[16:32:49] [Server thread/INFO]: [Slimefun] Loading World Generators...
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 40% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 50% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 60% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 70% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 80% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 90% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Downloading update: 100% of 100525 bytes.
+[02:40:29] [Thread-11/INFO]: [StoneDrop] Finished updating.
+[02:40:29] [Server thread/INFO]: [Slimefun] Loading World Generators...
 
-[16:32:49] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Oil
+[02:40:29] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Oil
 
-[16:32:49] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Nether Ice
+[02:40:29] [Server thread/INFO]: [Slimefun - GEO] Registering Ore Gen: Nether Ice
 
-[16:32:49] [Server thread/INFO]: [Slimefun] Successfully hooked into WorldEdit!
+[02:40:29] [Server thread/INFO]: [Slimefun] Successfully hooked into WorldEdit!
 
-[16:32:49] [Server thread/INFO]: [Slimefun] Finished!
+[02:40:29] [Server thread/INFO]: [Slimefun] Finished!
 
-[16:32:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[16:32:49] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[16:32:49] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[16:32:49] [Server thread/INFO]: No kits found to migrate.
-[16:32:49] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[16:32:49] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[16:32:49] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
-[16:32:49] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[16:32:49] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[16:32:49] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[16:32:49] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[16:32:49] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[16:32:49] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
-[16:32:49] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[16:32:49] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[16:32:49] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[16:32:49] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
-[16:32:49] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[16:32:49] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
-[16:32:49] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[16:32:49] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[16:32:49] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
-[16:32:49] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[16:32:49] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
-[16:32:49] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[16:32:49] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
-[16:32:49] [Server thread/INFO]: Loaded 853 items from items.csv.
-[16:32:49] [Server thread/INFO]: Using locale en
-[16:32:49] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[16:32:49] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[16:32:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[16:32:49] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[16:32:49] [Server thread/INFO]: [MobHunting] Enabling MobHunting v6.0.0
-[16:32:49] [Server thread/INFO]: [0;33;22m[MobHunting] [mYour config version is 1[m
+[02:40:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[02:40:30] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[02:40:30] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[02:40:30] [Server thread/INFO]: No kits found to migrate.
+[02:40:30] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[02:40:30] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[02:40:30] [Server thread/INFO]: Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:40:30] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:40:30] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[02:40:30] [Server thread/INFO]: Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[02:40:30] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:40:30] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[02:40:30] [Server thread/INFO]: No provider found for TickCountProvider, but it is nullable
+[02:40:30] [Server thread/INFO]: Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:40:30] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:40:30] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[02:40:30] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
+[02:40:30] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[02:40:30] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:40:30] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
+[02:40:30] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[02:40:30] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[02:40:30] [Server thread/INFO]: Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:40:30] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[02:40:30] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[02:40:30] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[02:40:30] [Server thread/INFO]: Loaded 853 items from items.csv.
+[02:40:30] [Server thread/INFO]: Using locale en
+[02:40:30] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[02:40:30] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[02:40:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:40:30] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[02:40:30] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[02:40:30] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[02:40:30] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[02:40:31] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[02:40:31] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[02:40:31] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.7.8-Release
+[02:40:31] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[02:40:31] [Server thread/INFO]: [MarriageMaster] [32mSuccessful linked with [33mMinepacks v2.4.31.6-T20250103114036[32m![0m
+[02:40:31] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Loading marriages ...
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Marriages loaded
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Loading priests ...
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Priests loaded
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Loading players ...
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Players loaded
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Loading marriages into cache ...
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Marriages loaded into cache
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Loading homes ...
+[02:40:31] [Thread-15/INFO]: [MarriageMaster] Homes loaded
+[02:40:31] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[02:40:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
+[02:40:31] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[02:40:31] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
 
-[16:32:50] [Server thread/INFO]: [0;33;22m[MobHunting][m Config.yml was backed up to plugins/MobHunting/backup/config.yml.bak7[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 section configs from /sections/[m
 
-[16:32:50] [Server thread/INFO]: [0;33;22m[MobHunting] [mDatabase version 7 detected.[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 shop configs from /shops/[m
 
-[16:32:50] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with Essentials (2.21.0-dev+189-eab2201)[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
 
-[16:32:50] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with WorldEdit (6.1.9;caf0ad9)[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
 
-[16:32:50] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with WorldGuard (6.2.2-SNAPSHOT;8eeab68)[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 16 shop sections.[m
 
-[16:32:50] [Server thread/ERROR]: Error occurred while enabling MobHunting v6.0.0 (Is it up to date?)
-java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field 'org.bukkit.Material WOODEN_AXE'
-	at one.lindegaard.MobHunting.achievements.AxeMurderer.getSymbol(AxeMurderer.java:61) ~[?:?]
-	at io.chazza.advancementapi.AdvancementManager.getAdvancementsFromAchivements(AdvancementManager.java:47) ~[?:?]
-	at one.lindegaard.MobHunting.MobHunting.onEnable(MobHunting.java:342) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:403) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:381) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:32:50] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.7.8-Release
-[16:32:50] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
-[16:32:50] [Server thread/INFO]: [MarriageMaster] [32mSuccessful linked with [33mMinepacks v2.4.31.6-T20250103114036[32m![0m
-[16:32:50] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Loading marriages ...
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Marriages loaded
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Loading priests ...
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Priests loaded
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Loading players ...
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Players loaded
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Loading marriages into cache ...
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Marriages loaded into cache
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Loading homes ...
-[16:32:50] [Thread-14/INFO]: [MarriageMaster] Homes loaded
-[16:32:50] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
-[16:32:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+189-eab2201
-[16:32:50] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[16:32:50] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.11.1
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 section configs from /sections/[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 18 shop configs from /shops/[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Successfully hooked into Vault and using EssentialsX Economy as economy provider[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 1 economy provider(s) for all 16 shop sections.[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using minecraft version 1.12.2...[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Spawner provider set to AUTO in config[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Automatically searching for compatible spawner provider....[m
+[02:40:31] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 499ms to complete[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Failed to automatically find compatible spawner provider, using default...[m
+[02:40:31] [Server thread/INFO]: [CustomItemsLib] Enabling CustomItemsLib v1.0.8
+[02:40:31] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file en_US.lang from JAR.[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;33;22mDEBUG[0;30;1m][m: This item material is not supported in this minecraft version.[m
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file fr_FR.lang from JAR.[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Item path in config.yml: spawner-break-tools.3[m
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file hu_HU.lang from JAR.[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Debug mode is enabled.[m
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file pl_PL.lang from JAR.[m
 
-[16:32:50] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Loading all items...[m
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file pt_BR.lang from JAR.[m
 
-[16:32:51] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Initialized - Took 505ms to complete[m
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file ru_RU.lang from JAR.[m
 
-[16:32:51] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
-[16:32:51] [ESGUI_UTIL_THREAD #0/WARN]: Invalid version numbering for 'v6.11.1'
-[16:32:51] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[16:32:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:32:51] [Server thread/INFO]: Done (6.258s)! For help, type "help" or "?"
-[16:32:51] [Craft Scheduler Thread - 1/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/holograms
-[16:32:51] [Craft Scheduler Thread - 2/INFO]: [DecentHolograms] Created directory plugins/DecentHolograms/animations
-[16:32:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
-[16:32:51] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
-[16:32:51] [Server thread/WARN]: [CS-CoreLib] Task #3788 for CS-CoreLib vv1.6 generated an exception
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCreating language file zh_CN.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib][Debug] [mLoading config.yml file, version -1[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib][Debug] [mInitialize database[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [m Database version 0 detected.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [m Adding RandomBounty Player to CustomItemsLibs Database.[m
+
+[02:40:31] [BGC TaskThread/INFO]: [0;33;22m[CustomItemsLib][Debug] [mSaving CustomItemsLib data[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mEnabling compatibility with ProtocolLib (5.3.0).[m
+
+[02:40:31] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[02:40:31] [Server thread/WARN]: [ProtocolLib] [OutboundPacketListenerSet] Plugin CustomItemsLib tried to register listener for unknown packet RECIPE_UPDATE[PLAY, SERVER, 119, classNames: [net.minecraft.server.v1_12_R1.PacketPlayOutUpdateRecipes, net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket, PacketPlayOutUpdateRecipes, ClientboundUpdateRecipesPacket, UpdateRecipes, net.minecraft.server.v1_12_R1.PacketPlayOutRecipeUpdate, net.minecraft.network.protocol.game.ClientboundRecipeUpdatePacket, PacketPlayOutRecipeUpdate, ClientboundRecipeUpdatePacket, RecipeUpdate] (unregistered)] [direction: from SERVER]
+[02:40:31] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mCustomItemsLib is using EssentialsX Economy via Vault as Economy Provider[m
+
+[02:40:31] [Server thread/INFO]: [BagOfGold] Enabling BagOfGold v4.5.5
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mCreating language file en_US.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mCreating language file hu_HU.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mCreating language file pt_BR.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mCreating language file zh_CN.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mCreating language file fr_FR.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mCreating language file ru_RU.lang from JAR.[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold][m Config.yml was backed up to plugins/BagOfGold/backup/config.yml.bak1[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold][0;37;1m Database version 4 detected.[m
+
+[02:40:31] [BG TaskThread/WARN]: Exception in thread "BG TaskThread" 
+[02:40:31] [BG TaskThread/WARN]: java.lang.NoSuchMethodError: 'org.bukkit.configuration.file.YamlConfigurationOptions org.bukkit.configuration.file.YamlConfigurationOptions.setHeader(java.util.List)'
+
+[02:40:31] [BG TaskThread/WARN]: 	at one.lindegaard.BagOfGold.bank.BankManager.save(BankManager.java:140)
+
+[02:40:31] [BG TaskThread/WARN]: 	at one.lindegaard.BagOfGold.storage.asynch.StoreTask.run(StoreTask.java:34)
+
+[02:40:31] [BG TaskThread/WARN]: 	at one.lindegaard.BagOfGold.storage.asynch.StoreTask.run(StoreTask.java:11)
+
+[02:40:31] [BG TaskThread/WARN]: 	at one.lindegaard.BagOfGold.storage.DataStoreManager$TaskThread.run(DataStoreManager.java:258)
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mEnabling compatibility with Essentials (2.21.0-dev+189-eab2201)[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mEnabling compatibility with WorldEdit (6.1.9;caf0ad9)[m
+
+[02:40:31] [Server thread/INFO]: [0;33;22m[BagOfGold] [mEnabling compatibility with WorldGuard (6.2.2-SNAPSHOT;8eeab68)[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[BagOfGold] [m[Economy] Vault found: Waiting[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mEnabling compatibility with BagOfGold (4.5.5)[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[BagOfGold] [mhooked into Vault[m
+
+[02:40:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[02:40:32] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[02:40:32] [Server thread/INFO]: [MobHunting] Enabling MobHunting v8.5.4
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mYour config version is -1[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Minecraft.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Minecraft.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Minecraft.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.MythicMobs.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.MythicMobs.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.MythicMobs.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Citizens.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Citizens.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Citizens.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.TARDISWeepingAngels.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.TARDISWeepingAngels.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.TARDISWeepingAngels.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.CustomMobs.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.CustomMobs.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.CustomMobs.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.MysteriousHalloween.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.MysteriousHalloween.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.MysteriousHalloween.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.SmartGiants.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.SmartGiants.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.SmartGiants.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.InfernalMobs.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.InfernalMobs.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.InfernalMobs.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Herobrine.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Herobrine.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Herobrine.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.EliteMobs.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.EliteMobs.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.EliteMobs.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Boss.kills) in language fileen_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Boss.assists) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (stats.Boss.cashs) in language file en_US.lang[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][m Updated en_US.lang language file[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mCreating new config.yml, version=1[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with Essentials (2.21.0-dev+189-eab2201)[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with BagOfGold (4.5.5)[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mMobHunting is using BagOfGold via Vault as Economy Provider[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mDatabase version 7 detected.[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting][0;32;1mCopying players from MobHunting til BagOfGoldCore database[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [m99 Minecraft Vanilla Mobs was inserted to mh_Mobs[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with WorldEdit (6.1.9;caf0ad9)[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[MobHunting] [mEnabling compatibility with WorldGuard (6.2.2-SNAPSHOT;8eeab68)[m
+
+[02:40:32] [Server thread/INFO]: [0;33;22m[CustomItemsLib] [mEnabling compatibility with MobHunting (8.5.4)[m
+
+[02:40:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:40:33] [Server thread/INFO]: Done (7.496s)! For help, type "help" or "?"
+[02:40:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[02:40:33] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[02:40:33] [Server thread/WARN]: [CS-CoreLib] Task #3785 for CS-CoreLib vv1.6 generated an exception
 java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
 	at me.mrCookieSlime.CSCoreLibPlugin.protection.modules.WorldGuardProtectionModule.<clinit>(WorldGuardProtectionModule.java:18) ~[?:?]
 	at me.mrCookieSlime.CSCoreLibPlugin.protection.ProtectionManager.<init>(ProtectionManager.java:37) ~[?:?]
@@ -659,153 +794,119 @@ Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 10 more
-[16:32:51] [Server thread/INFO]: [0;36;1m###################### - Slimefun - ######################[m
+[02:40:33] [Server thread/INFO]: [0;33;1m###################### - Slimefun - ######################[m
 
-[16:32:51] [Server thread/INFO]: [0;36;1mSuccessfully loaded 467 Items (225 Researches)[m
+[02:40:33] [Server thread/INFO]: [0;33;1mSuccessfully loaded 467 Items (225 Researches)[m
 
-[16:32:51] [Server thread/INFO]: [0;36;1m( 467 Items from Slimefun, 0 Items from Addons )[m
+[02:40:33] [Server thread/INFO]: [0;33;1m( 467 Items from Slimefun, 0 Items from Addons )[m
 
-[16:32:51] [Server thread/INFO]: [0;36;1m##########################################################[m
+[02:40:33] [Server thread/INFO]: [0;33;1m##########################################################[m
 
-[16:32:51] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
+[02:40:33] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world"
 
-[16:32:51] [Server thread/INFO]: [Slimefun] This may take a long time...
+[02:40:33] [Server thread/INFO]: [Slimefun] This may take a long time...
 
-[16:32:51] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
+[02:40:33] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
 
-[16:32:51] [Server thread/INFO]: [Slimefun] This may take a long time...
+[02:40:33] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world"
 
-[16:32:51] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
+[02:40:33] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_nether"
 
-[16:32:51] [Server thread/INFO]: [Slimefun] This may take a long time...
+[02:40:33] [Server thread/INFO]: [Slimefun] This may take a long time...
 
-[16:32:51] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[16:32:51] [Server thread/INFO]: [0;33;22m[MobHunting] [mChecking for new updates...[m
+[02:40:33] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
 
-[16:32:51] [Craft Scheduler Thread - 4/INFO]: §6Fetching version information...
-[16:32:51] [Server thread/INFO]: [Magic] Vault found, 'currency' cost types available
-[16:32:51] [Server thread/INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
-[16:32:51] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
-[16:32:51] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
-[16:32:51] [Server thread/INFO]: [Magic] Couldn't load spell icon 'warped_sign{CustomModelData:18001}' for spell: gps
-[16:32:52] [Server thread/INFO]: [Magic] Loaded 554 spells
-[16:32:52] [Server thread/INFO]: [Magic] Loaded 12 progression paths
-[16:32:52] [Server thread/WARN]: [Magic] [33m Ingredient is not used in recipe wand, this may be normal if overriding an existing recipe or on an older server version, but if it is a custom recipe this may be a mistake d: diamond[0m
-[16:32:52] [Server thread/WARN]: [Magic] [33m Ingredient is not used in recipe wand, this may be normal if overriding an existing recipe or on an older server version, but if it is a custom recipe this may be a mistake e: emerald[0m
-[16:32:52] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
-[16:32:52] [Server thread/INFO]: [Magic] [skull{display:{Name:"{\"text\":\"Copper Chunk\"}"},SkullOwner:{Id:[I;-1036162939,-1851833705,-1803264362,-2044992477],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc2NDA2MGI4MThlNGE2NzA2NzEzYzg1MWRmNTJhZmZiNzAwODM3MDE5Y2JkNzcxMjZlYTE1NGU3MGNkNjcxYyJ9fX0="}]}}}] Custom NBT tags on items are no longer supported. Please change to the {1234} syntax for custom model data.
-[16:32:52] [Server thread/INFO]: [Magic] LogBlock not found
-[16:32:52] [Server thread/INFO]: [Magic] Integrating with Essentials for vanish detection
-[16:32:52] [Server thread/INFO]: [Magic] Integrating with Essentials for Recall warps
-[16:32:52] [Server thread/INFO]: [Magic] Essentials found, hooked up custom item handler
-[16:32:52] [Server thread/INFO]: [Magic] Factions not found
-[16:32:52] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
-[16:32:52] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
-[16:32:52] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
-[16:32:52] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
-[16:32:52] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
-[16:32:52] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
-[16:32:52] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
-[16:32:52] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
-[16:32:52] [Server thread/INFO]: [Magic] Loaded 0 arenas
-[16:32:52] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: fireproof_drowned[0m
-[16:32:52] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: trident_drowned[0m
-[16:32:52] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: spinny_fox[0m
-[16:32:52] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: scaredy[0m
-[16:32:52] [Server thread/INFO]: [Magic] Finished loading configuration
-[16:32:52] [Server thread/INFO]: [Magic] Finished loading data.
-[16:32:52] [Craft Scheduler Thread - 6/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:32:52] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
-[16:32:52] [Server thread/INFO]: [0;32;1mResource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)[m
+[02:40:33] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_nether"
 
-[16:32:52] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
-[16:32:52] [Thread-16/INFO]: [CS-CoreLib - Updater] Slimefun is up to date!
+[02:40:33] [Server thread/INFO]: [Slimefun] Loading Blocks for World "world_the_end"
 
-[16:32:53] [Craft Scheduler Thread - 3/INFO]: [0;33;22m[MobHunting] [0;32;1mnew version available: 8.5.4[m
+[02:40:33] [Server thread/INFO]: [Slimefun] This may take a long time...
 
-[16:32:53] [Craft Scheduler Thread - 3/INFO]: [0;33;22m[MobHunting] [0;32;1mPlease type '/mh update' to update.[m
+[02:40:33] [Server thread/INFO]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
 
-[16:34:07] [User Authenticator #1/INFO]: UUID of player yay is e67ee45d-284a-3c98-b166-c7bad8f5fb03
-[16:34:07] [Server thread/INFO]: yay[/127.0.0.1:44602] logged in with entity id 30 at ([world]0.5, 32.0, 235.5)
-[16:34:07] [Server thread/WARN]: [MobHunting] Task #3825 for MobHunting v6.0.0 generated an exception
-java.lang.NoSuchFieldError: Class org.bukkit.Material does not have member field 'org.bukkit.Material LEGACY_SKULL'
-	at one.lindegaard.MobHunting.rewards.CustomItems.getPlayerHead(CustomItems.java:95) ~[?:?]
-	at one.lindegaard.MobHunting.PlayerSettingsManager$1.onCompleted(PlayerSettingsManager.java:125) ~[?:?]
-	at one.lindegaard.MobHunting.PlayerSettingsManager$1.onCompleted(PlayerSettingsManager.java:112) ~[?:?]
-	at one.lindegaard.MobHunting.storage.DataStoreManager$CallbackCaller.run(DataStoreManager.java:341) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:361) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:739) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) ~[server.jar:git-Spigot-79a30d7-acbc348]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:34:08] [Server thread/INFO]: yay has made the advancement [Getting an Upgrade]
-[16:34:17] [Server thread/INFO]: yay lost connection: Disconnected
-[16:34:17] [Server thread/INFO]: yay left the game
-[16:34:58] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
-[16:34:58] [Server thread/INFO]: Stopping the server
-[16:34:58] [Server thread/INFO]: Stopping server
-[16:34:58] [Server thread/INFO]: Disabling EssentialsSpawn v2.21.0-dev+189-eab2201
-[16:34:58] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.11.1
-[16:34:58] [Server thread/INFO]: Disabling EssentialsChat v2.21.0-dev+189-eab2201
-[16:34:58] [Server thread/INFO]: [Magic] Disabling Magic v10.9.6-1e5f908
-[16:34:58] [Server thread/INFO]: [MarriageMaster] Disabling MarriageMaster v2.7.8-Release
-[16:34:58] [Server thread/INFO]: [MarriageMaster] Cleaning database cache.
-[16:34:58] [Server thread/INFO]: [MarriageMaster] Database cache cleaned.
-[16:34:58] [Server thread/INFO]: [MarriageMaster] [31m Marriage Master has been disabled. [33m :( [0m
-[16:34:58] [Server thread/INFO]: [MobHunting] Disabling MobHunting v6.0.0
-[16:34:58] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+189-eab2201
-[16:34:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[16:34:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[16:34:58] [Server thread/INFO]: [Slimefun] Disabling Slimefun vv4.1.15
-[16:34:58] [Server thread/INFO]: [Slimefun] Backed up Blocks to 2025-03-14-16-34.zip
+[02:40:33] [Server thread/INFO]: [Slimefun] Loaded a total of 0 Blocks for World "world_the_end"
 
-[16:34:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
-[16:34:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[16:34:58] [Server thread/INFO]: [LuckPerms] Closing storage...
-[16:34:58] [Server thread/INFO]: [LuckPerms] Goodbye!
-[16:34:58] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.5
-[16:34:58] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[16:34:58] [Server thread/INFO]: [CS-CoreLib] Disabling CS-CoreLib vv1.6
-[16:34:58] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[16:34:58] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[16:34:58] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[16:34:58] [Server thread/INFO]: [CristichiTreeCapitator] Disabling CristichiTreeCapitator v3.0.1
-[16:34:58] [Server thread/INFO]: [CristichiTreeCapitator] Disabled
-[16:34:58] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.4.31.6-T20250103114036
-[16:34:59] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
-[16:34:59] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v7.7
-[16:34:59] [Server thread/INFO]: [StoneDrop] Disabling StoneDrop v2.2.1
-[16:34:59] [Server thread/INFO]: [StoneDrop] [0;37;22mSaving config data...[m
+[02:40:33] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:40:33] [Craft Scheduler Thread - 2/INFO]: §6Fetching version information...
+[02:40:33] [Server thread/INFO]: [Magic] Vault found, 'currency' cost types available
+[02:40:33] [Server thread/INFO]: [Magic] Registered currencies: item,mana,xp,health,currency,sp,levels,hunger
+[02:40:33] [Thread-17/INFO]: [CS-CoreLib - Updater] Slimefun is up to date!
 
-[16:34:59] [Server thread/INFO]: [0;37;22m[StoneDrop] Config file saved![m
+[02:40:33] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
+[02:40:33] [Server thread/WARN]: [Magic] [33m Invalid item key: warped_sign{CustomModelData:18001}[0m
+[02:40:33] [Server thread/INFO]: [Magic] Couldn't load spell icon 'warped_sign{CustomModelData:18001}' for spell: gps
+[02:40:33] [Server thread/INFO]: [Magic] Loaded 554 spells
+[02:40:33] [Server thread/INFO]: [Magic] Loaded 12 progression paths
+[02:40:33] [Server thread/WARN]: [Magic] [33m Ingredient is not used in recipe wand, this may be normal if overriding an existing recipe or on an older server version, but if it is a custom recipe this may be a mistake d: diamond[0m
+[02:40:33] [Server thread/WARN]: [Magic] [33m Ingredient is not used in recipe wand, this may be normal if overriding an existing recipe or on an older server version, but if it is a custom recipe this may be a mistake e: emerald[0m
+[02:40:33] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
+[02:40:33] [Server thread/INFO]: [Magic] [skull{display:{Name:"{\"text\":\"Copper Chunk\"}"},SkullOwner:{Id:[I;-1036162939,-1851833705,-1803264362,-2044992477],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc2NDA2MGI4MThlNGE2NzA2NzEzYzg1MWRmNTJhZmZiNzAwODM3MDE5Y2JkNzcxMjZlYTE1NGU3MGNkNjcxYyJ9fX0="}]}}}] Custom NBT tags on items are no longer supported. Please change to the {1234} syntax for custom model data.
+[02:40:33] [Server thread/INFO]: [Magic] LogBlock not found
+[02:40:33] [Server thread/INFO]: [Magic] Integrating with Essentials for vanish detection
+[02:40:33] [Server thread/INFO]: [Magic] Integrating with Essentials for Recall warps
+[02:40:33] [Server thread/INFO]: [Magic] Essentials found, hooked up custom item handler
+[02:40:33] [Server thread/INFO]: [Magic] Factions not found
+[02:40:33] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
+[02:40:33] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[02:40:33] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[02:40:33] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[02:40:33] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[02:40:33] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
+[02:40:33] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[02:40:33] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
+[02:40:33] [Server thread/INFO]: [Magic] Loaded 0 arenas
+[02:40:33] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: fireproof_drowned[0m
+[02:40:33] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: trident_drowned[0m
+[02:40:33] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: spinny_fox[0m
+[02:40:33] [Server thread/WARN]: [Magic] [33m Mob config missing 'type' and not a vanilla mob type: scaredy[0m
+[02:40:33] [Server thread/INFO]: [Magic] Finished loading configuration
+[02:40:33] [Server thread/INFO]: [Magic] Finished loading data.
+[02:40:33] [Server thread/INFO]: [0;32;1mResource pack has not changed, using hash XXwMvDZbIpjdKdbSWZPDNBLHxIk= (1614208353000 <= 1614208353000)[m
 
-[16:34:59] [Server thread/INFO]: [StoneDrop] [0;31;22mPlugin disabled![m
+[02:40:33] [Craft Scheduler Thread - 4/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:40:33] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[02:40:33] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Camel.name) in language file en_US.lang[m
 
-[16:34:59] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v7.6
-[16:34:59] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Sniffer.name) in language file en_US.lang[m
 
-[16:34:59] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 7.6[m
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Updated en_US.lang language file[m
 
-[16:34:59] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
-[16:34:59] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
-[16:34:59] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
-[16:34:59] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
-[16:34:59] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[16:34:59] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.7
-[16:34:59] [Server thread/INFO]: [PlayerCarry] Disabling PlayerCarry v1.1
-[16:34:59] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v1.11.3
-[16:34:59] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[16:34:59] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[16:34:59] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[16:34:59] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[16:34:59] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
-[16:34:59] [Server thread/INFO]: [PCGF_PluginLib] Disabling PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110
-[16:34:59] [Server thread/INFO]: [PCGF_PluginLib] [31m PCGF_PluginLib v1.0.39.8-SNAPSHOT-T20250102182110 has been disabled. [33m :( [0m
-[16:34:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
-[16:34:59] [Server thread/INFO]: Saving players
-[16:34:59] [Server thread/INFO]: Saving worlds
-[16:34:59] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[16:34:59] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[16:34:59] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Camel.name) in language file hu_HU.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Sniffer.name) in language file hu_HU.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.ElderGuardian.name) in language file hu_HU.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Updated hu_HU.lang language file[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Camel.name) in language file zh_CN.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Sniffer.name) in language file zh_CN.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Updated zh_CN.lang language file[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Camel.name) in language file ru_RU.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Sniffer.name) in language file ru_RU.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Updated ru_RU.lang language file[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Camel.name) in language file pl_PL.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Creating missing key (mobs.Sniffer.name) in language file pl_PL.lang[m
+
+[02:40:38] [Server thread/INFO]: [0;33;22m[MobHunting][m Updated pl_PL.lang language file[m
+
+[02:41:03] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
+[02:41:03] [Server thread/INFO]: Stopping the server
+[02:41:03] [Server thread/INFO]: Stopping server
+[02:41:03] [Server thread/INFO]: [MobHunting] Disabling MobHunting v8.5.4
+[02:41:03] [Server thread/INFO]: [0;33;22m[MobHunting] [mClosing database connection.[m
+
+[02:41:03] [Server thread/INFO]: [0;33;22m[MobHunting] [mMobHunting disabled.[m
+
+[02:41:03] [Server thread/INFO]: Disabling EssentialsSpawn v2.21.0-dev+189-eab2201
+[02:41:03] [Server thread/INFO]: [BagOfGold] Disabling BagOfGold v4.5.5
+[02:41:03] [Server thread/INFO]: [0;33;22m[BagOfGold] [0;37;1munhooked from Vault[m
+
