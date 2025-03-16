@@ -1,8 +1,5 @@
 users:
   9999-9999:
-    DIAMOND_SWORD: true
-    LAPIS_LAZULI: true
-    LAPIS_ORE: true
     COAL: true
     DIAMOND: true
     DIAMOND_ORE: true
@@ -10,11 +7,10 @@ users:
     GOLD_INGOT: true
     IRON_INGOT: true
     REDSTONE: true
+    DIAMOND_PICKAXE: true
     COBBLE: false
+    STACK: false
   e67ee45d-284a-3c98-b166-c7bad8f5fb03:
-    DIAMOND_SWORD: true
-    LAPIS_LAZULI: true
-    LAPIS_ORE: true
     COAL: true
     DIAMOND: true
     DIAMOND_ORE: true
@@ -22,20 +18,9 @@ users:
     GOLD_INGOT: true
     IRON_INGOT: true
     REDSTONE: true
+    DIAMOND_PICKAXE: true
     COBBLE: false
-  887caaf0-d84a-31bf-ba80-4120878a9e1f:
-    DIAMOND_SWORD: true
-    LAPIS_LAZULI: true
-    LAPIS_ORE: true
-    COAL: true
-    DIAMOND: true
-    DIAMOND_ORE: true
-    EMERALD: true
-    GOLD_INGOT: true
-    IRON_INGOT: true
-    REDSTONE: true
-    COBBLE: false
+    STACK: false
 userVersion:
-  9999-9999: 2.2.1
+  9999-9999: 2.0.0
   e67ee45d-284a-3c98-b166-c7bad8f5fb03: 2.2.1
-  887caaf0-d84a-31bf-ba80-4120878a9e1f: 2.2.1

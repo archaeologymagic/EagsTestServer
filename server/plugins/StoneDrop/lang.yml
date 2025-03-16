@@ -1,10 +1,8 @@
-# If you are customizing messages then make sure you are quoting them!
-# Example:
-#     EXAMPLE_MESSAGE: "&6This is example that is properly quoted."
-# Without this plugin won't be able to read any special characters like color chars.
-
 PERMISSION_MISSING: You don't have permission to use that command!
-COMMAND_ARGUMENT_UNKNOWN: Unknown command argument.
+COMMAND_ARGUMENT_UNKNOWN: |-
+  Unknown argument!
+  Command should look like:
+   &6/drop <info, stack, DROPPABLE_NAME>
 GUI_TITLE: Item Drop Chances
 GUI_EXIT_BUTTON: Exit
 GUI_BACK_BUTTON: Back

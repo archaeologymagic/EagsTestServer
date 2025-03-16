@@ -11,7 +11,6 @@ nav-bar:
 item:
   material: GRINDSTONE
   lore:
-  - '&8&lGive your villager a job,'
-  - '&8&lor use it for your own.'
+  - '&8&lGet youself a place for your work.'
   displayname: '&7&lWorkstations'
   name: '&7&lWorkstations'

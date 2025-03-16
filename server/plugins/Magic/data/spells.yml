@@ -227,7 +227,7 @@ dragonexplodelightning:
   cast_count: 0
   last_cast: 0
 pull:
-  cast_count: 1835008
+  cast_count: 1924145348608
   last_cast: 0
 torture:
   cast_count: 0
@@ -308,7 +308,7 @@ fillwand:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 2621440
+  cast_count: 2748779069440
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -695,7 +695,7 @@ dragonpoison:
   cast_count: 0
   last_cast: 0
 controlsmenu:
-  cast_count: 262144
+  cast_count: 274877906944
   last_cast: 0
 remove_fall_protection:
   cast_count: 0
@@ -1061,7 +1061,7 @@ singularity:
   cast_count: 0
   last_cast: 0
 progressmenu:
-  cast_count: 786432
+  cast_count: 824633720832
   last_cast: 0
 ghast:
   cast_count: 0

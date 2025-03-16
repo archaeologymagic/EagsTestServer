@@ -631,3 +631,11 @@
 [2025-03-14 14:40:51] - DeeJayz sold 128 x Spider Eye(Mobs.page1.items.13) for $224.00 with the sell screen.
 [2025-03-14 14:52:14] - yay bought 1 x The Chest Of Might(Armor.page1.items.example-item) for $150,000.00 with the buy screen.
 [2025-03-14 14:57:10] - DeeJayz bought 1 x The Chest Of Might(Armor.page1.items.example-item) for $150,000.00 with the buy screen.
+[2025-03-16 03:52:11] - yay sold 7 x Sand(Blocks.page2.items.64) for $10.50 with the sell all command.
+[2025-03-16 12:24:38] - yay sold 64 x Ink Sack(Dyes.page1.items.7) for $17.28 with the sell all command.
+[2025-03-16 12:25:59] - yay sold 3 x Arrow(Mobs.page1.items.1) for $1.71 with the sell all command.
+[2025-03-16 12:32:44] - yay sold 4 x Sapling(Decoration.page1.items.10) for $3.00 with the sell all command.
+[2025-03-16 12:32:52] - yay sold 32 x Sapling(Decoration.page1.items.13) for $24.00 with the sell all command.
+[2025-03-16 12:34:39] - yay sold 220 x Wood(Blocks.page3.items.94) for $61.60 with the sell all command.
+[2025-03-16 12:35:07] - yay sold 68 x Wood(Blocks.page2.items.82) for $19.04 with the sell all command.
+[2025-03-16 13:00:23] - yay sold 2 x Arrow(Mobs.page1.items.1) for $1.14 with the sell all command.

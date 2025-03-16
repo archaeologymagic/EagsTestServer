@@ -1,50 +1,5 @@
-# These are chances of drop from STONE (all materials in section: dropBlocks)
-# More info about config: https://github.com/ULTUX/StoneDropPlugin/wiki/Config-file
-# Permissions: https://github.com/ULTUX/StoneDropPlugin/wiki/Permissions
+#These are chances of drop from STONE
 chances:
-  DIAMOND_SWORD: #Item name to drop. Should be Unique
-    minLevel: 0   #Min Y level to drop this item
-    maxLevel: 120 #Max Y level to drop this item
-    customName: "&bMuad'Dib's Crysknife"
-    fortune-0: #Pickaxe enchants, which allow to drop.
-      chance: 0.002 #if restricted-silk-touch is false, that is also chance for silk touch
-      max-amount: 1 # max ind min amount to drop. The amount is choosing randomly between these boundaries
-      min-amount: 1 # this case, always will drop only 1 sword by no fortune pickaxe
-    fortune-1:
-      chance: 0.003
-      max-amount: 1
-      min-amount: 1
-    fortune-3: #wont drop on fortune-2, if fortune-n is not set then chance equal 0
-      chance: 0.005
-      max-amount: 1
-      min-amount: 1
-    enchant: #List of all enchantments that should be applied for dropped pickaxe
-      sharpness: 5
-    biomes:       #Drop only on following biomes. If you want all, delete this section like upon
-         - desert
-         - badlands
-  LAPIS_LAZULI:
-    fortune-0:
-      chance: 0.02
-      max-amount: 1
-      min-amount: 1
-    fortune-1:
-      chance: 0.021
-      max-amount: 2
-      min-amount: 1
-    fortune-2:
-      chance: 0.022
-      max-amount: 3
-      min-amount: 2
-    fortune-3:
-      chance: 0.023
-      max-amount: 4
-      min-amount: 3
-  LAPIS_ORE:
-    silk_touch-1:
-      chance: 0.02
-      max-amount: 1
-      min-amount: 1
   COAL:
     fortune-0:
       chance: 0.02
@@ -65,6 +20,7 @@ chances:
   DIAMOND:
     minLevel: 0
     maxLevel: 25
+    customName: "&bCustom named diamond that is found on Y=<0, 25>!"
     fortune-0:
       chance: 0.0025
       max-amount: 1
@@ -78,14 +34,15 @@ chances:
       max-amount: 3
       min-amount: 2
     fortune-3:
-      chance: 0.0031
+      chance: 0.00325
       max-amount: 4
       min-amount: 3
   DIAMOND_ORE:
     minLevel: 0
     maxLevel: 25
+    customName: "&bCustom named diamond that is found on Y=<0, 25>!"
     silk_touch-1:
-      chance: 0.0025
+      chance: 0.1
       max-amount: 1
       min-amount: 1
   EMERALD:
@@ -156,15 +113,37 @@ chances:
       chance: 0.01
       max-amount: 6
       min-amount: 5
-
+  DIAMOND_PICKAXE:
+    minLevel: 0   #Min Y level to drop this item
+    maxLevel: 256 #Max Y level to drop this item
+    fortune-0:
+      chance: 0.002
+      max-amount: 1
+      min-amount: 1
+    fortune-1:
+      chance: 0.003
+      max-amount: 1
+      min-amount: 1
+    fortune-2:
+      chance: 0.004
+      max-amount: 1
+      min-amount: 1
+    fortune-3:
+      chance: 0.005
+      max-amount: 1
+      min-amount: 1
+    enchant:      #List of all enchantments that should be applied
+      silk_touch: 1
+    biomes:       #Drop only on following biomes
+ #     - Mountains
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# This is chance of getting a chest spawned
+#This is chance of getting a chest spawned
 chest-spawn-chance: 5.0E-4
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# And these are possible contents of the chest
+#And these are possible contents of the chest
 chest:
   DIAMOND:
     chance: 0.8
@@ -214,14 +193,14 @@ chest:
       luck_of_the_sea: 3
       mending: 1
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# List of commands that could be executed (use @name for player name)
-# In this example: 1% chance of executing command give on player.
+#List of commands that could be executed (use @name for player name)
+#In this example: 1% chance of executing command give on player.
 executeCommands:
   "give @player stick 2 & give @player apple 3":
     chance: 0.01
     requires-permission: false
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# List of blocks that the plugin should work on. The list of all possible blocks is listed here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#List of blocks that the plugin should work on. The list of all possible blocks is listed here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 dropBlocks:
   - STONE
   - ANDESITE
@@ -229,59 +208,48 @@ dropBlocks:
   - DIORITE
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Experience dropped from stone:
-experience: 0.1
+#experience dropped from stone:
+experience: 0.3
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Put here all world that you would like to have disabled
+#put here all world that you would like to have disabled:
 disabled-worlds:
   - world_nether
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Should ores drop items
-# if you have mcmmo, turn off Bonus items in blast mining. Its not supported
+#Should ores drop items
 ore-drop: true
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# If ore-drop is false, some specific ores can drop anyway. This is white list drop ores.
-# If there is no, type []
+#If ore-drop is false, some specific ores can drop anyway. This is white list drop ores.
+#If there is no, type []
 ores-whitelist:
   - COAL_ORE
   - REDSTONE_ORE
   - GLOWING_REDSTONE_ORE
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# If ore-drop is true -> whats the chance to drop item from ore when mining it
-ore-drop-chance: 0.0
+#If ore-drop is true -> whats the chance to drop item from ore when mining it
+ore-drop-chance: 1.0
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Should the items ne dropped directly into the inventory
+#Should the items ne dropped directly into the inventory
 drop-to-inventory: false
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Should display "The plugin has been updated" message
+#Should display "The plugin has been updated" message
 display-update-message: true
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Should exp be added to player stats or dropped as exp orb - WARNING: in that case experience value has to be >= 1.0
+#Should exp be added to player stats or dropped as exp orb - WARNING: in that case experience value has to be >= 1.0
 drop-exp-orb: false
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Should a message be broadcast when a player finds a chest
+#Should a message be broadcast when a player finds a chest
 treasure-broadcast: true
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Volume of all sounds used in the plugin
+#Volume of all sounds used in the plugin
 volume: 0.3
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Global drop chest contents to inventory
+#Global drop chest contents to inventory
 drop-chest-to-inventory-global: false
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Realistic multi direction drop spread
+#realistic multi direction drop spread
 realistic-drop: true
-#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# When true: Silk touch pickaxes can drop only if silk-touch chance IS SET and more than 0.0
-# When false: you can drop section fortune-0 with silk pickaxe
-restricted-silk-touch: false
-#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# support for famous rpg plugin mcMMO. McMmo plugin is required https://github.com/mcMMO-Dev/mcMMO
-# dont set true if you dont have mcmmo plugin on your server
-# with this option amount of dropped items can be increased according lvl of Mining skill
-#blast mining is not supported
-mcmmo-support: false
