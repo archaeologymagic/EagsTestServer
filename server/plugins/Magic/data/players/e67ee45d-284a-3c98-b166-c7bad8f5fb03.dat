@@ -1,10 +1,10 @@
 id: e67ee45d-284a-3c98-b166-c7bad8f5fb03
 name: yay
 created: 1741965681387
-updated: 1742094759203
+updated: 1742095690290
 last_cast: 1741966036408
 cooldown_expiration: 0
-last_death_location: 697105.5141514272,64.0,-696783.148783385,world,3.750183,40.350163
+last_death_location: 697129.7202636142,64.0,-696956.647378754,world,89.24841,18.599974
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -113,8 +113,8 @@ classes:
     - missile
   mage:
     effect_color: a50cbfda41c5,ddf4408528a7,41409868afaa
-    mana_timestamp: 1742094759145
+    mana_timestamp: 1742095690239
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 20.0
+health: 16.666664123535156
