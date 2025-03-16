@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/huntbegins",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:iron_sword",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Infighting"
+    },
+    "description": {
+      "text": "Get a skeleton to kill another skeleton"
+    },
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

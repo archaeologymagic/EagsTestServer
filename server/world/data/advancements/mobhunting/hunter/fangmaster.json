@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/huntbegins",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:string",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Master of the Fang"
+    },
+    "description": {
+      "text": "Use your tamed wolves to kill 500 mobs"
+    },
+    "frame": "goal",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

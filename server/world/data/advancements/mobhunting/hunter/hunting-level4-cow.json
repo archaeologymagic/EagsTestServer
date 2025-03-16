@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level3-cow",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 4,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Expert §9Cow§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 1000 §9Cows"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

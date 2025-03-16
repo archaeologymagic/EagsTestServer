@@ -1,0 +1,31 @@
+{
+  "parent": "mobhunting:hunter/hunting-level7-enderdragon",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 8,
+          "data": 5
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "SuperMan §5EnderDragon§r§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 10000 §5EnderDragon§rs"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "goal",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

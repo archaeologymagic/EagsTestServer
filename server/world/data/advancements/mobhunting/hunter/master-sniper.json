@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/huntbegins",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:bow",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Master Sniper"
+    },
+    "description": {
+      "text": "Snipe a mob from over 40 blocks away while in a moving vehicle or on a moving horse."
+    },
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

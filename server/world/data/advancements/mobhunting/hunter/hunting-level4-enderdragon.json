@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level3-enderdragon",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 4,
+          "data": 5
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Expert §5EnderDragon§r§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 200 §5EnderDragon§rs"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

@@ -1,7 +1,7 @@
 id: 887caaf0-d84a-31bf-ba80-4120878a9e1f
 name: Abdullah
 created: 1742091458700
-updated: 1742092276354
+updated: 1742092404127
 last_cast: 0
 cooldown_expiration: 0
 last_death_location: 697308.1322982641,69.0,-696857.9726112852,world,-194.40054,-11.550195
@@ -27,7 +27,7 @@ classes:
   caster: {}
   mage:
     effect_color: 1ea2fbe6db64,66c575b3e80,9d8ea7a39e00
-    mana_timestamp: 1742092276354
+    mana_timestamp: 1742092404116
     mana: 50.0
 transient_modifiers: {}
 active_class: mage

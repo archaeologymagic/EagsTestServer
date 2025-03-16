@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level4-chicken",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 5,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Master §9Chicken§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 2500 §9Chickens"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

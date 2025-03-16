@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level5-enderdragon",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 6,
+          "data": 5
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Grand Master §5EnderDragon§r§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 1000 §5EnderDragon§rs"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

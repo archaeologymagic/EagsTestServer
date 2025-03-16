@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/huntbegins",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:potion",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "It\u0027s Magic!"
+    },
+    "description": {
+      "text": "Kill a mob with a potion"
+    },
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

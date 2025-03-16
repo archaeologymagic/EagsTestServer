@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/huntbegins",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:bread",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Record Hungry"
+    },
+    "description": {
+      "text": "Get a skeleton to kill a creeper"
+    },
+    "frame": "challenge",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

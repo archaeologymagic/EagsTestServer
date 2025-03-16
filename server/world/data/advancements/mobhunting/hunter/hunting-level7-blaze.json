@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level6-blaze",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 7,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "President Master §9Blaze§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 8000 §9Blazes"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

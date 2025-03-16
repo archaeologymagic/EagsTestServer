@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level4-butcher",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 5,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Master §9Butcher§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 2500 §9Butchers"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

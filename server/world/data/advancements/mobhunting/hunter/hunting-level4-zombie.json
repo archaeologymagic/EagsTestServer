@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level3-zombie",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 4,
+          "data": 2
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Expert §9Zombie§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 1000 §9Zombies"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

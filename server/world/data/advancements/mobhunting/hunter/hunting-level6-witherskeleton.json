@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level5-witherskeleton",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 6,
+          "data": 1
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Grand Master §9Wither Skeleton§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 4000 §9Wither Skeletons"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

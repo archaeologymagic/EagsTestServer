@@ -46,7 +46,7 @@ example:
     # You can use any command you want, each command has some options.
     #  'cmd:' and 'chance:' is mandatory fields, 'message:' 'message_type:' and 'permission:' is optional
     # If you add a permission, the command will only be run if the player has this permission.
-    # message_type can be: Chat, ActionBar, BossBar, Title, Subtitle or None. Default/Fallback is Chat. The words 
+    # message_type can be: Chat, ActionBar, BossBar, Title, Subtitle. Default/Fallback is Chat. The words 
     # are case sensitive and you you will need a supporting plugin. Ex. TitleManager,ActionBar,BossBar
     commands:
     - chance: '0.5'
@@ -54,7 +54,7 @@ example:
       message: 'You got permission to do ..... '
     - chance: '0.2'
       message_type: ActionBar
-      cmd: give {player} iron_ingot_ingot 1
+      cmd: give {player} Iron_ingot 1
       message: You got an iron ingot!
     - chance: '1'
       cmd: say {player} killed an {killed}
@@ -79,19 +79,10 @@ example:
       message: §aThe §1{killed} §adropped a skull on the ground
 
 # ########################################################################
-# Rewards for killing Hostile Mobs.
+# Rewards for killing mobs.
 # ########################################################################
 # Here is where you set the rewards for killing agressive mobs.
 mobs:
-
-  # ### Default/Global settings ###
-  # Possible message_type values: Chat, ActionBar, BossBar, Title, Subtitle, None
-  default:
-    message_type: ActionBar
-    money:
-      message_type: ActionBar
-    head:
-      message_type: ActionBar
 
   # ### Blaze settings ###
   blaze:
@@ -102,7 +93,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -118,7 +109,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} torch 5
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -134,42 +125,12 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} emerald 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.05
       message: §aThe §1{killed} §adropped a skull on the ground
-  dolphin:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '3:10'
-      chance: 1.0
-    commands:
-    - chance: '0.33'
-      cmd: give {player} prismarine_shard 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
-      message: §aThe §1{killed} §adropped a head in the water
-
-  # ### Drowned settings ###
-  drowned:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '5:15'
-      chance: 1.0
-    commands:
-    - chance: '0.33'
-      cmd: give {player} prismarine_crystals 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
-      message: §aThe §1{killed} §adropped a skull in the water
 
   # ### Elder Guardian settings ###
   elder_guardian:
@@ -180,7 +141,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.33'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -196,7 +157,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.33'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -211,7 +172,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '1'
@@ -227,7 +188,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -243,7 +204,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -259,9 +220,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_ingot 5
-    - chance: '0.10'
-      cmd: give {player} redstone 5
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -277,27 +236,11 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.1'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Hoglin settings ###
-  hoglin:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '9:13'
-      chance: 1.0
-    commands:
-    - chance: '0.20'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.2
       message: §aThe §1{killed} §adropped a skull on the ground
 
   # ### Husk settings ###
@@ -309,7 +252,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.20'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -325,7 +268,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.25'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '10'
@@ -341,73 +284,11 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Phantom settings ###
-  phantom:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '20:40'
-      chance: 1.0
-    commands:
-    - chance: '0.33'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Piglin settings ###
-  piglin:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '5:10'
-      chance: 1.0
-    commands:
-    - chance: '0.1'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
-      message: §aThe §1{killed} §adropped a skull on the ground
-  piglin_brute:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '5:10'
-      chance: 1.0
-    commands:
-    - chance: '0.1'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Pillager settings ###
-  pillager:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '5:10'
-      chance: 1.0
-    commands:
-    - chance: '0.33'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
       message: §aThe §1{killed} §adropped a skull on the ground
 
   # ### Polar Bear settings ###
@@ -419,27 +300,11 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.25'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.25
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Ravager settings ###
-  ravager:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '25'
-      chance: 1.0
-    commands:
-    - chance: '0.05'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
       message: §aThe §1{killed} §adropped a skull on the ground
 
   # ### Slime settings ###
@@ -451,7 +316,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -467,7 +332,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.50'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -483,7 +348,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.20'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -499,7 +364,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -515,7 +380,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -531,57 +396,11 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.20'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.2
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Strider settings ###
-  strider:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '15:35'
-      chance: 1.0
-    commands:
-    - chance: '0.20'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.2
-      message: §aThe §1{killed} §adropped a skull on the ground
-  turtle:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:3'
-      chance: 1.0
-    commands:
-    - chance: '0.33'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.33
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Zoglin settings ###
-  zoglin:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '7:11'
-      chance: 1.0
-    commands:
-    - chance: '0.005'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.005
       message: §aThe §1{killed} §adropped a skull on the ground
 
   # ### Zombie settings ###
@@ -593,7 +412,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.005'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -609,7 +428,7 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -625,38 +444,23 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.50'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.5
       message: §aThe §1{killed} §adropped a skull on the ground
 
-  # ### Warden settings ###
-  warden:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      chance: 1.0
-    commands:
-    - chance: '0.05'
-      cmd: give {player} emerald 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
   # ### Witch settings ###
   witch:
+    enabled: true
+    message: You killed a §1{killed}
     money:
       amount: '10:15'
       chance: 1.0
-    enabled: true
-    message: You killed a §1{killed}
     commands:
     - chance: '0.05'
-      cmd: give {player} emerald 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -672,67 +476,11 @@ mobs:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} fire_charge 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-  allay:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '0.0'
-      chance: 0.05
-    commands:
-    - chance: '0.10'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-  axolotl:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '0.0'
-      chance: 0.05
-    commands:
-    - chance: '0.10'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-  goat:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '0.0'
-      chance: 0.05
-    commands:
-    - chance: '0.10'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '1'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-  glowsquid:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '2.0'
-      chance: 0.5
-    commands:
-    - chance: '0.10'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
       message: §aThe §1{killed} §adropped a skull on the ground
 
 # ########################################################################
@@ -751,10 +499,8 @@ boss:
     commands:
     - chance: '0.50'
       cmd: give {player} gold_ingot 1
-      message: You got an Iron Ingot.
-    - chance: '0.75'
+    - chance: '0.50'
       cmd: give {player} diamond 10
-      message: You got ten Diamonds.
     head:
       drophead: true
       value: '500'
@@ -770,9 +516,9 @@ boss:
       chance: 0.1
     commands:
     - chance: '0.5'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
       message: You got an Iron Ingot.
-    - chance: '0.75'
+    - chance: '0.5'
       cmd: give {player} diamond 10
       message: You got ten Diamonds.
     head:
@@ -790,8 +536,8 @@ boss:
 # http://minecraft.gamepedia.com/Villager#Professions_and_careers
 villager:
 
-  # ### Armorer settings ###
-  armorer:
+  # ### Blacksmith settings ###
+  blacksmith:
     enabled: true
     message: You killed a §1{killed}
     money:
@@ -799,7 +545,7 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} arrow 10
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -815,43 +561,27 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.10'
-      cmd: give {player} iron_sword 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.1
       message: §aThe §1{killed} §adropped a skull on the ground
 
-  # ### Cartographer settings ###
-  cartographer:
+  # ### Evoker settings ###
+  evoker:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '1:2'
-      chance: 1.0
+      amount: '10'
+      chance: 0.5
     commands:
-    - chance: '0.10'
-      cmd: give {player} map 1
+    - chance: '0.1'
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
-      chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Cleric settings ###
-  cleric:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:2'
-      chance: 1.0
-    commands:
-    - chance: '0.10'
-      cmd: give {player} bowl 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.1
+      chance: 0.5
       message: §aThe §1{killed} §adropped a skull on the ground
 
   # ### Farmer settings ###
@@ -863,62 +593,28 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.1'
-      cmd: give {player} iron_hoe 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.1
       message: §aThe §1{killed} §adropped a skull on the ground
 
-  # ### Fisherman settings ###
-  fisherman:
+  # ### Illusioner settings ###
+  illusioner:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '1:2'
-      chance: 1.0
+      amount: '30:50'
+      chance: 0.1
     commands:
-    - chance: '0.1'
-      cmd: give {player} fishing_rod 1
+    - chance: '0.10'
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.1
       message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Fletcher settings ###
-  fletcher:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:2'
-      chance: 1.0
-    commands:
-    - chance: '0.1'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Leatherworker settings ###
-  leatherworker:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:2'
-      chance: 1.0
-    commands:
-    - chance: '0.1'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Librarian settings ###
   librarian:
     enabled: true
     message: You killed a §1{killed}
@@ -927,23 +623,7 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.5'
-      cmd: give {player} writable_book 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.5
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Mason settings ###
-  mason:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:2'
-      chance: 1.0
-    commands:
-    - chance: '0.5'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -959,94 +639,14 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.5'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.5
       message: §aThe §1{killed} §adropped a skull on the ground
 
-  # ### Villager settings (No profession) ###
-  villager:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1'
-      chance: 1.0
-    commands:
-    - chance: '0.3'
-      cmd: give {player} melon 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.3
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Shepherd settings ###
-  shepherd:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1'
-      chance: 1.0
-    commands:
-    - chance: '0.3'
-      cmd: give {player} shears 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.3
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Toolsmith settings ###
-  toolsmith:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1'
-      chance: 1.0
-    commands:
-    - chance: '0.3'
-      cmd: give {player} golden_shovel 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.3
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Weaponsmith settings ###
-  weaponsmith:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1'
-      chance: 1.0
-    commands:
-    - chance: '0.3'
-      cmd: give {player} golden_sword 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.3
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Blacksmith settings - deprecated in mc 1.14 ###
-  blacksmith:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:2'
-      chance: 1.0
-    commands:
-    - chance: '0.10'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.1
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Priest settings - deprecated in mc 1.14 ###
+  # ### Priest settings ###
   priest:
     enabled: true
     message: You killed a §1{killed}
@@ -1055,42 +655,30 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.5'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.5
-      message: §aThe §1{killed} §adropped a skull on the ground
-  evoker:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '10'
-      chance: 0.5
-    commands:
-    - chance: '0.1'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.5
       message: §aThe §1{killed} §adropped a skull on the ground
 
-  # ### Illusioner settings ###
-  illusioner:
+  # ### Villager settings ###
+  villager:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '30:50'
-      chance: 0.1
+      amount: '1'
+      chance: 1.0
     commands:
-    - chance: '0.10'
-      cmd: give {player} iron_ingot 1
+    - chance: '0.3'
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
-      chance: 0.1
+      chance: 0.3
       message: §aThe §1{killed} §adropped a skull on the ground
+
+  # ### Vindicator settings ###
   vindicator:
     enabled: true
     message: You killed a §1{killed}
@@ -1099,23 +687,23 @@ villager:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.05
       message: §aThe §1{killed} §adropped a skull on the ground
 
-  # ### Wandering Trader settings ###
-  wanderingtrader:
+  # ### Zombie Villager settings ###
+  zombie_villager:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '-5'
+      amount: '1:2'
       chance: 1.0
     commands:
-    - chance: '0.5'
-      cmd: give {player} torch 10
+    - chance: '0.05'
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1139,53 +727,7 @@ passive:
       chance: 0.05
     commands:
     - chance: '0.05'
-      cmd: give {player} coal 3
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Bee settings ###
-  bee:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '0'
-      chance: 0.05
-    commands:
-    - chance: '0.05'
-      cmd: give {player} golden_carrot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Cat settings ###
-  cat:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '0'
-      chance: 0.05
-    commands:
-    - chance: '0.05'
-      cmd: give {player} iron_ingot 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Camel settings ###
-  camel:
-    money:
-      amount: '0'
-      chance: 0.1
-    commands:
-    - chance: '0.05'
-      cmd: give {player} water_bucket 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1201,7 +743,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} wheat_seeds 3
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1217,7 +759,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} leather_helmet 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1233,41 +775,9 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Fox settings ###
-  fox:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '2'
-      chance: 0.05
-    commands:
-    - chance: '0.1'
-      cmd: give {player} ghast_tear 1
-    drophead: true
-    head:
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Frog settings ###
-  frog:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '2'
-      chance: 0.05
-    commands:
-    - chance: '0.1'
-      cmd: give {player} ghast_tear 1
-    drophead: true
-    head:
       value: '0'
       chance: 0.05
       message: §aThe §1{killed} §adropped a skull on the ground
@@ -1281,7 +791,7 @@ passive:
       chance: 0.05
     commands:
     - chance: '0.1'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1297,7 +807,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1313,7 +823,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} beetroot 2
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1329,7 +839,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} clay_ball 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1345,27 +855,11 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} milk_bucket 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Panda settings ###
-  panda:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '2'
-      chance: 1.0
-    commands:
-    - chance: '0.1'
-      cmd: give {player} reeds 3
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.1
       message: §aThe §1{killed} §adropped a skull on the ground
 
   # ### Parrot settings ###
@@ -1377,7 +871,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.1'
-      cmd: give {player} feather 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1393,7 +887,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} carrot 2
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1409,7 +903,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} carrot 5
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1425,7 +919,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} sugar 5
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1441,23 +935,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} bone 5
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Sniffer settings ###
-  sniffer:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '0'
-      chance: 0.0
-    commands:
-    - chance: '0.25'
-      cmd: give {player} suspicious_sand 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1472,8 +950,8 @@ passive:
       amount: '0'
       chance: 0.0
     commands:
-    - chance: '0.1'
-      cmd: give {player} snowball 10
+    - chance: '0.05'
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1489,39 +967,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} slimeball 5
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Tadpole settings ###
-  tadpole:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '-10'
-      chance: 1.0
-    commands:
-    - chance: '0.05'
-      cmd: give {player} chest 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
-      message: §aThe §1{killed} §adropped a skull on the ground
-
-  # ### Trader Llama settings ###
-  traderllama:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '-10'
-      chance: 1.0
-    commands:
-    - chance: '0.05'
-      cmd: give {player} chest 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1537,7 +983,7 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1553,26 +999,11 @@ passive:
       chance: 1.0
     commands:
     - chance: '0.25'
-      cmd: give {player} quartz 3
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.25
-      message: §aThe §1{killed} §adropped a skull on the ground
-passive_monsters:
-  zombie_villager:
-    enabled: true
-    message: You killed a §1{killed}
-    money:
-      amount: '1:2'
-      chance: 1.0
-    commands:
-    - chance: '0.05'
-      cmd: give {player} bowl 1
-    head:
-      drophead: true
-      value: '0'
-      chance: 0.05
       message: §aThe §1{killed} §adropped a skull on the ground
 
 # ########################################################################
@@ -1581,11 +1012,11 @@ passive_monsters:
 # Here is where you set the base prize in $ for catching a fish
 fishing:
 
-  # Set this to false if you want to disable all fishing rewards / features.
+  # Set this to true if you want to disable all fishing rewards / features.
   enable_fishing_rewards: true
 
-  # ### Raw Cod settings ###
-  cod:
+  # ### Raw Fish settings ###
+  raw_fish:
     enabled: true
     message: You caught a §1{killed}
     money:
@@ -1593,15 +1024,15 @@ fishing:
       chance: 1.0
     commands:
     - chance: '0.05'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.05
-      message: §aThe §1{killed} §adropped a Cod head in the water
+      message: §aThe §1{killed} §adropped a fish head in the water
 
   # ### Raw Salmon settings ###
-  salmon:
+  raw_salmon:
     enabled: true
     message: You caught a §1{killed}
     money:
@@ -1609,17 +1040,15 @@ fishing:
       chance: 1.0
     commands:
     - chance: '0.1'
-      cmd: give {player} bowl 1
-    head:
-      value: '0'
-      chance: 0.1
-      message: §aThe §1{killed} §adropped a Salmon head in the water
-  salmons:
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
+      value: '0'
+      chance: 0.1
+      message: §aThe §1{killed} §adropped a fish head in the water
 
-  # ### Tropical Fish settings ###
-  tropical_fish:
+  # ### Clownfish settings ###
+  clownfish:
     enabled: true
     message: You caught a §1{killed}
     money:
@@ -1627,12 +1056,12 @@ fishing:
       chance: 1.0
     commands:
     - chance: '0.5'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
       chance: 0.5
-      message: §aThe §1{killed} §adropped a Aquarium in the water
+      message: §aThe §1{killed} §adropped a fish head in the water
 
   # ### Pufferfish settings ###
   pufferfish:
@@ -1643,7 +1072,7 @@ fishing:
       chance: 1.0
     commands:
     - chance: '0.4'
-      cmd: give {player} iron_ingot 1
+      cmd: give {player} Iron_ingot 1
     head:
       drophead: true
       value: '0'
@@ -1776,10 +1205,6 @@ achievements:
       money: 2000.0
       commands: give {player} gold_ingot 1
       message: Enjoy you Gold ingot
-    neptune:
-      money: 2000.0
-      commands: give {player} gold_ingot 1
-      message: Enjoy you Gold ingot
     justintime:
       money: 1000.0
       commands: give {player} gold_ingot 1
@@ -1839,74 +1264,49 @@ achievements:
     # Level 7: x 100 (10000 kills)
     # Level Achievements can be disabled by setting the number to 0
     mob_level:
-      allay_level1: 100
-      armorer_level1: 100
-      axolotl_level1: 100
       bat_level1: 100
-      bee_level1: 100
       blaze_level1: 80
       blacksmith_level1: 100
       bonusmob_level1: 20
       butcher_level1: 100
-      cat_level1: 100
       cartographer_level1: 100
       cave_spider_level1: 100
       chicken_level1: 100
-      cleric_level1: 100
       clownfish_level1: 100
       cow_level1: 100
       creeper_level1: 100
       donkey_level1: 100
-      dolphin_level1: 100
-      drowned_level1: 100
       elder_guardian_level1: 50
       enderdragon_level1: 20
       enderman_level1: 100
       endermite_level1: 100
       evoker_level1: 50
       farmer_level1: 100
-      fish_level1: 100
-      fisherman_level1: 100
-      fletcher_level1: 100
-      fox_level1: 100
-      frog_level1: 100
       ghast_level1: 80
       giant_level1: 100
-      goat_level1: 100
-      glow_squid_level1: 100
       guardian_level1: 100
       horse_level1: 100
-      hoglin_level1: 100
       husk_level1: 100
       illusioner_level1: 100
       iron_golem_level1: 100
       killerrabbit_level1: 100
-      leatherworker_level1: 100
       librarian_level1: 100
       llama_level1: 100
       magma_cube_level1: 100
-      mason_level1: 100
       mule_level1: 100
       mushroom_cow_level1: 100
       nitwit_level1: 100
       ocelot_level1: 100
-      panda_level1: 100
       parrot_level1: 100
-      phantom_level1: 100
-      pillager_level1: 100
-      piglin_level1: 100
-      piglin_brute_level1: 100
       pig_level1: 100
       polar_bear_level1: 100
       priest_level1: 100
       pvpplayer_level1: 100
       pufferfish_level1: 100
       rabbit_level1: 100
-      ravager_level1: 100
       rawfish_level1: 100
       rawsalmon_level1: 100
       sheep_level1: 100
-      shepherd_level1: 100
       shulker_level1: 100
       silverfish_level1: 100
       skeleton_level1: 100
@@ -1915,23 +1315,14 @@ achievements:
       snowman_level1: 100
       spider_level1: 100
       squid_level1: 100
-      strider_level1: 100
-      traderllama_level1: 100
       stray_level1: 100
-      tadpole_level1: 100
-      turtle_level1: 100
-      toolsmith_level1: 100
       vex_level1: 100
       villager_level1: 100
       vindicator_level1: 100
-      wandering_trader_level1: 80
-      warden_level1: 80
-      weaponsmith_level1: 80
       witch_level1: 80
       wither_level1: 20
       wither_skeleton_level1: 80
       wolf_level1: 100
-      zoglin_level1: 100
       zombie_level1: 100
       zombiehorse_level1: 100
       zombie_pigman_level1: 100
@@ -1959,7 +1350,7 @@ assists:
 # ########################################################################
 # Grinding detection settings
 # ########################################################################
-# Here you can change the behavior of the grinding detection.
+# Here you can chance the behavior of the grinding detection.
 grinding:
   enable_grinding_detection: true
 
@@ -1974,10 +1365,6 @@ grinding:
   # killings of stacked to be detected as gring, you must set grinding_stacked_mobs_allowed to false.
   grinding_stacked_mobs_allowed: true
 
-  # Disable natural drops here
-  disable_natural_item_drops_on_player_grinding: false
-  disable_natural_xp_drops_on_player_grinding: false
-
   # Area grinding detection.
   # Enabling this prevents a player from earning too much money from using a mob grinder.
   # Set 'enable_grinding_detection: false' to disable the grinding detection.
@@ -1990,14 +1377,9 @@ grinding:
     detect_grinding_areas: true
     grinding_detection_range: 15
     grinding_detection_number_of_death: 20
+    disable_natural_item_drops_on_player_grinding: false
+    disable_natural_xp_drops_on_player_grinding: false
     blacklist_player_grinding_spots_as_server_worldwide_spots: false
-
-  # Speed grinding detection.
-  # Limit the number of mobs which can be killed with in a given timeframe
-  speed_grinding:
-    detect_speed_grinding: true
-    time_frame: 120.0
-    no_of_mobs: 10
 
   # Detect Grinding Farms.
   # When this is true, the plugin will try to detect if the players has build a Mob Grinding Farm.
@@ -2005,13 +1387,6 @@ grinding:
   # command if you want the players to harvest mobs from a farm.
   farms:
     detect_farms: true
-
-    # Nether Gold Farm detection.
-    # When this is true, the plugin will try to detect if the players has build a Nether Gold Farm.
-    # There is no guarantie that the plugin can detect all types of Nether Gold farms, but it has
-    # been testet on this one: https://www.youtube.com/watch?v=jQWG9Q7HoUA
-    # When searching for grinding the plugin measures how many mobs dies per timeframe within a range.
-    # Be careful if you chance this number there is a risk for false positives.
     nether_gold_farms:
       detect_nether_gold_farms: true
       seconds_to_search_for_grinding: 30
@@ -2019,24 +1394,6 @@ grinding:
       number_of_deaths_when_searching_for_grinding: 5
       disable_natural_item_drops: false
       disable_natural_xp_drops: false
-
-    # Enderman Farm detection.
-    # When this is true, the plugin will try to detect if the players has build an enderman Farm.
-    # There is no guarantie that the plugin can detect all types of Enderman Farms. When searching
-    # for grinding the plugin measures how many mobs dies in the VOID per timeframe within a range.
-    # Be careful if you chance this number there is a risk for false positives.
-    endermanfarms:
-      detect_enderman_farms: true
-      seconds_to_search_for_grinding: 30
-      range_to_search_for_grinding: 5.0
-      number_of_deaths_when_searching_for_grinding: 5
-      disable_natural_item_drops: false
-      disable_natural_xp_drops: false
-
-    # Other Farm detection.
-    # When this is true, the plugin will try to detect if the players has build other Farms
-    # where different mobs is falling into death. The plugin is still counting mobs which
-    # dies from falling, with in a range and a time frame.
     otherfarms:
       detect_other_farms: true
       seconds_to_search_for_grinding: 30
@@ -2044,31 +1401,6 @@ grinding:
       number_of_deaths_when_searching_for_grinding: 10
       disable_natural_item_drops: false
       disable_natural_xp_drops: false
-
-  # ########################################################################
-  # Mobspawner settings
-  # ########################################################################
-  spawners:
-
-    # Can the players earn money on mobs spawned from mobspawners, eggs and from eggs from Dispensers?
-    # If you disable this you are still able to get rewards from specific Spawners, if you white list the area 
-    # using '/mh whitelistarea'.
-    disable_money_rewards_from_mobspawners_and_eggs: true
-
-    # This allow players to get rewards when killing Cave Spiders from SPAWNERS. Cave Spiders does not only 
-    # naturally and only from SPAWNERS.
-    enable_rewards_from_cave_spiders: true
-
-    # Slimes and Maga Cubes can be used for grinding money because that only the
-    # mother is marked as from a SPAWNER. Spilitting is therefor denied if the slime/MC is+
-    # from a SPAWNER. If you want Vanilla behavior set this to false.
-    deny_slime_and_maga_cube_to_spilt: true
-
-    # Let the players get the naturally dropped items from mobs spawned from mobspawners, eggs and from eggs from Dispensers ?
-    disable_naturally_dropped_items_from_mobspawners_and_eggs: false
-
-    # Let the players get the naturally dropped XP from mobs spawned from mobspawners, eggs and from eggs from Dispensers ?
-    disable_naturally_dropped_xp_from_mobspawners_and_eggs: false
 
 # ########################################################################
 # Multiplier Section
@@ -2118,8 +1450,7 @@ multiplier:
     level4_multiplier: 4.0
 
   # ########################################################################
-  # Rank multipliers
-  # ########################################################################
+  # Rank multipliers########################################################################
   # You can add multipliers for players with different ranks/groups. To do this"
   # 
   # you must set give the user/group permissions with a format like this:
@@ -2167,22 +1498,6 @@ multiplier:
   # ########################################################################
   # Penalty multipliers
   # ########################################################################
-  # You can change the multiplier for different worlds.
-  # If the world does not exist in this list the multiplier
-  # will be set to 1, which is neutral/no bonus. Add you
-  # own world names and a multiplier.
-  world:
-
-    # This is the reward multiplier for the different Worlds
-    world_multiplier:
-      world: '1.0'
-      world_the_end: '1.0'
-      world_nether: '1.0'
-      worldname: '1.5'
-
-  # ########################################################################
-  # Penalty multipliers
-  # ########################################################################
   # These are penalty multipliers that can modify the base prize. 
   # REMEMBER: These are not in $ but they are a multiplier. 
   # Setting to 1 will disable them.
@@ -2200,7 +1515,7 @@ multiplier:
 # ########################################################################
 # Bounty settings
 # ########################################################################
-# Here you can set the behavior of the Bounty Command or you can disable
+# Here you can chance the behavior of the Bounty Command or you can disable
 # the command completely.
 bounties:
 
@@ -2229,16 +1544,6 @@ bounties:
 
   # Random Bounty. Can be a number 100 or a range 100:200
   random_bounty_prize: 50:100
-
-# ########################################################################
-# Happy Hour settings
-# ########################################################################
-# Here you can set the behavior of the Happy Hour event.
-happyhour:
-
-  # Here you can delay the HappyHour announcement announced to a 
-  # joining player, if an event is ongion.
-  delay_happyhour_annoucement: 3
 
 # ########################################################################
 # Integration to other plugins.
@@ -2356,7 +1661,7 @@ plugins:
     maximum_multiplier: 2.0
 
   # ########################################################################
-  # Level Mob Settings (Conquestian / LorinthsRPGMobs / LevelledMobs
+  # Level Mob Settings (Conquestian / LorinthsRPGMobs
   # ########################################################################
   levelmobs:
     conquestia:
@@ -2367,19 +1672,10 @@ plugins:
 
     # ########################################################################
     # LorinthsRPGMobs
-    # ########################################################################
-    # Disable integration with LorinthsRpgMobs
+    # ########################################################################Disable integration with LorinthsRpgMobs
     # https://dev.bukkit.org/projects/lorinthsrpgmobs
     lorinthsrpgmobs:
       enable_integration_lorinthsrpgmobs: true
-
-    # ########################################################################
-    # LevelledMobs
-    # ########################################################################
-    # Disable integration with LevelledMobs
-    # https://www.spigotmc.org/resources/levelledmobs-for-1-14-x-1-17-x.74304/
-    levelledmobs:
-      enable_integration_levelledmobs: true
 
     # This is the multiplier per level mutiplied with the basic reward.
     # Becareful not to ruin the server economy by making the multiplier to big.
@@ -2436,15 +1732,11 @@ plugins:
     # http://towny.palmergames.com/
     disable_rewards_in_home_town: true
 
-    # Disable rewards when the player is in any town.
-    # http://towny.palmergames.com/
-    disable_rewards_in_any_town: false
-
     # Disable naturally drops and xp drops when the player kill mobs in his home town.
     disable_naturally_drops_and_xp_in_home_town: false
 
   # ########################################################################
-  # Residence settings
+  # Towny settings
   # ########################################################################
   # Here you can chance the behavior of the Residence integration, or you can disable
   # integration completely.
@@ -2477,19 +1769,7 @@ plugins:
     # Set 'enable_mcmmo_level_rewards: true' to let the players get Level as a MobHunting reward.
     enable_mcmmo_level_rewards: true
     mobs:
-      allay:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      axolotl:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       bat:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      bee:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      cat:
         skillreward_amount: '1'
         skillreward_chance: 0.025
       blacksmith:
@@ -2501,9 +1781,6 @@ plugins:
       bonusmob:
         skillreward_amount: '1'
         skillreward_chance: 0.05
-      armorer:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       butcher:
         skillreward_amount: '1'
         skillreward_chance: 0.025
@@ -2516,9 +1793,6 @@ plugins:
       chicken:
         skillreward_amount: '1'
         skillreward_chance: 0.025
-      cleric:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       clownfish:
         skillreward_amount: '1'
         skillreward_chance: 0.075
@@ -2528,12 +1802,6 @@ plugins:
       creeper:
         skillreward_amount: '1'
         skillreward_chance: 0.04
-      dolphin:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      drowned:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       donkey:
         skillreward_amount: '1'
         skillreward_chance: 0.025
@@ -2555,39 +1823,15 @@ plugins:
       farmer:
         skillreward_amount: '1'
         skillreward_chance: 0.025
-      fish:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      fisherman:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      fletcher:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      fox:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      frog:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       ghast:
         skillreward_amount: '1'
         skillreward_chance: 0.05
       giant:
         skillreward_amount: '1:2'
         skillreward_chance: 0.1
-      goat:
-        skillreward_amount: '1:2'
-        skillreward_chance: 0.1
-      glowsquid:
-        skillreward_amount: '1:2'
-        skillreward_chance: 0.1
       guardian:
         skillreward_amount: '1'
         skillreward_chance: 0.05
-      hoglin:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       horse:
         skillreward_amount: '1'
         skillreward_chance: 0.025
@@ -2602,9 +1846,6 @@ plugins:
       killer_rabbit:
         skillreward_amount: '5'
         skillreward_chance: 1.0
-      leatherworker:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       llama:
         skillreward_amount: '1'
         skillreward_chance: 0.025
@@ -2614,9 +1855,6 @@ plugins:
       magma_cube:
         skillreward_amount: '1'
         skillreward_chance: 0.04
-      mason:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       mule:
         skillreward_amount: '1'
         skillreward_chance: 0.025
@@ -2632,25 +1870,10 @@ plugins:
       parrot:
         skillreward_amount: '1'
         skillreward_chance: 0.025
-      panda:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      phantom:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      piglin:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
-      piglin_brute:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
       pig:
         skillreward_amount: '1'
         skillreward_chance: 0.025
       polar_bear:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
-      pillager:
         skillreward_amount: '1'
         skillreward_chance: 0.05
       priest:
@@ -2665,9 +1888,6 @@ plugins:
       rabbit:
         skillreward_amount: '1'
         skillreward_chance: 0.025
-      ravager:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       raw_fish:
         skillreward_amount: '1'
         skillreward_chance: 0.05
@@ -2677,9 +1897,6 @@ plugins:
       sheep:
         skillreward_amount: '1'
         skillreward_chance: 0.025
-      shepherd:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
       shulker:
         skillreward_amount: '1'
         skillreward_chance: 0.05
@@ -2707,21 +1924,6 @@ plugins:
       stray:
         skillreward_amount: '1'
         skillreward_chance: 0.04
-      strider:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
-      turtle:
-        skillreward_amount: '1'
-        skillreward_chance: 0.04
-      toolsmith:
-        skillreward_amount: '1'
-        skillreward_chance: 0.04
-      tadpole:
-        skillreward_amount: '1'
-        skillreward_chance: 0.04
-      traderllama:
-        skillreward_amount: '1'
-        skillreward_chance: 0.04
       vex:
         skillreward_amount: '1'
         skillreward_chance: 0.04
@@ -2729,15 +1931,6 @@ plugins:
         skillreward_amount: '1'
         skillreward_chance: 0.025
       vindicator:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
-      wanderingtrader:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
-      warden:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
-      weaponsmith:
         skillreward_amount: '1'
         skillreward_chance: 0.05
       witch:
@@ -2752,21 +1945,18 @@ plugins:
       wolf:
         skillreward_amount: '1'
         skillreward_chance: 0.04
-      zoglin:
-        skillreward_amount: '1'
-        skillreward_chance: 0.025
       zombie:
         skillreward_amount: '1'
         skillreward_chance: 0.4
       zombiehorse:
         skillreward_amount: '1'
         skillreward_chance: 0.025
-      zombie_pigman:
-        skillreward_amount: '1'
-        skillreward_chance: 0.05
       zombie_villager:
         skillreward_amount: '1'
         skillreward_chance: 0.04
+    zombie_pigman:
+      skillreward_amount: '1'
+      skillreward_chance: 0.05
   mcmmov:
     iron_golem:
       skillreward_chance: 0.05
@@ -2784,20 +1974,6 @@ plugins:
 
     # Multiplier used when a Crackshot weapon was used to kill a mob or a player
     crackshot_multiplier: 0.7
-
-  # ########################################################################
-  # Integration to WeaponMechanics
-  # ########################################################################
-  # This section only relevant if you use WeaponMechanics.
-  # Here you configure if the player will get a multiplier for using a WeaponMechanics weapon
-  weaponmechanics:
-
-    # Enable/disable integration with Weapon Mechanics.
-    # https://www.spigotmc.org/resources/weaponmechanics-1-9-4-1-19-2.99913/
-    enable_integration_weaponmechanics: true
-
-    # Multiplier used when a WeaponMechanics weapon was used to kill a mob or a player
-    weaponmechanics_multiplier: 0.5
 
   # ########################################################################
   # MobArena
@@ -2839,15 +2015,6 @@ plugins:
     enable_integration_mypet: true
 
   # ########################################################################
-  # McMMOHorses
-  # ########################################################################
-  mcmmohorses:
-
-    # Enable/Disable integration with McMMOHorses.
-    # https://www.spigotmc.org/resources/mcmmohorses.46301/
-    enable_integration_mcmmohorses: true
-
-  # ########################################################################
   # Minigames
   # ########################################################################
   minigames:
@@ -2873,14 +2040,6 @@ plugins:
     enable_integration_worldguard: true
 
   # ########################################################################
-  # Worldedit
-  # ########################################################################
-  worldedit:
-
-    # Enable/Disable integration with WorldEdit
-    enable_integration_worldedit: true
-
-  # ########################################################################
   # Essentials
   # ########################################################################
   essentials:
@@ -2898,12 +2057,72 @@ plugins:
     enable_integration_battlearena: true
 
   # ########################################################################
+  # BossBarAPI
+  # ########################################################################
+  bossbarapi:
+
+    # Enable/Disable integration with BossBarAPI. If you want messages in player chat you can set this to true.
+    enable_integration_bossbarapi: true
+
+  # ########################################################################
+  # BarApi
+  # ########################################################################
+  barapi:
+
+    # Enable/Disable integration with BarAPI. If you want messages in player chat you can set this to true.
+    # https://dev.bukkit.org/projects/bar_api
+    enable_integration_barapi: true
+
+  # ########################################################################
+  # TitleApi
+  # ########################################################################
+  titleapi:
+
+    # Enable/Disable integration with TitleAPI
+    enable_integration_titleapi: true
+
+  # ########################################################################
   # VanishNoPackets
   # ########################################################################
   vanishnopacket:
 
     # Enable/Disable integration with VanishNoPacket
     enable_integration_vanishnopacket: true
+
+  # ########################################################################
+  # Titlemanager
+  # ########################################################################
+  titlemanager:
+
+    # Enable/Disable integration with TitleManger. If you want messages in player chat you can set this to true.
+    # https://www.spigotmc.org/resources/titlemanager.1049/
+    enable_integration_titlemanager: true
+
+  # ########################################################################
+  # Actionbar
+  # ########################################################################
+  actionbar:
+
+    # Enable/Disable integration with Actionbar. If you want messages in player chat you can set this to true.
+    enable_integration_actionbar: true
+
+  # ########################################################################
+  # ActionbarAPI
+  # ########################################################################
+  actionbarapi:
+
+    # Enable/Disable integration with ActionBarAPI. If you want messages in player chat you can set this to true.
+    # https://www.spigotmc.org/resources/actionbarapi_1_8_1_9_1_10.1315/
+    enable_integration_actionbarapi: true
+
+  # ########################################################################
+  # ActionAnnouncer
+  # ########################################################################
+  actionannouncer:
+
+    # Enable/Disable integration with ActionAnnouncer. If you want messages in player chat you can set this to true.
+    # https://www.spigotmc.org/resources/actionannouncer.1320/
+    enable_integration_actionannouncer: true
 
   # ########################################################################
   # Gringotts
@@ -2922,11 +2141,15 @@ plugins:
     # Enable/Disable integration with TARDIS Weeping Angels.
     # http://dev.bukkit.org/bukkit_plugins/tardisweepingangels/
     enable_integration_tardis_weeping_angels: true
+
+  # ########################################################################
+  # ProtocolLib
+  # ########################################################################
   protocollib:
 
-    # Enable/Disable. When a Grinding is detected and the reward is denied, the Grinding Area can be shown while a circle of flames.
-    # https://www.spigotmc.org/wiki/mobhunting-grinding-detection/
-    show_grinding_area_using_protocollib_temp: false
+    # Enable/Disable integration with ProtocolLib.
+    # https://www.spigotmc.org/resources/protocollib.1997/
+    enable_integration_protocollib: true
 
   # ########################################################################
   # MysterousHalloween
@@ -2983,15 +2206,6 @@ plugins:
     enable_integration_herobrine: true
 
   # ########################################################################
-  # Boss
-  # ########################################################################
-  boss:
-
-    # Enable/Disable integration with Boss.
-    # https://
-    enable_integration_boss: true
-
-  # ########################################################################
   # Holograms
   # ########################################################################
   holograms:
@@ -3019,7 +2233,7 @@ plugins:
     enable_integration_preciousstones: true
 
 # ########################################################################
-# DropMoneyOnGround for servers WITHOUT the BagOfGold plugin installed
+# DropMoneyOnGround Settings
 # ########################################################################
 dropmoneyonground:
 
@@ -3027,16 +2241,85 @@ dropmoneyonground:
   # into his pocket. If you set dropMoneyOnGround=true the reward will 
   # dropped on ground to be picked up by the player.
   # Negative rewards will always be taken from the player. 
-  # 
-  # OBS Notice if you have the BagOfGold plugin installed these settings will be 
-  # overruled by the settings in BagOfGold config.yml !!!
   drop_money_on_ground: true
 
-  # If you dont want to use BagOfGold (https://dev.bukkit.org/projects/bagofgold) 
-  # as you economy plugin, but still want to bags to be dropped on the ground, 
-  # you can set this to true and then the player will be able to pick up the bags 
-  # and use MobHunting signs to sell the Bags and get the money this way.
+  # Here you can set the type of the ITEM to be dropped.
+  # You can choose between "ITEM","KILLED","SKULL","KILLER". The default is ITEM.
+  # The value will be showed above the item.
+  # ITEM: The reward is dropped as a normal Minecraft item.
+  # KILLED: The reward is dropped as the head of the mob/player you killed.
+  # SKULL: The reward is dropped as a SKULL with a custom texture. You can generate custom texture value
+  # and custom texture signature at http://mineskin.org
+  # KILLER: The reward is dropped as the killers head.
+  # 
+  # OBS: If the Gringotts plugin is installed and support not disabled, the droped item will be the Gringotts chosen item.
+  # Examples:
+  # 
+  # Bag of gold: (https://mineskin.org/6875)
+  # 
+  # drop_money_on_ground_skull_reward_name: 'Bag of gold'
+  # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0ODU5MTIwNjk3OTgsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5NmNlMTNmZjYxNTVmZGYzMjM1ZDhkMjIxNzRjNWRlNGJmNTUxMmYxYWRlZGExYWZhM2ZjMjgxODBmM2Y3In19fQ=='
+  # drop_money_on_ground_skull_texture_signature: 'm8u2ChI43ySVica7pcY0CsCuMCGgAdN7c9f/ZOxDZsPzJY8eiDrwxLIh6oPY1rvE1ja/rmftPSmdnbeHYrzLQ18QBzehFp8ZVegPsd9iNHc4FuD7nr1is2FD8M8AWAZOViiwlUKnfd8avb3SKfvFmhmVhQtE+atJYQrXhJwiqR4S+KTccA6pjIESM3AWlbCOmykg31ey7MQWB4YgtRp8NyFD3HNTLZ8alcEXBuG3t58wYBEME1UaOFah45tHuV1FW+iGBHHFWLu1UsAbg0Uw87Pp+KSTUGrhdwSc/55czILulI8IUnUfxmkaThRjd7g6VpH/w+9jLvm+7tOwfMQZlXp9104t9XMVnTAchzQr6mB3U6drCsGnuZycQzEgretQsUh3hweN7Jzz5knl6qc1n3Sn8t1yOvaIQLWG1f3l6irPdl28bwEd4Z7VDrGqYgXsd2GsOK/gCQ7rChNqbJ2p+jCja3F3ZohfmTYOU8W7DJ8Ne+xaofSuPnWODnZN9x+Y+3RE3nzH9tzP+NBMsV3YQXpvUD7Pepg7ScO+k9Fj3/F+KfBje0k6xfl+75s7kR3pNWQI5EVrO6iuky6dMuFPUBfNfq33fZV6Tqr/7o24aKpfA4WwJf91G9mC18z8NCgFR6iK4cPGmkTMvNtxUQ3MoB0LCOkRcbP0i7qxHupt8xE='
+  # 
+  # Bag of gold (alternative): (https://mineskin.org/3384)
+  # 
+  # drop_money_on_ground_skull_reward_name: 'Bag of gold'
+  # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0NzQzMzI0MzY1MDYsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2NzczZDc0Y2Y1MDhmZDc3Yzc4MmZmZDI5ZGYyZmU0N2ZiNzE0YjViMGQ3ZGU2N2Q1Mjg2OTMxZTJmMWRmMiJ9fX0='
+  # drop_money_on_ground_skull_texture_signature: 'JdvJksowuxYQ0eqf56J+Dmczg7zvlw2DbIc58Q33kRt65uMUNn2iRCQsbNpztC1cAAgyYMOyFDiOUZQeIK03CSRoPLDtWp2u501YoGKqhjgrE0V0UDh3JetWKz4Ob0KmATtY+4R2vSoMjHFEFppM0Oq+8ZER12FAiVEMAzeseFN3Z9fWAMc/V10LoquGBpq6ExTfSCEEMDEGZopF1T8ZBKL0vf4DVendfz4v3yl7bRBzISZEAnF+ECTa9z36r8HRqS8+s0eO/AWYQcRaKIu9H+wSK5F/1v+rgifeSlMAnt1Na8m1b5tMfNuq6pXxWCq4nUGgYVTOLUinqs9ZcFz3Z6Mtx5YtymKk2M0mzxmTm9+AeOL4s3K/UrJYQlcmLBJSv4hd6EigJXoashzWNCHKmFDYCdEhh4FArq4G9vRZtoudcTeMsvi0VmXIgER8U5iSfoTtzXcGbf/GT0ECtgfeA40f5oCqyE4nXreudMmvlDCBr/KHbILQWeeH/jhtYqQ6OwJb3Ji2Bs9F5fQmICSqk7X4yKzexf8rdDhOG1z+/TCot7K8unPVuQx46sXPeP7t2hCiHOXMAnOMt8vuL3gQUURIEM6fMryjmlKsgvk8Jo0gawavRCIZQtA6vT0JRRnSAchzEOA7QP1iiVV3LnwX9Yqw7oMJ/+REV1hWesuzDOc='
+  # 
+  # Chest: (https://mineskin.org/3136)
+  # 
+  # drop_money_on_ground_skull_reward_name: 'Treasure chest'
+  # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0NzI4Mzk3Nzk2ODMsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJJbnZlbnRpdmVHYW1lcyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5NDcxMjQ1YmNhN2M0ZmUwNjQ0MGQ5YjRiOWY3NDIxN2VkNzM0M2FhZDU5YTc5MThiMWExZDYxZDhiYTZkYSJ9fX0='
+  # drop_money_on_ground_skull_texture_signature: 'lVA2QIbvybpzhcXof5yWz/7nkHdhG/3MGO+1DyD1txdRCALV6BRwsDUBwIUg06MkLUpBkjmiOvFcCRgal/jDE/xkkJPyk2tb/w4NtQ5PiPiAe0oInVnuiSIVFIE4tnsCdvX0joll3uKwVu6XY3t1KEsqJATcPhA5hslVn1iOp/IfMziIfuCzzob04rScpwcw0mLNtbtbMVAl6LYR9gXVuOkAfXujuYq4lbI/iW0yuLxSAzr8i9QWBP2ftup4qQHwocQRTdUE6/G5G9LwJWXhhnqKWjgjfvL0y2FRFJkgN1cvuq7DvUDBVsePnRIHwU5YvBPMjcZe/KE8VPTSodsN84/+++5p95Puxe1DXMX822xR71IQsxM7eax7Ffrr/Tzxw2rSDh9ivGGlRAB85OHwp/ouUgWNSrT8inNMYImque9EuZku9p3OFet8iZsFhkMXANeNtTVL7LKV7/L/0YWwoeyBnw5QQqvGyWKw3dac5eDkRNCyCtdDIntM5vsd8FxnIFj36zxLWgmrJmOM9hg5PBM4gcDxxryBcug8jSe+W9XDU39OOJotXajj8dgSL8yUn+d7l4Qvat/vJbAE8lonMl7P0P9QBPzmcIUvlRMuHSpRZQYkoCbwc2Filahd/5INtm7I4Y28XYzzupdwLk3cavKfOloL5YrWNqaZr/+9Tbk='
+  # 
+  # Birthday present: (https://mineskin.org/4743)
+  # 
+  # drop_money_on_ground_skull_reward_name: 'Birthday present'
+  # drop_money_on_ground_skull_texture_value: 'eyJ0aW1lc3RhbXAiOjE0Nzk5MzEzNDMxMjgsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmNDRkZjIzMjBiNzYzMTI0N2FhZGY1OWMwZWNlOTdhNGJiNTdkZjI4YzFjZWU3OTM0ZjZhZTI4YWY4OTg5In19fQ=='
+  # drop_money_on_ground_skull_texture_signature: 'k1xQ6E1NuxG1ZN7nlQqRJltYrJn44XHVhNA9pSEu2Pt2mkuixMxhIDj2Tg6o+JWlTyGfXtPVWLxygeGymmeSGaVcmDTaCALg7PL11ZfSzSWSxaIufNbj1EcSi264jg5FrAa/2/DnFsgu16wjlWiIGtjCzgx2QabY8YofoPKw6Y6Y5FHZJVXpT8Rsxs8ok6ZHtfm/ZyyTgvRSzh2mKmVyQIYJ1ZKxuqWhDQfbtBpu3dlEzMAEJo85Dvb7uIFYa7WFitjFJue/c9qpqAnazWFLrx33nYpjjeYhcfAvsaNQW3JVFEkyxzEgzOHbdsbiZcqTCwO+49whu175xOqT7XhouEubDT7A3H1jiSvQvkUZJv/GzUF4qFYHSfxhr6OWoBrRGwWmPdcrYx7fUWKo43CAqa5inaiTV4gU70BWrx5i3LhIJxpnspAyTXs8tZBxeoh8IizWD7uXkYYqh3j9cwuHoxfwZuMpOx9CPTC6R/YwJ1YK5OgJBY1+QhNw+NOilWT3jTok82elFvOLm3a5yLyVs+/UPmLD7rZsFm7/DD3VnRcpgjKRiyy2j9vYsYLyNE2BVLVJxBVk2yyy9u7L4VR6PO+8v2dh9DQl7vM2ORCxKPl2lt6woHWM2+eT1PXr16LtMtAOGYT8mlKFhp8Ou2+9fu4AqWkX7n3swU6XLiK5cJs='
+  # 
+  # Choose between "ITEM","KILLED","SKULL","KILLER"
+  drop_money_on_ground_itemtype: SKULL
+
+  # Use the reward as a currency (bag of gold) which can be sold, bought, stored in a
+  # protected chest or a protected area (a Bank?). Check the command /mh money sell.
+  # If false the bag of gold will be picked up as money, if true the bag of gold 
+  # will be picked up as an item. OBS: If you want to use the bags as an Economy 
+  # replacing Essentials/CraftConomy/... and more, then you have to install the
+  # BagOfGold plugin as well. (https://dev.bukkit.org/projects/bagofgold)
   drop_money_use_item_as_currency: true
+
+  # Here you can chance the command /mh money ... to /mh <alias> ...
+  # Example: gold,bag,silver,coin,???? 
+  drop_money_command_alias: money
+
+  # Here you can set which item should be used when you have 
+  # chosen drop_money_on_ground_itemtype: ITEM. 
+  # Use Minecraft Item names like: 
+  # GOLD_NUGGET, DIAMOND, GOLD_INGOT, EMERALD, GOLDEN_APPLE 
+  drop_money_on_ground_item: GOLD_INGOT
+
+  # Here you can set of the color of the number above the dropped item. 
+  # Use color names like WHITE, RED, BLUE, GOLD
+  drop_money_on_ground_text_color: GOLD
+
+  # This is the name of the reward
+  drop_money_on_ground_skull_reward_name: Bag of gold
+
+  # This is the name of the reward in plural
+  drop_money_on_ground_skull_reward_name_plural: Bag of gold
+
+  # This is the Custom Texture Value generated at http://mineskin.org
+  drop_money_on_ground_skull_texture_value: eyJ0aW1lc3RhbXAiOjE0ODU5MTIwNjk3OTgsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5NmNlMTNmZjYxNTVmZGYzMjM1ZDhkMjIxNzRjNWRlNGJmNTUxMmYxYWRlZGExYWZhM2ZjMjgxODBmM2Y3In19fQ==
+
+  # This is the Custom Texture Signature generated at http://mineskin.org
+  drop_money_on_ground_skull_texture_signature: m8u2ChI43ySVica7pcY0CsCuMCGgAdN7c9f/ZOxDZsPzJY8eiDrwxLIh6oPY1rvE1ja/rmftPSmdnbeHYrzLQ18QBzehFp8ZVegPsd9iNHc4FuD7nr1is2FD8M8AWAZOViiwlUKnfd8avb3SKfvFmhmVhQtE+atJYQrXhJwiqR4S+KTccA6pjIESM3AWlbCOmykg31ey7MQWB4YgtRp8NyFD3HNTLZ8alcEXBuG3t58wYBEME1UaOFah45tHuV1FW+iGBHHFWLu1UsAbg0Uw87Pp+KSTUGrhdwSc/55czILulI8IUnUfxmkaThRjd7g6VpH/w+9jLvm+7tOwfMQZlXp9104t9XMVnTAchzQr6mB3U6drCsGnuZycQzEgretQsUh3hweN7Jzz5knl6qc1n3Sn8t1yOvaIQLWG1f3l6irPdl28bwEd4Z7VDrGqYgXsd2GsOK/gCQ7rChNqbJ2p+jCja3F3ZohfmTYOU8W7DJ8Ne+xaofSuPnWODnZN9x+Y+3RE3nzH9tzP+NBMsV3YQXpvUD7Pepg7ScO+k9Fj3/F+KfBje0k6xfl+75s7kR3pNWQI5EVrO6iuky6dMuFPUBfNfq33fZV6Tqr/7o24aKpfA4WwJf91G9mC18z8NCgFR6iK4cPGmkTMvNtxUQ3MoB0LCOkRcbP0i7qxHupt8xE=
+
+  # Dark room mobspawners usually collect items in a HOPPER. This is allowed by default.
+  # If you want to deny HOPPERS to collect MobHunting Money rewards 
+  # set "deny_hoppers_to_pickup_money_on_ground"=false
+  deny_hoppers_to_pickup_money_on_ground: true
 
 # ########################################################################
 # Database Settings.
@@ -3050,12 +2333,11 @@ database:
     username: user
     password: password
     host: localhost:3306
-    useSSL: 'false'
 
   # This is the database layout version. Mostly for internal use and you should not need
   # to chance this value. In case you decide to delete your database and let it recreate
   # or if you chance database type sqlite/mysql you should set this value to 0 again.
-  database_version: 8
+  database_version: 7
 
 # ########################################################################
 # Update settings
@@ -3074,15 +2356,7 @@ updates:
   autoupdate: false
 
 # ########################################################################
-# MobHunting Configuration File
-# ########################################################################
-# 
-# OBS! Please note that the plugins/BagOfGold folder contains shared
-# settings, which is used by both MobHunting and BagOfGold.
-# 
-# 
-# ########################################################################
-# General settings
+# General Settings
 # ########################################################################
 general:
 
@@ -3092,18 +2366,26 @@ general:
   - worldname2
 
   # The language (file) to use. You can put the name of the language file as the language code 
-  # (eg. en_US, de_DE, fr_FR, ru_RU, pl_PL ect.) or you can specify the name of a custom file without the .lang
+  # (eg. en_US, de_DE, fr_FR, ect.) or you can specify the name of a custom file without the .lang
   # Please check the lang/ folder for a list of all available translations.
   language: en_US
+
+  # Can the players earn money on mobs spawned from mobspawners, eggs and from eggs from Dispensers?
+  # If you disable this you are still able to get rewards from specific Spawners, if you white list the area 
+  # using '/mh whitelistarea'.
+  disable_money_rewards_from_mobspawners_and_eggs: true
+
+  # Let the players get the naturally dropped items from mobs spawned from mobspawners, eggs and from eggs from Dispensers ?
+  disable_naturally_dropped_items_from_mobspawners_and_eggs: false
+
+  # Let the players get the naturally dropped XP from mobs spawned from mobspawners, eggs and from eggs from Dispensers ?
+  disable_naturally_dropped_xp_from_mobspawners_and_eggs: false
 
   # As of V 5.0.0 MobHunting utilizises the Advancement system (L key) to to show which
   # Achievements the players has made. This is still BETA feature and it is only Supported
   # on Spigot Servers and if you have any problems, you can set 'disable_mobhunting_advancements: true 
   # and the reload the plugin.
   disable_mobhunting_advancements: false
-
-  # It seems that redstone powered signs can cause lag on many servers.
-  disable_redstone_powered_signs: true
 
   # Broadcast messages will be send in the ActionBar if MobHunting finds a supported ActionBar plugin.
   use_actionbar_for_broadcasts: true
@@ -3113,6 +2395,10 @@ general:
 
   # Should the hunt begins achievement be broadcasted?
   broadcast_first_achievement: true
+
+  # Time between saves in ticks (20 ticks ~ 1 sec) This number must be higher that 1200 ticks = 2 minutes,
+  # but I recommend to save every 5th minute = 6000 ticks
+  save_period: 6000
 
   # Time between leaderboard updates in ticks (20 ticks ~ 1 sec) This number must be higher that 1200 ticks = 2 minutes,
   # but I recommend to update leaderboards max every 5 min = 6000 ticks
@@ -3127,10 +2413,25 @@ general:
   # Backup config on each server start / reload
   backup: true
 
+  # Rounding of rewards when you uses a range or %. (ex creeperPrize=10:30) the reward.
+  # All numbers except 0 can be used. 
+  # Set rounding_reward=1 if you want integers. IE. 10,11,12,13,14...
+  # Set rounding_reward=0.01 if you want 2 decimals 10.00, 10.01, 10.02... integers.
+  # Set rounding_reward=5 if you want multipla of 5 IE. 10,15,20,25...
+  # Set rounding_reward=2 if you want multipla of 2 IE. 10,12,14,16...
+  reward_rounding: 0.01
+
+  # This is the minimum reward which will which will be paid to the player 0.01 will be fine
+  # in most installation, but Gringott users who want very low rewards (like 0.001  for killing
+  # a mob) will have to lower the minimum reward. Remember that some multipliers are less than 1
+  #  and grinding detection and penalties. The minimum_reward should therefor be less than 10%
+  #  of smallest reward. In the Gringotts example minimum_reward should be 0.0001 or 0.00005.
+  minimum_reward: 0.01
+
   # When a new playerjoins the server he will by default start
   # in 'LEARNING MODE' and get extra information about when he get rewards and not,
   # when killing Mobs. The player can disable this InGame by using the command '/mobhunt learn'
-  newplayer_learning_mode: true
+  newplayer_learning_mode: false
 
   # When use_gui_for_achivements=true the status of players achievements will
   # be showed in a Inventory GUI.

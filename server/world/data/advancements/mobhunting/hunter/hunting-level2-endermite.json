@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level1-endermite",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 2,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Amateur §9Endermite§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 250 §9Endermites"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level3-witch",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 4,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Expert §9Witch§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 800 §9Witchs"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

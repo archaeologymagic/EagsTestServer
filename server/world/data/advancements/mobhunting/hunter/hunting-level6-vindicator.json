@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level5-vindicator",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 6,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Grand Master §9Vindicator§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 5000 §9Vindicators"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

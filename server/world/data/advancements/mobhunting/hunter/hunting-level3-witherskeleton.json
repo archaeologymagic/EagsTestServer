@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level2-witherskeleton",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 3,
+          "data": 1
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Apprentice §9Wither Skeleton§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 400 §9Wither Skeletons"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

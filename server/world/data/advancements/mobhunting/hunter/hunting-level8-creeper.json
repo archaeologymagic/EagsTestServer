@@ -1,0 +1,31 @@
+{
+  "parent": "mobhunting:hunter/hunting-level7-creeper",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 8,
+          "data": 4
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "SuperMan §9Creeper§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 50000 §9Creepers"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "goal",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

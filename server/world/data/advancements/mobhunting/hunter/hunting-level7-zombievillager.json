@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level6-zombievillager",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 7,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "President Master §9Zombie Villager§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 10000 §9Zombie Villagers"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}

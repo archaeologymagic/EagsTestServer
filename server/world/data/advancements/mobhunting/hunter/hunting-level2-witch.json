@@ -1,0 +1,30 @@
+{
+  "parent": "mobhunting:hunter/hunting-level1-witch",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "elytra": {
+          "item": "minecraft:skull_item",
+          "amount": 2,
+          "data": 3
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": {
+      "text": "Amateur §9Witch§r Hunter"
+    },
+    "description": {
+      "text": "Hunt 200 §9Witchs"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  }
+}
